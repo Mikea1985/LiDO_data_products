@@ -3,7 +3,7 @@ This repository is intended to be a central place to collect all of the
 data products from the LiDO survey. 
 
 Structure:
-LiDO_data_products/
+
     Astrometry/        - Contains all the astrometry from the survey.
         TUV_blocks/    - Astrometry from spring (A) semester
         ABCDE_blocks/  - Astrometry from fall (B) semester
