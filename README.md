@@ -5,17 +5,17 @@ data products from the LiDO survey.
 Structure:
 
     Astrometry/        - Contains all the astrometry from the survey.
-        TUV_blocks/    - Astrometry from spring (A) semester
-        ABCDE_blocks/  - Astrometry from fall (B) semester
+        TUV_blocks/    - Astrometry from spring semester
+        ABCDE_blocks/  - Astrometry from fall semester
               *.ast    - All astrometry (including rejected/unmeasured images) 
                          in the extended format used by the tracking software.
               *.obs    - Good astrometry in the MPC 80-character format. 
                          Generally you'll want the .obs file.
     Orbits/                 - Contains the orbits for all the objects
-        elements_ABCDE.txt  - Elements for the fall objects (ABCDE blocks)
-        elements_TUV.txt    - Elements for the spring objects (TUV blocks)
-        elements_header.txt - Contains an explanation of each column in the
-                              elements files.
+        LiDO_ABCDE.detections  - Elements for the fall objects (ABCDE blocks)
+        LiDO_TUV.detections    - Elements for the spring objects (TUV blocks)
+        elements_header.txt    - Contains an explanation of each column in the
+                                 elements files.
     Characterization/   - Contains the survey characterization files needed
                           to run the survey simulator.
         pointings.list  - Survey description file. 
