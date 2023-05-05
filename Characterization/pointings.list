@@ -1,0 +1,58 @@
+# This is the LiDO survey block definition file.
+# All lines starting with '#' are ignored, so they are used for comments
+#
+# Fall semester:
+# Five overlapping sub-blocks: A, B, C, D, E
+# A observed 2020 11 08.3 (fields 00-05)
+poly 4 03:25:34.46 -01:36:30.0 2459161.84417 0.900 500 LiDO_ABCDE_fall-semester.eff
+ +1.612 -0.5
+ +1.612 +1.5
+ -1.612 +0.5
+ -1.612 -1.5
+# B observed 2020 11 09.3 (repeat of A, fields 00-05)
+poly 4 03:25:34.46 -01:36:30.0 2459162.83750 0.900 500 LiDO_ABCDE_fall-semester.eff
+ +1.612 -0.5
+ +1.612 +1.5
+ -1.612 +0.5
+ -1.612 -1.5
+# C observed 2020 11 09.4 (fields 06-11)
+poly 4 03:25:34.46 +00:23:30.0 2459162.91750 0.900 500 LiDO_ABCDE_fall-semester.eff
+ +1.612 -0.5
+ +1.612 +1.5
+ -1.612 +0.5
+ -1.612 -1.5
+# D observed 2020 11 10.3 (partial repeat of C, fields 10 & 11)
+poly 4 03:25:34.46 +00:23:30.0 2459163.81400 0.900 500 LiDO_ABCDE_fall-semester.eff
+ -1.612 +0.5
+ -1.612 -0.5
+ +0.537 +0.0
+ +0.537 +1.0
+# E observed 2020 11 10.3 (partial sub-block, fields 12-15)
+poly 6 03:25:34.46 +02:23:30.0 2459163.87825 0.900 500 LiDO_ABCDE_fall-semester.eff
+ +1.612 -0.5
+ +1.612 +1.5
+ +0.537 +1.17
+ +0.537 +0.17
+ -1.612 -0.5
+ -1.612 -1.5
+#
+# spring-semester:
+# Three sub-blocks: T, U and V
+# T observed 2021 06 08.3
+poly 4 16:04:28.58 -05:05:49.5 2459373.84700 0.900 500 LiDO_TUV_spring-semester.eff
+ +1.612 +0.5
+ +1.612 -1.5
+ -1.612 -0.5
+ -1.612 +1.5
+# U observed 2021 06 03.3
+poly 4 16:04:57.68 -03:06:34.7 2459368.83133 0.900 500 LiDO_TUV_spring-semester.eff
+ +1.612 +0.5
+ +1.612 -1.5
+ -1.612 -0.5
+ -1.612 +1.5
+# V observed 2021 06 11.3
+poly 4 16:04:11.50 -01:05:30.2 2459376.84350 0.900 500 LiDO_TUV_spring-semester.eff
+ +1.612 +0.5
+ +1.612 -1.5
+ -1.612 -0.5
+ -1.612 +1.5

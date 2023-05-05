@@ -1,0 +1,29 @@
+# This is an efficiency file with analytic function
+#
+# All lines starting with '#' are ignored, so they are used for comments.
+#
+# The parameters are given using a "<key> = <value(s)> pair, one per line.
+# Some <keys> can only appear after a previous <key> had a specific value.
+#
+# See README.format and/or Template.eff for a description of the format of this
+# file.
+
+
+# 1st and 2nd object Rate and angles 
+rate_cut= 0.5   15.00  -13.6    17.1  # Actual (not a guess) 
+#
+mag_error= 0.01167 0.30021 25.86193 -0.79175 25.48890 -0.39154   # Measured (not a guess)
+#
+phot_frac= 0.04 0.06 0.90  # Guess, need to measure
+#
+track_frac= 1.0 26.05 -5.00  # Guess, need to measure
+#
+filter= w
+#
+rates=  0.5 15.00
+function= square
+square_param=   0.94              1.0E-02         25.383          0.156        # Guess, need to measure
+#
+# Limiting magnitude of the block
+mag_lim= 25.35  # Guess, need to measure
+#
