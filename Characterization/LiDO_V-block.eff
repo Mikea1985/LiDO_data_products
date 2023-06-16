@@ -22,31 +22,31 @@ filter= w
 #
 rates=  1.00 2.5
 function= square
-square_param=    9.22221724e-01    9.58438417e-03   2.57161597e+01  1.63244377e-01  # Measured (not a guess)
+square_param=   9.22221724e-01    9.58438417e-03   2.57161597e+01  1.63244377e-01  # Measured (not a guess)
 mag_lim= 25.705  # Measured (not a guess)
 #
 rates=  2.5 5.0
 function= square
-square_param=    8.97792411e-01    9.09508491e-03   2.56521085e+01  1.53328719e-01  # Measured (not a guess)
+square_param=   8.97792411e-01    9.09508491e-03   2.56521085e+01  1.53328719e-01  # Measured (not a guess)
 mag_lim= 25.645  # Measured (not a guess)
 #
 rates=  5.0 7.5
 function= square
-square_param=    9.44050545e-01    1.53860689e-02   2.56438587e+01  1.24671476e-01  # Measured (not a guess)
+square_param=   9.44050545e-01    1.53860689e-02   2.56438587e+01  1.24671476e-01  # Measured (not a guess)
 mag_lim= 25.595  # Measured (not a guess)
 #
 rates=  7.5 10.0
 function= square
-square_param=    8.79069481e-01    1.15797153e-02   2.55189514e+01  1.31576398e-01  # Measured (not a guess)
+square_param=   8.79069481e-01    1.15797153e-02   2.55189514e+01  1.31576398e-01  # Measured (not a guess)
 mag_lim= 25.505  # Measured (not a guess)
 #
 rates= 10.0 12.5
 function= square
-square_param=    8.57185491e-01    1.16348672e-02   2.54299114e+01  1.30542017e-01  # Measured (not a guess)
+square_param=   8.57185491e-01    1.16348672e-02   2.54299114e+01  1.30542017e-01  # Measured (not a guess)
 mag_lim= 25.415  # Measured (not a guess)
 #
 rates= 12.5 15.0
 function= square
-square_param=    8.32353472e-01    1.15559820e-02   2.52756780e+01  1.78903925e-01  # Measured (not a guess)
+square_param=   8.32353472e-01    1.15559820e-02   2.52756780e+01  1.78903925e-01  # Measured (not a guess)
 mag_lim= 25.255  # Measured (not a guess)
 #
