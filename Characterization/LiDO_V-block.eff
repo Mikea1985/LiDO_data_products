@@ -20,17 +20,17 @@ track_frac= 1.0 26.05 -5.00  # Guess, need to measure
 #
 filter= w
 #
-rates=  1.00 2.5
+rates=  1.0  2.5
 function= square
 square_param=   9.22221724e-01    9.58438417e-03   2.57161597e+01  1.63244377e-01  # Measured (not a guess)
 mag_lim= 25.705  # Measured (not a guess)
 #
-rates=  2.5 5.0
+rates=  2.5  5.0
 function= square
 square_param=   8.97792411e-01    9.09508491e-03   2.56521085e+01  1.53328719e-01  # Measured (not a guess)
 mag_lim= 25.645  # Measured (not a guess)
 #
-rates=  5.0 7.5
+rates=  5.0  7.5
 function= square
 square_param=   9.44050545e-01    1.53860689e-02   2.56438587e+01  1.24671476e-01  # Measured (not a guess)
 mag_lim= 25.595  # Measured (not a guess)
