@@ -42,7 +42,7 @@ mag_lim= 25.395  # Measured (not a guess)
 #
 rates=  7.5 10.0
 function= square
-square_param=   8.67462658e-01    1.16834236e-02   2.53196260e+01  1.45786583e-01) # Measured (not a guess)
+square_param=   8.67462658e-01    1.16834236e-02   2.53196260e+01  1.45786583e-01  # Measured (not a guess)
 mag_lim= 25.305  # Measured (not a guess)
 #
 rates= 10.0 12.5

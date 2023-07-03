@@ -20,10 +20,38 @@ track_frac= 1.0 26.05 -5.00  # Guess, need to measure
 #
 filter= w
 #
-rates=  0.5 15.00
+rates=  0.5  1.0
 function= square
-square_param=   0.94              1.0E-02         25.383          0.156        # Guess, need to measure
+square_param=   8.91951442e-01    2.08032629e-02   2.55927209e+01  9.86740405e-02  # Measured (not a guess)
+mag_lim= 25.485  # Measured (not a guess)
 #
-# Limiting magnitude of the block
-mag_lim= 25.35  # Guess, need to measure
+rates=  1.0  2.5
+function= square
+square_param=   8.34982225e-01    1.36038808e-03   2.54545171e+01  1.70062118e-01  # Measured (not a guess)
+mag_lim= 25.515  # Measured (not a guess)
+#
+rates=  2.5  5.0
+function= square
+square_param=   9.20672347e-01    8.71374696e-03   2.54080519e+01  1.62290691e-01  # Measured (not a guess)
+mag_lim= 25.415  # Measured (not a guess)
+#
+rates=  5.0  7.5
+function= square
+square_param=   8.63981384e-01    7.58190859e-03   2.53899701e+01  1.12085875e-01  # Measured (not a guess)
+mag_lim= 25.405  # Measured (not a guess)
+#
+rates=  7.5 10.0
+function= square
+square_param=   8.38948519e-01    5.32292119e-03   2.52906373e+01  1.56673379e-01  # Measured (not a guess)
+mag_lim= 25.325  # Measured (not a guess)
+#
+rates= 10.0 12.5
+function= square
+square_param=   8.88953698e-01    1.51028621e-02   2.52189216e+01  8.19159158e-02  # Measured (not a guess)
+mag_lim= 25.205  # Measured (not a guess)
+#
+rates= 12.5 15.0
+function= square
+square_param=   8.82081089e-01    1.37155453e-02   2.51053666e+01  1.38033333e-01  # Measured (not a guess)
+mag_lim= 25.085  # Measured (not a guess)
 #
