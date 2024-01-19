@@ -14,7 +14,7 @@ rate_cut= 1.0   15.00    4.1    44.7  # Actual (not a guess)
 #
 mag_error= 0.00916 0.30812 25.83419 +0.27370 25.59120 -0.41056   # Measured (not a guess)
 #
-phot_frac= 0.04 0.06 0.90  # Guess, need to measure
+phot_frac= 0.03448 0.00 0.96552  # Measured (not a guess)
 #
 track_frac= 1.0 26.05 -5.00  # Guess, need to measure
 #
