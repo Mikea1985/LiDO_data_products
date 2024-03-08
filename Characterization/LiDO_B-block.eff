@@ -16,7 +16,7 @@ mag_error= 0.01783 0.34663 25.78078 +0.22222 25.42296 -0.50046   # Measured (not
 #
 phot_frac= 0.00 0.00 1.00  # Measured (not a guess)
 #
-track_frac= 1.0 26.05 -5.00  # Guess, need to measure
+track_frac= 1.0 25.465 -0.50
 #
 filter= w
 #
