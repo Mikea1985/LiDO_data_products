@@ -45,13 +45,3 @@ function= square
 square_param=   8.84073676e-01    1.85671334e-02   2.51145014e+01  1.38580204e-01  # Measured (not a guess)
 mag_lim= 25.055  # Measured (not a guess)
 #
-rates= 10.0 12.5
-function= square
-square_param=   8.24211435e-01    1.50277285e-02   2.50432577e+01  1.43535914e-01  # Measured (not a guess)
-mag_lim= 25.015  # Measured (not a guess)
-#
-rates= 12.5 15.0
-function= square
-square_param=   8.05715083e-01    1.22182486e-02   2.49049902e+01  1.50648815e-01  # Measured (not a guess)
-mag_lim= 24.895  # Measured (not a guess)
-#
