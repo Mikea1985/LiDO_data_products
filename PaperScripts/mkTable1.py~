@@ -1,0 +1,7 @@
+import numpy as np
+
+
+objABCDE = open('../Orbits/LiDO_ABCDE.detections').readlines()[3:]
+objTUV = open('../Orbits/LiDO_TUV.detections').readlines()[3:]
+
+objs = objABCDE + objTUV
