@@ -26,3 +26,129 @@
      5M00B02  C2022 10 05.57781503 47 23.607-02 28 42.94         23.0 w      T14 O   2786875p27 5M00B02     Y   529.92 3801.48 0.20 4 22.97 0.02 % 
      5M00B02  C2022 10 30.41397203 45 08.932-02 51 14.43         22.9 w      T14 O   2810223p28 5M00B02     Y  1542.18 3185.51 0.20 4 22.93 0.03 % 
      5M00B02  C2022 10 31.42303903 45 02.451-02 52 02.69         22.8 w      T14 O   2810320p28 5M00B02     Y  1723.03 3097.45 0.20 4 22.78 0.02 % 
+     K13V30X 7C2013 10 02.29238402 13 04.68 +01 34 10.6          23.6 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 10 02.29291102 13 04.685+01 34 10.60         23.6 g ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 10 27.14064802 10 26.36 +01 12 24.5          23.4 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 08.22665502 09 06.22 +01 03 17.4          22.6 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X*7C2013 11 08.22718202 09 06.216+01 03 17.42         22.9 r ~2fC3W84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 08.24533602 09 06.09 +01 03 16.6          22.1 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 08.24586302 09 06.090+01 03 16.61         22.3 i ~2fC3W84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 12.18594902 08 40.73 +01 00 37.3          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 12.18647602 08 40.726+01 00 37.27         21.8 z ~2fC3W84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 23.20210602 07 33.73 +00 54 10.8          22.4 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 23.20263302 07 33.728+00 54 10.77         22.2 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 23.20347202 07 33.72 +00 54 10.7          22.2 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2013 11 23.20399902 07 33.720+00 54 10.75         22.3 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2014 10 21.24594902 21 40.53 +00 50 44.2          22.8 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2014 10 21.24647602 21 40.527+00 50 44.21         22.9 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2014 10 21.24731502 21 40.53 +00 50 44.1          22.4 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2014 10 21.24784202 21 40.530+00 50 44.14         22.3 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2014 12 16.13156202 16 09.43 +00 19 45.7          23.5 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2014 12 16.13208902 16 09.427+00 19 45.69         23.8 g ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2015 01 21.03680602 15 10.29 +00 23 15.1          22.1 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2015 01 21.03733302 15 10.292+00 23 15.07         22.1 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2015 12 14.16103002 26 43.85 -00 06 30.9          22.4 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2015 12 14.16155702 26 43.846-00 06 30.88         22.4 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2015 12 14.16239602 26 43.84 -00 06 30.8          22.8 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2015 12 14.16292302 26 43.842-00 06 30.85         22.8 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X NC2016 09 27.56211 02 45 01.52 +00 17 44.3          24.2 g ~3ssf568 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X NC2016 09 29.46321 02 44 52.06 +00 15 57.0          23.9 g ~3ssf568 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X NC2016 09 29.58304 02 44 51.43 +00 15 50.3          23.6 g ~3ssf568 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 10 28.22248802 41 57.56 -00 09 32.3          23.7 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 10 28.22301502 41 57.556-00 09 32.29         24.0 g ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 11 17.19254602 39 42.79 -00 23 20.1          21.6 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 11 17.19307302 39 42.787-00 23 20.11         21.8 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 12 05.18607602 37 52.60 -00 31 21.0          22.5 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 12 05.18660302 37 52.597-00 31 20.97         22.5 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 12 05.18744202 37 52.59 -00 31 21.1          22.7 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 12 05.18796902 37 52.590-00 31 21.11         22.7 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 12 05.18880802 37 52.58 -00 31 21.2          23.5 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2016 12 05.18933502 37 52.583-00 31 21.16         23.5 g ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 09 01.40777802 56 54.88 +00 15 10.4          22.4 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 09 25.32410902 55 42.32 -00 06 54.1          23.0 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 10.26769102 54 25.712-00 20 56.43         22.8 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 10.26888902 54 25.71 -00 20 56.7          22.6 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 10.27151602 54 25.70 -00 20 56.8          22.1 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 14.27027802 54 02.11 -00 24 35.3          22.8 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 14.27115202 54 02.085-00 24 35.06         22.8 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 14.27235002 54 02.09 -00 24 35.4          22.4 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 14.27498802 54 02.07 -00 24 35.4          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 14.27763902 54 02.06 -00 24 35.7          22.2 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.25633102 53 31.22 -00 29 00.3          23.7 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.25735002 53 31.212-00 29 00.28         23.9 g ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.25869202 53 31.22 -00 29 00.5          22.8 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.25956602 53 31.207-00 29 00.59         22.7 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.26190402 53 31.194-00 29 00.74         22.2 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.26340302 53 31.18 -00 29 00.6          22.4 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.26589702 53 31.167-00 29 00.78         22.1 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 19.26606502 53 31.17 -00 29 00.9          22.3 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 26.27347202 52 45.64 -00 34 56.0          22.9 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 26.27553202 52 45.62 -00 34 56.1          22.7 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 26.27817102 52 45.61 -00 34 56.3          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 26.28081002 52 45.58 -00 34 56.4          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 10 29.30844902 52 25.35 -00 37 22.2          22.1 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 01.19893502 52 05.83 -00 39 36.6          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 07.20555002 51 24.849-00 43 59.33         22.6 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 07.20790002 51 24.840-00 43 59.37         22.3 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 07.20937502 51 24.82 -00 43 59.6          22.3 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 07.21187002 51 24.810-00 43 59.53         22.1 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 07.21201402 51 24.80 -00 43 59.7          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19071802 50 37.19 -00 48 33.9          23.8 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19173602 50 37.177-00 48 33.78         23.5 g ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19307902 50 37.17 -00 48 34.0          22.7 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19395302 50 37.157-00 48 33.90         22.4 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19516202 50 37.16 -00 48 34.0          22.2 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19632602 50 37.139-00 48 33.92         22.0 i ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.19780102 50 37.14 -00 48 34.1          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.20030102 50 37.112-00 48 34.10         21.8 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 14.20046302 50 37.12 -00 48 34.2          22.0 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 19.24731502 50 03.19 -00 51 29.4          22.7 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 19.24818902 50 03.171-00 51 29.11         22.8 r ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 19.24937502 50 03.17 -00 51 29.3          22.2 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 19.25203702 50 03.15 -00 51 29.2          22.1 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 11 27.20625002 49 11.56 -00 55 22.1          22.1 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 15.05655102 47 30.32 -01 00 34.5          22.9 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 15.05862302 47 30.30 -01 00 34.6          22.4 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 15.06128502 47 30.30 -01 00 34.5          22.1 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 15.06394702 47 30.28 -01 00 34.7          22.2 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 22.06973402 46 58.30 -01 01 14.3          24.1 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 22.07209502 46 58.30 -01 01 14.3          22.8 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 22.07931202 46 58.255-01 01 14.18         21.9 z ~2gpUW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 22.07945602 46 58.26 -01 01 14.4          22.1 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2017 12 26.09277802 46 42.37 -01 01 15.7          22.8 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 04.11860002 46 13.73 -01 00 23.7          22.2 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 04.12126202 46 13.72 -01 00 23.7          21.9 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 04.12390002 46 13.71 -01 00 23.8          21.9 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 11.10459502 45 58.75 -00 58 52.9          22.3 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 16.08891202 45 52.15 -00 57 22.1          24.0 gU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 16.09127302 45 52.15 -00 57 22.1          23.0 rU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 16.09332202 45 52.15 -00 57 22.2          22.6 iU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 16.09596102 45 52.14 -00 57 22.0          22.4 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X 7C2018 01 16.09862302 45 52.14 -00 57 22.0          22.3 zU~39oeW84 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published, vetted by Cameron
+     K13V30X  C2021 12 01.21581 03 30 55.158-02 44 05.42               X~5Rzf304 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2021 12 01.21733 03 30 55.143-02 44 05.48               X~5Rzf304 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2021 12 01.21942 03 30 55.125-02 44 05.54               X~5Rzf304 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2021 12 01.22134 03 30 55.110-02 44 05.59               X~5Rzf304 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2021 12 01.22327 03 30 55.099-02 44 05.54               X~5Rzf304 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.09957 03 27 46.941-02 46 21.43               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.12499 03 27 46.866-02 46 21.09               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.14965 03 27 46.762-02 46 20.67               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.17517 03 27 46.651-02 46 20.47               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.20209 03 27 46.540-02 46 19.84               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.22810 03 27 46.443-02 46 19.43               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.25341 03 27 46.339-02 46 19.21               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.27844 03 27 46.256-02 46 18.76               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 04.29924 03 27 46.152-02 46 18.41               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.10952 03 27 39.272-02 45 53.42               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.13519 03 27 39.192-02 45 53.00               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.16086 03 27 39.084-02 45 52.64               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.18753 03 27 38.968-02 45 52.04               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.21503 03 27 38.879-02 45 51.56               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.24187 03 27 38.763-02 45 51.68               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.26701 03 27 38.695-02 45 50.84               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 06.28799 03 27 38.599-02 45 50.42               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 08.18604 03 27 31.853-02 45 20.59               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 08.21243 03 27 31.755-02 45 20.07               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 08.23931 03 27 31.663-02 45 19.29               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 08.26497 03 27 31.565-02 45 19.03               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published
+     K13V30X  C2022 01 08.28598 03 27 31.507-02 45 18.77               X~5Rzf697 O   published  K13V30X     Z  ------- ------- ---- - ----- ---- % Previously published

@@ -6,11 +6,12 @@
 0821V12 MPC
 0A07U07 Magellan, MPC
 0A10T05 Magellan, data from 568 in 2017
-0Y33C07 MPC
+0Y33C07 MPC designation 2014 RM86
 0Y36A00 2013 568 data
 1H17U11 2014 data
 1K03U11 Magellan
 1X38V14 2017 data
+5M00B02 MPC designation 2013 VX30
 
 
 # notes: this is not accurate. fix.
