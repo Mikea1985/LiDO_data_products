@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import numpy as np
 import subprocess as sp
 import sys
@@ -39,17 +41,18 @@ def run_fo(obj, ast_location):
             if line[12]=='*':
                 epoch = line[15:32]
                 break
-    result = sp.run(f'fo {ast_location}/{obj}.obs -tE "{epoch}" -h-1 -C T14 -e /tmp/ephem.txt -E17 "EPHEM_START={epoch}" EPHEM_STEPS=1',
+    result = sp.run(f'fo {ast_location}/{obj}.obs -tE "{epoch}" -h-1 -e /tmp/ephem.txt "EPHEM_START={epoch}" EPHEM_STEPS=1 EPHEM_STEP_SIZE=1s EPHEM_OPTIONS=10,16-17,39 "CONSOLE_OPTS=Sun 0 3 1" -e {obj}.eph',
                     shell=True, check=True, stdout=sp.PIPE)
-    elements_json = json.load(open('/home/mikea/.find_orb/elements.json'))
+    elements_json = json.load(open('/home/mikea/.find_orb/elements.json', 'r', encoding='utf-8'))
+    ephem_json = json.load(open('/home/mikea/.find_orb/ephemeri.json', 'r', encoding='utf-8'))
     
-    return elements_json
+    return elements_json, ephem_json
 
-def parse_ephem(filename):
-    ra, dec, dist_earth, dist_sun = np.genfromtxt(filename, usecols=(1,2,3,4))
-        
+def parse_ephem(eph_json):
+    ephem = eph_json["ephemeris"]["entries"]["0"]
+    return ephem["delta"], ephem["sgDel"], ephem["mag"]
 
-def parse_json(obj, elements_json):
+def parse_elements(obj, elements_json):
     if len(elements_json['objects'])!=1:
         print("Multiple designations!")
     obj2 = list(elements_json['objects'])[0]
@@ -60,6 +63,8 @@ def parse_json(obj, elements_json):
     return elements, res, obj2
 
 def get_elements(els):
+    if 'a sigma' not in els:
+        els['a sigma'] = els['a']
     return [els[i] for i in ['a', 'a sigma', 'e', 'e sigma', 'i', 'i sigma', 'asc_node', 'asc_node sigma', 'arg_per', 'arg_per sigma', 'Tp', 'Tp sigma', 'H']]
 
 def get_residuals(res):
@@ -89,7 +94,8 @@ def get_residuals(res):
     y_av = (y_sum**0.5)/nobs
     print(mags)
     mag_av = np.nanmean(mags)
-    mag_sigma = np.nanstd(mags) + 0.1
+    nmags = np.sum(np.invert(np.isnan(mags)))
+    mag_sigma = np.nanstd(mags) + (0.1/nmags)
     arc = max(obs_jd) - min(obs_jd)
     return mag_av, mag_sigma, nobs, arc, x_max, y_max, x_av, y_av, rad, decd, djd, drate
 
@@ -103,8 +109,8 @@ def main(prevfile=None, newfile=None, ast_location=None):
     for i, obji in enumerate(prev['object']):
         print(obji)
         obj=obji[1:] if obji[0]=='u' else obji
-        ejson = run_fo(obj, ast_location)
-        els, res, mpcdes = parse_json(obj, ejson)
+        els_json, eph_json = run_fo(obj, ast_location)
+        els, res, mpcdes = parse_elements(obj, els_json)
         (new[i]['mag'], new[i]['e_mag'], new[i]['Nobs'], new[i]['time'],
          new[i]['av_xres'], new[i]['av_yres'], new[i]['max_x'],
          new[i]['max_y'], new[i]['RAdeg'], new[i]['DEdeg'], new[i]['JD'],
@@ -113,8 +119,9 @@ def main(prevfile=None, newfile=None, ast_location=None):
          new[i]['e_e'], new[i]['i'], new[i]['e_i'], new[i]['Omega'],
          new[i]['e_Omega'], new[i]['omega'], new[i]['e_omega'],
          new[i]['tperi'], new[i]['e_tperi'], new[i]['Hsur']) = els[0:13]
-        #new[i]['dist'] = 0
-        #new[i]['e_dist'] = 0
+        eph = parse_ephem(eph_json)
+        (new[i]['dist'], new[i]['e_dist']) = eph[0:2]
+        print(new[i]['mag'], eph[2])
     print(new)
     
     printelements(new, newfile)
