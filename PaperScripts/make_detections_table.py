@@ -34,14 +34,35 @@ def printelements(new, filename):
             print(li)
             elfile.write(li + '\n')
 
+def get_mag_and_unc(obj, ast_location):
+    mags = []
+    uncs = []
+    with open(f'{ast_location}/{obj}.ast', 'r', encoding='ascii') as astfile:
+        lines = astfile.readlines()
+        for line in lines:
+            if line[12:18] in ['* C202', '& C202'] and line[0] != '!' and line[77:80]=='T14' and line[134:139] != '     ':
+                mags.append(float(line[134:139]))
+                uncs.append(float(line[140:144]))
+            elif line[0:12]=='     3L31D11' and line[12:18] in ['*SC202', '&SC202'] and line[0] != '!' and line[77:80]=='T14' and line[134:139] != '     ':
+                mags.append(float(line[134:139]))
+                uncs.append(float(line[140:144]))
+    mmag = np.average(mags, weights=1/np.array(uncs))
+    mmago = np.nanmean(mags)
+    nmags = len(mags)
+    mag_std = np.nanstd(mags)
+    munc = (np.sum(np.array(uncs)**2))**0.5 / nmags
+    unc = np.max([mag_std, munc])
+    print(len(mags), len(uncs), len(lines), mags, uncs, mmag, mmago, unc)
+    return mmag, unc                
+
 def run_fo(obj, ast_location):
     #epoch = "2023 01 01.5"
-    with open(f'{ast_location}/{obj}.obs', 'r', encoding='ascii') as astfile:
+    with open(f'{ast_location}/{obj}.obs_dmag', 'r', encoding='ascii') as astfile:
         for line in astfile.readlines():
             if line[12]=='*':
                 epoch = line[15:32]
                 break
-    result = sp.run(f'fo {ast_location}/{obj}.obs -tE "{epoch}" -h-1 -e /tmp/ephem.txt "EPHEM_START={epoch}" EPHEM_STEPS=1 EPHEM_STEP_SIZE=1s EPHEM_OPTIONS=10,16-17,39 "CONSOLE_OPTS=Sun 0 3 1" -e {obj}.eph',
+    result = sp.run(f'fo {ast_location}/{obj}.obs_dmag -tE "{epoch}" -h-1 -e /tmp/ephem.txt "EPHEM_START={epoch}" EPHEM_STEPS=1 EPHEM_STEP_SIZE=1s EPHEM_OPTIONS=10,16-17,39 "CONSOLE_OPTS=Sun 0 3 1" -e {obj}.eph',
                     shell=True, check=True, stdout=sp.PIPE)
     elements_json = json.load(open('/home/mikea/.find_orb/elements.json', 'r', encoding='utf-8'))
     ephem_json = json.load(open('/home/mikea/.find_orb/ephemeri.json', 'r', encoding='utf-8'))
@@ -92,7 +113,7 @@ def get_residuals(res):
         nobs += 1
     x_av = (x_sum**0.5)/nobs
     y_av = (y_sum**0.5)/nobs
-    print(mags)
+    #print(mags)
     mag_av = np.nanmean(mags)
     nmags = np.sum(np.invert(np.isnan(mags)))
     mag_sigma = np.nanstd(mags) + (0.1/nmags)
@@ -111,17 +132,20 @@ def main(prevfile=None, newfile=None, ast_location=None):
         obj=obji[1:] if obji[0]=='u' else obji
         els_json, eph_json = run_fo(obj, ast_location)
         els, res, mpcdes = parse_elements(obj, els_json)
-        (new[i]['mag'], new[i]['e_mag'], new[i]['Nobs'], new[i]['time'],
+        mag, unc = get_mag_and_unc(obj, ast_location)
+        (new[i]['mag'], new[i]['e_mag']) = (mag, unc)
+        (new[i]['Nobs'], new[i]['time'],
          new[i]['av_xres'], new[i]['av_yres'], new[i]['max_x'],
          new[i]['max_y'], new[i]['RAdeg'], new[i]['DEdeg'], new[i]['JD'],
-         new[i]['rate']) = res[0:12]
+         new[i]['rate']) = res[2:12]
         (new[i]['a'], new[i]['e_a'], new[i]['e'],
          new[i]['e_e'], new[i]['i'], new[i]['e_i'], new[i]['Omega'],
          new[i]['e_Omega'], new[i]['omega'], new[i]['e_omega'],
-         new[i]['tperi'], new[i]['e_tperi'], new[i]['Hsur']) = els[0:13]
+         new[i]['tperi'], new[i]['e_tperi']) = els[0:12]
+        new[i]['Hsur'] = els[12] + 0.13  # Offset between w and V that find_orb reports H in
         eph = parse_ephem(eph_json)
         (new[i]['dist'], new[i]['e_dist']) = eph[0:2]
-        print(new[i]['mag'], eph[2])
+        print(new[i]['mag'], res[0], new[i]['e_mag'], res[1])
     print(new)
     
     printelements(new, newfile)
