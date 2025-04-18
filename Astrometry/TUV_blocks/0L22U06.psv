@@ -1,0 +1,4 @@
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
+        |            | 0L22U06 | CCD  | T14  | 2021-06-03T07:42:42.13Z | 0.1     | 240.134492 | 0.02  | -03.314858 | 0.02   | Gaia3  | 25.15 | 0.12   | w    | PS1_DR1  | *    |       | 
+        |            | 0L22U06 | CCD  | T14  | 2021-06-03T08:19:09.61Z | 0.1     | 240.133425 | 0.02  | -03.314503 | 0.02   | Gaia3  | 25.71 | 0.27   | w    | PS1_DR1  |      |       | 
+        |            | 0L22U06 | CCD  | T14  | 2021-06-03T08:55:38.90Z | 0.1     | 240.132450 | 0.02  | -03.314206 | 0.02   | Gaia3  | 25.58 | 0.22   | w    | PS1_DR1  |      |       | 

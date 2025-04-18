@@ -1,0 +1,4 @@
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
+        |            | 0D18E15 | CCD  | T14  | 2020-11-10T09:14:44.48Z | 0.1     | 052.965200 | 0.02  | +03.371553 | 0.02   | Gaia3  | 25.28 | 0.15   | w    | PS1_DR1  | *    |       | 
+        |            | 0D18E15 | CCD  | T14  | 2020-11-10T09:51:19.47Z | 0.1     | 052.964671 | 0.02  | +03.371367 | 0.02   | Gaia3  | 25.70 | 0.26   | w    | PS1_DR1  |      |       | 
+        |            | 0D18E15 | CCD  | T14  | 2020-11-10T10:27:41.67Z | 0.1     | 052.963950 | 0.02  | +03.371236 | 0.02   | Gaia3  | 25.54 | 0.28   | w    | PS1_DR1  |      |       | 
