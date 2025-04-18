@@ -135,8 +135,8 @@ def main(prevfile=None, newfile=None, ast_location=None):
         mag, unc = get_mag_and_unc(obj, ast_location)
         (new[i]['mag'], new[i]['e_mag']) = (mag, unc)
         (new[i]['Nobs'], new[i]['time'],
-         new[i]['av_xres'], new[i]['av_yres'], new[i]['max_x'],
-         new[i]['max_y'], new[i]['RAdeg'], new[i]['DEdeg'], new[i]['JD'],
+         new[i]['max_x'], new[i]['max_y'], new[i]['av_xres'],
+         new[i]['av_yres'], new[i]['RAdeg'], new[i]['DEdeg'], new[i]['JD'],
          new[i]['rate']) = res[2:12]
         (new[i]['a'], new[i]['e_a'], new[i]['e'],
          new[i]['e_e'], new[i]['i'], new[i]['e_i'], new[i]['Omega'],
