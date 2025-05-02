@@ -1,30 +1,106 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        |            | z136E15 | CCD  | T14  | 2005-11-29T09:32:23.74Z | 0.1     | 038.051904 | 0.02  | -08.819717 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | H     | 
-        |            | z136E15 | CCD  | T14  | 2005-11-29T10:20:26.39Z | 0.1     | 038.051321 | 0.02  | -08.819614 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | H     | 
-        |            | z136E15 | CCD  | T14  | 2020-08-14T12:15:56.88Z | 0.1     | 053.953067 | 0.02  | +03.966803 | 0.02   | Gaia3  | 25.21 | 0.42   | w    | PS1_DR1  |      | V     | 
-        |            | z136E15 | CCD  | T14  | 2020-08-15T12:53:17.23Z | 0.1     | 053.956879 | 0.02  | +03.963197 | 0.02   | Gaia3  | 25.41 | 0.29   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-08-16T12:42:11.43Z | 0.1     | 053.960313 | 0.02  | +03.959544 | 0.02   | Gaia3  | 24.72 | 0.14   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-08-17T14:38:27.54Z | 0.1     | 053.963408 | 0.02  | +03.955503 | 0.02   | Gaia3  | 24.97 | 0.20   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-08-18T14:41:14.38Z | 0.1     | 053.965992 | 0.02  | +03.951706 | 0.02   | Gaia3  | 25.02 | 0.20   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-08-19T13:37:17.88Z | 0.1     | 053.968167 | 0.02  | +03.947847 | 0.02   | Gaia3  | 24.84 | 0.16   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-10-16T12:51:49.97Z | 0.1     | 053.496796 | 0.02  | +03.631836 | 0.02   | Gaia3  | 24.93 | 0.10   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-10-16T13:47:28.20Z | 0.1     | 053.496158 | 0.02  | +03.631642 | 0.02   | Gaia3  | 24.94 | 0.19   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-10-18T10:43:32.51Z | 0.1     | 053.464329 | 0.02  | +03.621108 | 0.02   | Gaia3  | 24.68 | 0.13   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-10-18T11:20:10.69Z | 0.1     | 053.463938 | 0.02  | +03.620958 | 0.02   | Gaia3  | 24.50 | 0.09   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-10-19T12:20:09.86Z | 0.1     | 053.445887 | 0.02  | +03.615167 | 0.02   | Gaia3  | 24.78 | 0.11   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-10-19T13:27:11.43Z | 0.1     | 053.445113 | 0.02  | +03.614939 | 0.02   | Gaia3  | 25.14 | 0.16   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-11-09T07:08:35.15Z | 0.1     | 053.051608 | 0.02  | +03.513875 | 0.02   | Gaia3  | 24.40 | 0.12   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-11-10T09:14:44.48Z | 0.1     | 053.029708 | 0.02  | +03.509517 | 0.02   | Gaia3  | 24.56 | 0.07   | w    | PS1_DR1  | *    |       | 
-        |            | z136E15 | CCD  | T14  | 2020-11-10T09:51:19.47Z | 0.1     | 053.029150 | 0.02  | +03.509400 | 0.02   | Gaia3  | 24.72 | 0.10   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-11-10T10:27:41.67Z | 0.1     | 053.028646 | 0.02  | +03.509275 | 0.02   | Gaia3  | 24.83 | 0.15   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-12-23T06:06:19.73Z | 0.1     | 052.216233 | 0.02  | +03.449628 | 0.02   | Gaia3  | 24.47 | 0.08   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-12-23T06:43:43.45Z | 0.1     | 052.215821 | 0.02  | +03.449669 | 0.02   | Gaia3  | 24.56 | 0.11   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2020-12-23T07:21:38.19Z | 0.1     | 052.215379 | 0.02  | +03.449692 | 0.02   | Gaia3  | 25.11 | 0.17   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2021-01-17T06:46:01.95Z | 0.1     | 051.915533 | 0.02  | +03.531872 | 0.02   | Gaia3  | 25.41 | 0.22   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2021-01-18T08:00:45.76Z | 0.1     | 051.907408 | 0.02  | +03.537178 | 0.02   | Gaia3  | 24.50 | 0.10   | w    | PS1_DR1  |      | I     | 
-        |            | z136E15 | CCD  | T14  | 2021-10-11T12:14:50.27Z | 0.1     | 054.492987 | 0.02  | +04.430267 | 0.02   | Gaia3  | 24.62 | 0.08   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2021-10-13T14:59:59.40Z | 0.1     | 054.460021 | 0.02  | +04.418436 | 0.02   | Gaia3  | 24.51 | 0.11   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | 269  | 2022-01-05T04:45:20.16Z | 0.1     | 052.948842 | 0.02  | +04.246114 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2022-08-21T14:21:00.81Z | 0.1     | 055.759250 | 0.02  | +05.444339 | 0.02   | Gaia3  | 25.26 | 0.15   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2022-08-25T13:02:47.73Z | 0.1     | 055.764671 | 0.02  | +05.429739 | 0.02   | Gaia3  | 24.57 | 0.09   | w    | PS1_DR1  |      |       | 
-        |            | z136E15 | CCD  | T14  | 2022-11-01T12:05:13.98Z | 0.1     | 055.042192 | 0.02  | +05.086697 | 0.02   | Gaia3  | 25.17 | 0.12   | w    | PS1_DR1  |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | z136E15 | CCD  | T14  | 2020-08-14T12:15:56.88Z | 0.1     | 053.953067 | 0.1   | +03.966803 | 0.1    | Gaia3   | 25.21 | 0.42   | w    | PS_DR2   |      | V     | 
+        |            | z136E15 | CCD  | T14  | 2020-08-15T12:53:17.23Z | 0.1     | 053.956879 | 0.1   | +03.963197 | 0.1    | Gaia3   | 25.41 | 0.29   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-08-16T12:42:11.43Z | 0.1     | 053.960313 | 0.1   | +03.959544 | 0.1    | Gaia3   | 24.72 | 0.14   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-08-17T14:38:27.54Z | 0.1     | 053.963408 | 0.1   | +03.955503 | 0.1    | Gaia3   | 24.97 | 0.20   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-08-18T14:41:14.38Z | 0.1     | 053.965992 | 0.1   | +03.951706 | 0.1    | Gaia3   | 25.02 | 0.20   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-08-19T13:37:17.88Z | 0.1     | 053.968167 | 0.1   | +03.947847 | 0.1    | Gaia3   | 24.84 | 0.16   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-10-16T12:51:49.97Z | 0.1     | 053.496796 | 0.1   | +03.631836 | 0.1    | Gaia3   | 24.93 | 0.10   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-10-16T13:47:28.20Z | 0.1     | 053.496158 | 0.1   | +03.631642 | 0.1    | Gaia3   | 24.94 | 0.19   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-10-18T10:43:32.51Z | 0.1     | 053.464329 | 0.1   | +03.621108 | 0.1    | Gaia3   | 24.68 | 0.13   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-10-18T11:20:10.69Z | 0.1     | 053.463938 | 0.1   | +03.620958 | 0.1    | Gaia3   | 24.50 | 0.09   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-10-19T12:20:09.86Z | 0.1     | 053.445887 | 0.1   | +03.615167 | 0.1    | Gaia3   | 24.78 | 0.11   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-10-19T13:27:11.43Z | 0.1     | 053.445113 | 0.1   | +03.614939 | 0.1    | Gaia3   | 25.14 | 0.16   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-11-09T07:08:35.15Z | 0.1     | 053.051608 | 0.1   | +03.513875 | 0.1    | Gaia3   | 24.40 | 0.12   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-11-10T09:14:44.48Z | 0.1     | 053.029708 | 0.1   | +03.509517 | 0.1    | Gaia3   | 24.56 | 0.07   | w    | PS_DR2   | *    |       | 
+        |            | z136E15 | CCD  | T14  | 2020-11-10T09:51:19.47Z | 0.1     | 053.029150 | 0.1   | +03.509400 | 0.1    | Gaia3   | 24.72 | 0.10   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-11-10T10:27:41.67Z | 0.1     | 053.028646 | 0.1   | +03.509275 | 0.1    | Gaia3   | 24.83 | 0.15   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-12-23T06:06:19.73Z | 0.1     | 052.216233 | 0.1   | +03.449628 | 0.1    | Gaia3   | 24.47 | 0.08   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-12-23T06:43:43.45Z | 0.1     | 052.215821 | 0.1   | +03.449669 | 0.1    | Gaia3   | 24.56 | 0.11   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2020-12-23T07:21:38.19Z | 0.1     | 052.215379 | 0.1   | +03.449692 | 0.1    | Gaia3   | 25.11 | 0.17   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2021-01-17T06:46:01.95Z | 0.1     | 051.915533 | 0.1   | +03.531872 | 0.1    | Gaia3   | 25.41 | 0.22   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2021-01-18T08:00:45.76Z | 0.1     | 051.907408 | 0.1   | +03.537178 | 0.1    | Gaia3   | 24.50 | 0.10   | w    | PS_DR2   |      | I     | 
+        |            | z136E15 | CCD  | T14  | 2021-10-11T12:14:50.27Z | 0.1     | 054.492987 | 0.1   | +04.430267 | 0.1    | Gaia3   | 24.62 | 0.08   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2021-10-13T14:59:59.40Z | 0.1     | 054.460021 | 0.1   | +04.418436 | 0.1    | Gaia3   | 24.51 | 0.11   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2022-08-21T14:21:00.81Z | 0.1     | 055.759250 | 0.1   | +05.444339 | 0.1    | Gaia3   | 25.26 | 0.15   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2022-08-25T13:02:47.73Z | 0.1     | 055.764671 | 0.1   | +05.429739 | 0.1    | Gaia3   | 24.57 | 0.09   | w    | PS_DR2   |      |       | 
+        |            | z136E15 | CCD  | T14  | 2022-11-01T12:05:13.98Z | 0.1     | 055.042192 | 0.1   | +05.086697 | 0.1    | Gaia3   | 25.17 | 0.12   | w    | PS_DR2   |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# measurers
+! name M. Alexandersen, M. Comte, C. Semenchuck, J. J. Kavelaars, L. Peltier, S. Gwyn
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter r
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | z136E15 | CCD  | T14  | 2005-11-29T09:32:23.74Z | 0.1     | 038.051904 | 0.1   | -08.819717 | 0.1    | Gaia3   |       |        |      |          |      | H     | 
+        |            | z136E15 | CCD  | T14  | 2005-11-29T10:20:26.39Z | 0.1     | 038.051321 | 0.1   | -08.819614 | 0.1    | Gaia3   |       |        |      |          |      | H     | 
+# version=2017
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name R. E. Pike
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name C. Collyer, R. E. Pike
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry TRIPPy
+# comment
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | z136E15 | CCD  | 269  | 2022-01-05T04:45:20.16Z | 0.1     | 052.948842 | 0.1   | +04.246114 | 0.1    | PS1_DR2 |       |        |      |          |      |       | 

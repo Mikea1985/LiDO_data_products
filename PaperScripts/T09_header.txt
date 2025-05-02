@@ -1,0 +1,23 @@
+# version=2017
+# observatory
+! mpcCode T09
+! name Subaru Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Brown
+# measurers
+! name M. Alexandersen, Y.-T. Chen
+# telescope
+! name Subaru Telescope
+! design reflector
+! aperture 8.2
+! detector HyperSuprimeCam
+! fRatio 2.2
+! arraySize 2048x4176pixels x 116ccd
+! pixelScale 0.1685
+# software
+! astrometry hscPipe 8.3, SourceExtractor
+# comment
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks

@@ -1,4 +1,30 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        |            | 1N35U11 | CCD  | T14  | 2021-06-03T08:13:05.09Z | 0.1     | 241.869154 | 0.02  | -03.518744 | 0.02   | Gaia3  | 25.71 | 0.26   | w    | PS1_DR1  | *    |       | 
-        |            | 1N35U11 | CCD  | T14  | 2021-06-03T08:49:34.46Z | 0.1     | 241.868658 | 0.02  | -03.518681 | 0.02   | Gaia3  | 25.31 | 0.18   | w    | PS1_DR1  |      |       | 
-        |            | 1N35U11 | CCD  | T14  | 2021-06-03T09:26:10.49Z | 0.1     | 241.868071 | 0.02  | -03.518628 | 0.02   | Gaia3  | 25.50 | 0.22   | w    | PS1_DR1  |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 1N35U11 | CCD  | T14  | 2021-06-03T08:13:05.09Z | 0.1     | 241.869154 | 0.1   | -03.518744 | 0.1    | Gaia3   | 25.71 | 0.26   | w    | PS_DR2   | *    |       | 
+        |            | 1N35U11 | CCD  | T14  | 2021-06-03T08:49:34.46Z | 0.1     | 241.868658 | 0.1   | -03.518681 | 0.1    | Gaia3   | 25.31 | 0.18   | w    | PS_DR2   |      |       | 
+        |            | 1N35U11 | CCD  | T14  | 2021-06-03T09:26:10.49Z | 0.1     | 241.868071 | 0.1   | -03.518628 | 0.1    | Gaia3   | 25.50 | 0.22   | w    | PS_DR2   |      |       | 

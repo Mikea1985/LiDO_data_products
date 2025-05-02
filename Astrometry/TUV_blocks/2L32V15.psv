@@ -1,35 +1,111 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        |            | 2L32V15 | CCD  | T14  | 2017-04-27T12:01:27.52Z | 0.1     | 224.925363 | 0.02  | -01.176617 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2017-04-27T12:02:52.54Z | 0.1     | 224.925400 | 0.02  | -01.176586 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2017-04-27T12:04:17.64Z | 0.1     | 224.925337 | 0.02  | -01.176606 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-04-14T11:49:37.92Z | 0.1     | 241.527904 | 0.02  | -01.213542 | 0.02   | Gaia3  | 23.88 | 0.05   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-04-14T12:58:08.75Z | 0.1     | 241.526783 | 0.02  | -01.212792 | 0.02   | Gaia3  | 23.54 | 0.04   | w    | PS1_DR1  |      | I     | 
-        |            | 2L32V15 | CCD  | T14  | 2021-05-13T10:02:28.72Z | 0.1     | 240.712725 | 0.02  | -00.805081 | 0.02   | Gaia3  | 23.69 | 0.07   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-05-14T09:04:25.51Z | 0.1     | 240.681871 | 0.02  | -00.794272 | 0.02   | Gaia3  | 23.71 | 0.05   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-05-15T09:15:03.40Z | 0.1     | 240.649338 | 0.02  | -00.783181 | 0.02   | Gaia3  | 23.62 | 0.06   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-05-15T09:59:09.74Z | 0.1     | 240.648329 | 0.02  | -00.782844 | 0.02   | Gaia3  | 23.64 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-05-16T08:41:47.64Z | 0.1     | 240.617671 | 0.02  | -00.772681 | 0.02   | Gaia3  | 23.80 | 0.05   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-05-17T09:24:08.06Z | 0.1     | 240.584150 | 0.02  | -00.761872 | 0.02   | Gaia3  | 23.66 | 0.05   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-09T08:30:58.26Z | 0.1     | 239.841246 | 0.02  | -00.593575 | 0.02   | Gaia3  | 23.68 | 0.03   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-09T09:07:24.44Z | 0.1     | 239.840446 | 0.02  | -00.593458 | 0.02   | Gaia3  | 23.87 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-09T09:43:51.05Z | 0.1     | 239.839646 | 0.02  | -00.593375 | 0.02   | Gaia3  | 23.79 | 0.05   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-11T08:24:39.83Z | 0.1     | 239.779950 | 0.02  | -00.586008 | 0.02   | Gaia3  | 23.76 | 0.04   | w    | PS1_DR1  | *    |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-11T09:01:33.40Z | 0.1     | 239.779167 | 0.02  | -00.585892 | 0.02   | Gaia3  | 23.82 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-11T09:39:47.40Z | 0.1     | 239.778338 | 0.02  | -00.585814 | 0.02   | Gaia3  | 23.79 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-06-12T08:35:29.30Z | 0.1     | 239.749417 | 0.02  | -00.582631 | 0.02   | Gaia3  | 23.69 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-07-08T08:02:29.18Z | 0.1     | 239.089462 | 0.02  | -00.599844 | 0.02   | Gaia3  | 23.76 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-07-11T07:50:40.36Z | 0.1     | 239.033808 | 0.02  | -00.614422 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | E     | 
-        |            | 2L32V15 | CCD  | T14  | 2021-07-13T06:33:52.82Z | 0.1     | 239.000362 | 0.02  | -00.625236 | 0.02   | Gaia3  | 23.80 | 0.05   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2021-07-13T09:32:18.99Z | 0.1     | 238.998238 | 0.02  | -00.625978 | 0.02   | Gaia3  | 23.90 | 0.06   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | 269  | 2022-06-06T02:05:10.92Z | 0.1     | 244.349433 | 0.04  | -00.537017 | 0.04   | Gaia3  |       |        |      | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | 269  | 2022-06-06T01:57:37.24Z | 0.1     | 244.349575 | 0.04  | -00.537028 | 0.04   | Gaia3  |       |        |      | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2022-06-24T08:18:15.26Z | 0.1     | 243.785446 | 0.02  | -00.492875 | 0.02   | Gaia3  | 23.79 | 0.03   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2022-06-24T09:04:59.38Z | 0.1     | 243.784521 | 0.02  | -00.492878 | 0.02   | Gaia3  | 23.72 | 0.03   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2022-06-24T09:50:34.37Z | 0.1     | 243.783617 | 0.02  | -00.492900 | 0.02   | Gaia3  | 23.71 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2022-06-25T09:44:01.51Z | 0.1     | 243.755683 | 0.02  | -00.493411 | 0.02   | Gaia3  | 23.68 | 0.04   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2022-06-27T08:33:37.50Z | 0.1     | 243.702012 | 0.02  | -00.495275 | 0.02   | Gaia3  | 23.80 | 0.03   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2022-07-22T07:44:43.01Z | 0.1     | 243.176579 | 0.02  | -00.616808 | 0.02   | Gaia3  | 23.65 | 0.03   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2023-04-17T13:57:48.56Z | 0.1     | 250.338512 | 0.02  | -01.030878 | 0.02   | Gaia3  | 23.73 | 0.08   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2023-04-20T13:25:44.60Z | 0.1     | 250.276775 | 0.02  | -00.982600 | 0.02   | Gaia3  | 23.73 | 0.07   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2023-05-14T14:12:07.89Z | 0.1     | 249.625338 | 0.02  | -00.647200 | 0.02   | Gaia3  | 23.90 | 0.08   | w    | PS1_DR1  |      |       | 
-        |            | 2L32V15 | CCD  | T14  | 2023-05-21T11:14:34.77Z | 0.1     | 249.403429 | 0.02  | -00.574172 | 0.02   | Gaia3  | 23.55 | 0.04   | w    | PS1_DR1  |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 2L32V15 | CCD  | T14  | 2021-04-14T11:49:37.92Z | 0.1     | 241.527904 | 0.1   | -01.213542 | 0.1    | Gaia3   | 23.88 | 0.05   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-04-14T12:58:08.75Z | 0.1     | 241.526783 | 0.1   | -01.212792 | 0.1    | Gaia3   | 23.54 | 0.04   | w    | PS_DR2   |      | I     | 
+        |            | 2L32V15 | CCD  | T14  | 2021-05-13T10:02:28.72Z | 0.1     | 240.712725 | 0.1   | -00.805081 | 0.1    | Gaia3   | 23.69 | 0.07   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-05-14T09:04:25.51Z | 0.1     | 240.681871 | 0.1   | -00.794272 | 0.1    | Gaia3   | 23.71 | 0.05   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-05-15T09:15:03.40Z | 0.1     | 240.649338 | 0.1   | -00.783181 | 0.1    | Gaia3   | 23.62 | 0.06   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-05-15T09:59:09.74Z | 0.1     | 240.648329 | 0.1   | -00.782844 | 0.1    | Gaia3   | 23.64 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-05-16T08:41:47.64Z | 0.1     | 240.617671 | 0.1   | -00.772681 | 0.1    | Gaia3   | 23.80 | 0.05   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-05-17T09:24:08.06Z | 0.1     | 240.584150 | 0.1   | -00.761872 | 0.1    | Gaia3   | 23.66 | 0.05   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-09T08:30:58.26Z | 0.1     | 239.841246 | 0.1   | -00.593575 | 0.1    | Gaia3   | 23.68 | 0.03   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-09T09:07:24.44Z | 0.1     | 239.840446 | 0.1   | -00.593458 | 0.1    | Gaia3   | 23.87 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-09T09:43:51.05Z | 0.1     | 239.839646 | 0.1   | -00.593375 | 0.1    | Gaia3   | 23.79 | 0.05   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-11T08:24:39.83Z | 0.1     | 239.779950 | 0.1   | -00.586008 | 0.1    | Gaia3   | 23.76 | 0.04   | w    | PS_DR2   | *    |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-11T09:01:33.40Z | 0.1     | 239.779167 | 0.1   | -00.585892 | 0.1    | Gaia3   | 23.82 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-11T09:39:47.40Z | 0.1     | 239.778338 | 0.1   | -00.585814 | 0.1    | Gaia3   | 23.79 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-06-12T08:35:29.30Z | 0.1     | 239.749417 | 0.1   | -00.582631 | 0.1    | Gaia3   | 23.69 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-07-08T08:02:29.18Z | 0.1     | 239.089462 | 0.1   | -00.599844 | 0.1    | Gaia3   | 23.76 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-07-11T07:50:40.36Z | 0.1     | 239.033808 | 0.1   | -00.614422 | 0.1    | Gaia3   |       |        |      |          |      | E     | 
+        |            | 2L32V15 | CCD  | T14  | 2021-07-13T06:33:52.82Z | 0.1     | 239.000362 | 0.1   | -00.625236 | 0.1    | Gaia3   | 23.80 | 0.05   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2021-07-13T09:32:18.99Z | 0.1     | 238.998238 | 0.1   | -00.625978 | 0.1    | Gaia3   | 23.90 | 0.06   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2022-06-24T08:18:15.26Z | 0.1     | 243.785446 | 0.1   | -00.492875 | 0.1    | Gaia3   | 23.79 | 0.03   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2022-06-24T09:04:59.38Z | 0.1     | 243.784521 | 0.1   | -00.492878 | 0.1    | Gaia3   | 23.72 | 0.03   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2022-06-24T09:50:34.37Z | 0.1     | 243.783617 | 0.1   | -00.492900 | 0.1    | Gaia3   | 23.71 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2022-06-25T09:44:01.51Z | 0.1     | 243.755683 | 0.1   | -00.493411 | 0.1    | Gaia3   | 23.68 | 0.04   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2022-06-27T08:33:37.50Z | 0.1     | 243.702012 | 0.1   | -00.495275 | 0.1    | Gaia3   | 23.80 | 0.03   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2022-07-22T07:44:43.01Z | 0.1     | 243.176579 | 0.1   | -00.616808 | 0.1    | Gaia3   | 23.65 | 0.03   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2023-04-17T13:57:48.56Z | 0.1     | 250.338512 | 0.1   | -01.030878 | 0.1    | Gaia3   | 23.73 | 0.08   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2023-04-20T13:25:44.60Z | 0.1     | 250.276775 | 0.1   | -00.982600 | 0.1    | Gaia3   | 23.73 | 0.07   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2023-05-14T14:12:07.89Z | 0.1     | 249.625338 | 0.1   | -00.647200 | 0.1    | Gaia3   | 23.90 | 0.08   | w    | PS_DR2   |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2023-05-21T11:14:34.77Z | 0.1     | 249.403429 | 0.1   | -00.574172 | 0.1    | Gaia3   | 23.55 | 0.04   | w    | PS_DR2   |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# measurers
+! name M. Alexandersen, M. Comte, C. Semenchuck, J. J. Kavelaars, L. Peltier, S. Gwyn
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter r
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 2L32V15 | CCD  | T14  | 2017-04-27T12:01:27.52Z | 0.1     | 224.925363 | 0.1   | -01.176617 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2017-04-27T12:02:52.54Z | 0.1     | 224.925400 | 0.1   | -01.176586 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        |            | 2L32V15 | CCD  | T14  | 2017-04-27T12:04:17.64Z | 0.1     | 224.925337 | 0.1   | -01.176606 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+# version=2017
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name R. E. Pike
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name C. Collyer, R. E. Pike
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry TRIPPy
+# comment
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 2L32V15 | CCD  | 269  | 2022-06-06T02:05:10.92Z | 0.1     | 244.349433 | 0.2   | -00.537017 | 0.2    | PS1_DR2 |       |        |      |          |      |       | 
+        |            | 2L32V15 | CCD  | 269  | 2022-06-06T01:57:37.24Z | 0.1     | 244.349575 | 0.2   | -00.537028 | 0.2    | PS1_DR2 |       |        |      |          |      |       | 

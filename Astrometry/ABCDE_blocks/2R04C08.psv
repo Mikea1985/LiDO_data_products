@@ -1,7 +1,33 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        |            | 2R04C08 | CCD  | T14  | 2020-11-08T07:17:36.61Z | 0.1     | 050.432304 | 0.02  | -00.199842 | 0.02   | Gaia3  | 25.23 | 0.24   | w    | PS1_DR1  |      |       | 
-        |            | 2R04C08 | CCD  | T14  | 2020-11-09T09:59:18.38Z | 0.1     | 050.322171 | 0.02  | -00.227794 | 0.02   | Gaia3  | 25.22 | 0.16   | w    | PS1_DR1  | *    |       | 
-        |            | 2R04C08 | CCD  | T14  | 2020-11-09T10:35:42.66Z | 0.1     | 050.319596 | 0.02  | -00.228375 | 0.02   | Gaia3  | 25.23 | 0.19   | w    | PS1_DR1  |      |       | 
-        |            | 2R04C08 | CCD  | T14  | 2020-11-09T11:12:43.49Z | 0.1     | 050.317129 | 0.02  | -00.228956 | 0.02   | Gaia3  | 25.27 | 0.23   | w    | PS1_DR1  |      |       | 
-        |            | 2R04C08 | CCD  | T14  | 2020-11-10T07:54:04.87Z | 0.1     | 050.231900 | 0.02  | -00.249956 | 0.02   | Gaia3  | 25.21 | 0.16   | w    | PS1_DR1  |      |       | 
-        |            | 2R04C08 | CCD  | T14  | 2020-11-10T08:31:24.70Z | 0.1     | 050.229321 | 0.02  | -00.250628 | 0.02   | Gaia3  | 25.03 | 0.16   | w    | PS1_DR1  |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 2R04C08 | CCD  | T14  | 2020-11-08T07:17:36.61Z | 0.1     | 050.432304 | 0.1   | -00.199842 | 0.1    | Gaia3   | 25.23 | 0.24   | w    | PS_DR2   |      |       | 
+        |            | 2R04C08 | CCD  | T14  | 2020-11-09T09:59:18.38Z | 0.1     | 050.322171 | 0.1   | -00.227794 | 0.1    | Gaia3   | 25.22 | 0.16   | w    | PS_DR2   | *    |       | 
+        |            | 2R04C08 | CCD  | T14  | 2020-11-09T10:35:42.66Z | 0.1     | 050.319596 | 0.1   | -00.228375 | 0.1    | Gaia3   | 25.23 | 0.19   | w    | PS_DR2   |      |       | 
+        |            | 2R04C08 | CCD  | T14  | 2020-11-09T11:12:43.49Z | 0.1     | 050.317129 | 0.1   | -00.228956 | 0.1    | Gaia3   | 25.27 | 0.23   | w    | PS_DR2   |      |       | 
+        |            | 2R04C08 | CCD  | T14  | 2020-11-10T07:54:04.87Z | 0.1     | 050.231900 | 0.1   | -00.249956 | 0.1    | Gaia3   | 25.21 | 0.16   | w    | PS_DR2   |      |       | 
+        |            | 2R04C08 | CCD  | T14  | 2020-11-10T08:31:24.70Z | 0.1     | 050.229321 | 0.1   | -00.250628 | 0.1    | Gaia3   | 25.03 | 0.16   | w    | PS_DR2   |      |       | 

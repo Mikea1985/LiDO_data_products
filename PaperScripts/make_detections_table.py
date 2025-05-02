@@ -101,6 +101,8 @@ def get_residuals(res):
     for line in res:
         x_max = np.nanmax([line['dRA'], x_max])
         y_max = np.nanmax([line['dDec'], y_max])
+        with open('residuals.dat', 'a') as rfile:
+            print(f"{line['dRA']} {line['dDec']}", file=rfile)
         x_sum += line['dRA']**2
         y_sum += line['dDec']**2
         obs_jd.append(line['JD'])
@@ -111,8 +113,8 @@ def get_residuals(res):
             decd = line['Dec']
             djd = line['JD']
         nobs += 1
-    x_av = (x_sum**0.5)/nobs
-    y_av = (y_sum**0.5)/nobs
+    x_av = (x_sum/nobs)**0.5
+    y_av = (y_sum/nobs)**0.5
     #print(mags)
     mag_av = np.nanmean(mags)
     nmags = np.sum(np.invert(np.isnan(mags)))

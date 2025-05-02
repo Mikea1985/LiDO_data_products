@@ -1,0 +1,24 @@
+# version=2017
+# observatory
+! mpcCode T15
+! name Gemini North Observatory, Maunakea
+# submitter
+! name R. E. Pike
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name R. E. Pike, M. Alexandersen
+# measurers
+! name R. E. Pike, Y.-T. Chen
+# telescope
+! name Gemini North
+! design reflector
+! aperture 8.1
+! detector CCD
+! fRatio 16
+! arraySize 2048x4608 pixels x 3
+! pixelScale 0.0807
+# software
+! astrometry Source Extractor
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks

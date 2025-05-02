@@ -1,4 +1,30 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:19:15.23Z | 0.1     | 052.468554 | 0.02  | -01.126167 | 0.02   | Gaia3  | 25.85 | 0.34   | w    | PS1_DR1  | *    |       | 
-        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:56:30.83Z | 0.1     | 052.466367 | 0.02  | -01.126314 | 0.02   | Gaia3  | 25.35 | 0.20   | w    | PS1_DR1  |      |       | 
-        |            | 1H04A00 | CCD  | T14  | 2020-11-08T09:32:55.19Z | 0.1     | 052.464308 | 0.02  | -01.126608 | 0.02   | Gaia3  | 25.52 | 0.22   | w    | PS1_DR1  |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:19:15.23Z | 0.1     | 052.468554 | 0.1   | -01.126167 | 0.1    | Gaia3   | 25.85 | 0.34   | w    | PS_DR2   | *    |       | 
+        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:56:30.83Z | 0.1     | 052.466367 | 0.1   | -01.126314 | 0.1    | Gaia3   | 25.35 | 0.20   | w    | PS_DR2   |      |       | 
+        |            | 1H04A00 | CCD  | T14  | 2020-11-08T09:32:55.19Z | 0.1     | 052.464308 | 0.1   | -01.126608 | 0.1    | Gaia3   | 25.52 | 0.22   | w    | PS_DR2   |      |       | 

@@ -1,4 +1,30 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:07:00.65Z | 0.1     | 241.706279 | 0.02  | -02.763939 | 0.02   | Gaia3  | 24.87 | 0.12   | w    | PS1_DR1  | *    |       | 
-        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:43:30.12Z | 0.1     | 241.704238 | 0.02  | -02.763869 | 0.02   | Gaia3  | 24.86 | 0.11   | w    | PS1_DR1  |      |       | 
-        |            | 0W18U10 | CCD  | T14  | 2021-06-03T09:20:06.06Z | 0.1     | 241.702213 | 0.02  | -02.763736 | 0.02   | Gaia3  | 24.76 | 0.10   | w    | PS1_DR1  |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:07:00.65Z | 0.1     | 241.706279 | 0.1   | -02.763939 | 0.1    | Gaia3   | 24.87 | 0.12   | w    | PS_DR2   | *    |       | 
+        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:43:30.12Z | 0.1     | 241.704238 | 0.1   | -02.763869 | 0.1    | Gaia3   | 24.86 | 0.11   | w    | PS_DR2   |      |       | 
+        |            | 0W18U10 | CCD  | T14  | 2021-06-03T09:20:06.06Z | 0.1     | 241.702213 | 0.1   | -02.763736 | 0.1    | Gaia3   | 24.76 | 0.10   | w    | PS_DR2   |      |       | 

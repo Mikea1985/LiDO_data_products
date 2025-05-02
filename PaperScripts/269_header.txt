@@ -1,0 +1,24 @@
+# version=2017
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name R. E. Pike
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name C. Collyer, R. E. Pike
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry TRIPPy
+# comment
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks

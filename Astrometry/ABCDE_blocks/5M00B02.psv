@@ -1,145 +1,80 @@
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat | mag   | rmsMag | band | photCat  | disc | notes | remarks
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2006-10-11T09:05:35.40Z | 0.1     | 014.686875 | 0.02  | +04.380844 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | H     | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2006-10-11T09:36:15.98Z | 0.1     | 014.686333 | 0.02  | +04.380528 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | H     | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2006-10-11T10:01:33.60Z | 0.1     | 014.685837 | 0.02  | +04.380261 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | H     | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2008-01-06T05:19:13.32Z | 0.1     | 015.980742 | 0.02  | +03.223522 | 0.02   | Gaia3  |       |        |      | PS1_DR1  |      | H     | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-08-15T14:07:38.24Z | 0.1     | 051.942067 | 0.02  | -00.832575 | 0.02   | Gaia3  | 22.94 | 0.04   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-08-16T13:18:23.53Z | 0.1     | 051.949025 | 0.02  | -00.845192 | 0.02   | Gaia3  | 23.01 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-08-16T14:37:14.10Z | 0.1     | 051.949379 | 0.02  | -00.845914 | 0.02   | Gaia3  | 23.19 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-18T13:09:14.54Z | 0.1     | 051.300654 | 0.02  | -01.819906 | 0.02   | Gaia3  | 22.73 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-18T14:38:25.30Z | 0.1     | 051.299071 | 0.02  | -01.820836 | 0.02   | Gaia3  | 23.07 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-19T10:02:10.92Z | 0.1     | 051.279154 | 0.02  | -01.832786 | 0.02   | Gaia3  | 22.71 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-19T11:08:36.30Z | 0.1     | 051.277983 | 0.02  | -01.833461 | 0.02   | Gaia3  | 22.92 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-07T08:35:13.23Z | 0.1     | 050.765888 | 0.02  | -02.084508 | 0.02   | Gaia3  | 22.90 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-07T09:12:00.06Z | 0.1     | 050.765167 | 0.02  | -02.084800 | 0.02   | Gaia3  | 22.77 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-08T08:13:02.41Z | 0.1     | 050.737667 | 0.02  | -02.095828 | 0.02   | Gaia3  | 22.77 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-08T08:50:29.16Z | 0.1     | 050.736900 | 0.02  | -02.096131 | 0.02   | Gaia3  | 22.87 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-08T09:26:41.08Z | 0.1     | 050.736158 | 0.02  | -02.096414 | 0.02   | Gaia3  | 22.97 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-09T08:06:53.65Z | 0.1     | 050.709025 | 0.02  | -02.107083 | 0.02   | Gaia3  | 22.77 | 0.02   | w    | PS1_DR1  | +    |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-09T08:43:58.80Z | 0.1     | 050.708267 | 0.02  | -02.107378 | 0.02   | Gaia3  | 22.78 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-09T09:20:31.37Z | 0.1     | 050.707504 | 0.02  | -02.107656 | 0.02   | Gaia3  | 22.78 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-01-16T05:36:32.98Z | 0.1     | 049.194079 | 0.02  | -02.273956 | 0.02   | Gaia3  | 23.10 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-10-11T12:33:33.55Z | 0.1     | 054.101388 | 0.02  | -02.146769 | 0.02   | Gaia3  | 22.87 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-10-11T13:48:14.17Z | 0.1     | 054.100246 | 0.02  | -02.147583 | 0.02   | Gaia3  | 23.11 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-10-13T15:06:24.57Z | 0.1     | 054.055567 | 0.02  | -02.179708 | 0.02   | Gaia3  | 22.78 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-08-22T14:09:26.06Z | 0.1     | 057.108000 | 0.02  | -01.771106 | 0.02   | Gaia3  | 23.16 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-01T13:20:27.69Z | 0.1     | 056.915529 | 0.02  | -02.412417 | 0.02   | Gaia3  | 23.06 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-05T13:52:03.22Z | 0.1     | 056.848363 | 0.02  | -02.478594 | 0.02   | Gaia3  | 22.97 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-30T09:56:07.18Z | 0.1     | 056.287217 | 0.02  | -02.854008 | 0.02   | Gaia3  | 22.93 | 0.03   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-31T10:09:10.57Z | 0.1     | 056.260213 | 0.02  | -02.867414 | 0.02   | Gaia3  | 22.78 | 0.02   | w    | PS1_DR1  |      |       | 
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-10-02T07:01:01.98Z | 0.1     | 033.269500 |       | +01.569611 |        | Gaia3  | 23.6  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-10-02T07:01:47.51Z | 0.1     | 033.269521 |       | +01.569611 |        | Gaia3  | 23.6  |        | g    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-10-27T03:22:31.99Z | 0.1     | 032.609833 |       | +01.206806 |        | Gaia3  | 23.4  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-08T05:26:22.99Z | 0.1     | 032.275917 |       | +01.054833 |        | Gaia3  | 22.6  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-08T05:27:08.52Z | 0.1     | 032.275900 |       | +01.054839 |        | Gaia3  | 22.9  |        | r    | PS1_DR1  | *    | 7     | Previously published in ~2fC3
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-08T05:53:17.03Z | 0.1     | 032.275375 |       | +01.054611 |        | Gaia3  | 22.1  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-08T05:54:02.56Z | 0.1     | 032.275375 |       | +01.054614 |        | Gaia3  | 22.3  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2fC3
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-12T04:27:45.99Z | 0.1     | 032.169708 |       | +01.010361 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-12T04:28:31.53Z | 0.1     | 032.169692 |       | +01.010353 |        | Gaia3  | 21.8  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2fC3
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-23T04:51:01.96Z | 0.1     | 031.890542 |       | +00.903000 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-23T04:51:47.49Z | 0.1     | 031.890533 |       | +00.902992 |        | Gaia3  | 22.2  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-23T04:52:59.98Z | 0.1     | 031.890500 |       | +00.902972 |        | Gaia3  | 22.2  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2013-11-23T04:53:45.51Z | 0.1     | 031.890500 |       | +00.902986 |        | Gaia3  | 22.3  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2014-10-21T05:54:09.99Z | 0.1     | 035.418875 |       | +00.845611 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2014-10-21T05:54:55.53Z | 0.1     | 035.418862 |       | +00.845614 |        | Gaia3  | 22.9  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2014-10-21T05:56:08.02Z | 0.1     | 035.418875 |       | +00.845583 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2014-10-21T05:56:53.55Z | 0.1     | 035.418875 |       | +00.845594 |        | Gaia3  | 22.3  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2014-12-16T03:09:26.96Z | 0.1     | 034.039292 |       | +00.329361 |        | Gaia3  | 23.5  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2014-12-16T03:10:12.49Z | 0.1     | 034.039279 |       | +00.329358 |        | Gaia3  | 23.8  |        | g    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2015-01-21T00:53:00.04Z | 0.1     | 033.792875 |       | +00.387528 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2015-01-21T00:53:45.57Z | 0.1     | 033.792883 |       | +00.387519 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2015-12-14T03:51:52.99Z | 0.1     | 036.682708 |       | -00.108583 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2015-12-14T03:52:38.52Z | 0.1     | 036.682692 |       | -00.108578 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2015-12-14T03:53:51.01Z | 0.1     | 036.682667 |       | -00.108556 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2015-12-14T03:54:36.55Z | 0.1     | 036.682675 |       | -00.108569 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | 568  | 2016-09-27T13:29:26.30Z | 0.1     | 041.256333 |       | +00.295639 |        | Gaia3  | 24.2  |        | g    | PS1_DR1  |      | N     | Previously published in ~3ssf
-        | 2013 VX30  | K13V30X | CCD  | 568  | 2016-09-29T11:07:01.34Z | 0.1     | 041.216917 |       | +00.265833 |        | Gaia3  | 23.9  |        | g    | PS1_DR1  |      | N     | Previously published in ~3ssf
-        | 2013 VX30  | K13V30X | CCD  | 568  | 2016-09-29T13:59:34.66Z | 0.1     | 041.214292 |       | +00.263972 |        | Gaia3  | 23.6  |        | g    | PS1_DR1  |      | N     | Previously published in ~3ssf
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-10-28T05:20:22.96Z | 0.1     | 040.489833 |       | -00.158972 |        | Gaia3  | 23.7  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-10-28T05:21:08.50Z | 0.1     | 040.489817 |       | -00.158969 |        | Gaia3  | 24.0  |        | g    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-11-17T04:37:15.97Z | 0.1     | 039.928292 |       | -00.388917 |        | Gaia3  | 21.6  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-11-17T04:38:01.51Z | 0.1     | 039.928279 |       | -00.388919 |        | Gaia3  | 21.8  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-12-05T04:27:56.97Z | 0.1     | 039.469167 |       | -00.522500 |        | Gaia3  | 22.5  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-12-05T04:28:42.50Z | 0.1     | 039.469154 |       | -00.522492 |        | Gaia3  | 22.5  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-12-05T04:29:54.99Z | 0.1     | 039.469125 |       | -00.522528 |        | Gaia3  | 22.7  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-12-05T04:30:40.52Z | 0.1     | 039.469125 |       | -00.522531 |        | Gaia3  | 22.7  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-12-05T04:31:53.01Z | 0.1     | 039.469083 |       | -00.522556 |        | Gaia3  | 23.5  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2016-12-05T04:32:38.54Z | 0.1     | 039.469096 |       | -00.522544 |        | Gaia3  | 23.5  |        | g    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-09-01T09:47:12.02Z | 0.1     | 044.228667 |       | +00.252889 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-09-25T07:46:43.02Z | 0.1     | 043.926333 |       | -00.115028 |        | Gaia3  | 23.0  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-10T06:25:28.50Z | 0.1     | 043.607133 |       | -00.349008 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-10T06:27:12.01Z | 0.1     | 043.607125 |       | -00.349083 |        | Gaia3  | 22.6  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-10T06:30:58.98Z | 0.1     | 043.607083 |       | -00.349111 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-14T06:29:12.02Z | 0.1     | 043.508792 |       | -00.409806 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-14T06:30:27.53Z | 0.1     | 043.508688 |       | -00.409739 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-14T06:32:11.04Z | 0.1     | 043.508708 |       | -00.409833 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-14T06:35:58.96Z | 0.1     | 043.508625 |       | -00.409833 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-14T06:39:48.01Z | 0.1     | 043.508583 |       | -00.409917 |        | Gaia3  | 22.2  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:09:07.00Z | 0.1     | 043.380083 |       | -00.483417 |        | Gaia3  | 23.7  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:10:35.04Z | 0.1     | 043.380050 |       | -00.483411 |        | Gaia3  | 23.9  |        | g    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:12:30.99Z | 0.1     | 043.380083 |       | -00.483472 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:13:46.50Z | 0.1     | 043.380029 |       | -00.483497 |        | Gaia3  | 22.7  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:17:08.51Z | 0.1     | 043.379975 |       | -00.483539 |        | Gaia3  | 22.2  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:19:18.02Z | 0.1     | 043.379917 |       | -00.483500 |        | Gaia3  | 22.4  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:22:53.50Z | 0.1     | 043.379863 |       | -00.483550 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-19T06:23:08.02Z | 0.1     | 043.379875 |       | -00.483583 |        | Gaia3  | 22.3  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-26T06:33:47.98Z | 0.1     | 043.190167 |       | -00.582222 |        | Gaia3  | 22.9  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-26T06:36:45.96Z | 0.1     | 043.190083 |       | -00.582250 |        | Gaia3  | 22.7  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-26T06:40:33.97Z | 0.1     | 043.190042 |       | -00.582306 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-26T06:44:21.98Z | 0.1     | 043.189917 |       | -00.582333 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-10-29T07:24:09.99Z | 0.1     | 043.105625 |       | -00.622833 |        | Gaia3  | 22.1  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-01T04:46:27.98Z | 0.1     | 043.024292 |       | -00.660167 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-07T04:55:59.52Z | 0.1     | 042.853538 |       | -00.733147 |        | Gaia3  | 22.6  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-07T04:59:22.56Z | 0.1     | 042.853500 |       | -00.733158 |        | Gaia3  | 22.3  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-07T05:01:30.00Z | 0.1     | 042.853417 |       | -00.733222 |        | Gaia3  | 22.3  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-07T05:05:05.57Z | 0.1     | 042.853375 |       | -00.733203 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-07T05:05:18.01Z | 0.1     | 042.853333 |       | -00.733250 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:34:38.04Z | 0.1     | 042.654958 |       | -00.809417 |        | Gaia3  | 23.8  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:36:05.99Z | 0.1     | 042.654904 |       | -00.809383 |        | Gaia3  | 23.5  |        | g    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:38:02.03Z | 0.1     | 042.654875 |       | -00.809444 |        | Gaia3  | 22.7  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:39:17.54Z | 0.1     | 042.654821 |       | -00.809417 |        | Gaia3  | 22.4  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:41:02.00Z | 0.1     | 042.654833 |       | -00.809444 |        | Gaia3  | 22.2  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:42:42.57Z | 0.1     | 042.654746 |       | -00.809422 |        | Gaia3  | 22.0  |        | i    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:44:50.01Z | 0.1     | 042.654750 |       | -00.809472 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:48:26.01Z | 0.1     | 042.654633 |       | -00.809472 |        | Gaia3  | 21.8  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-14T04:48:40.00Z | 0.1     | 042.654667 |       | -00.809500 |        | Gaia3  | 22.0  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-19T05:56:08.02Z | 0.1     | 042.513292 |       | -00.858167 |        | Gaia3  | 22.7  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-19T05:57:23.53Z | 0.1     | 042.513212 |       | -00.858086 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-19T05:59:06.00Z | 0.1     | 042.513208 |       | -00.858139 |        | Gaia3  | 22.2  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-19T06:02:56.00Z | 0.1     | 042.513125 |       | -00.858111 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-11-27T04:56:60.00Z | 0.1     | 042.298167 |       | -00.922806 |        | Gaia3  | 22.1  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-15T01:21:26.01Z | 0.1     | 041.876333 |       | -01.009583 |        | Gaia3  | 22.9  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-15T01:24:25.03Z | 0.1     | 041.876250 |       | -01.009611 |        | Gaia3  | 22.4  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-15T01:28:15.02Z | 0.1     | 041.876250 |       | -01.009583 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-15T01:32:05.02Z | 0.1     | 041.876167 |       | -01.009639 |        | Gaia3  | 22.2  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-22T01:40:25.02Z | 0.1     | 041.742917 |       | -01.020639 |        | Gaia3  | 24.1  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-22T01:43:49.01Z | 0.1     | 041.742917 |       | -01.020639 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-22T01:54:12.56Z | 0.1     | 041.742729 |       | -01.020606 |        | Gaia3  | 21.9  |        | z    | PS1_DR1  |      | 7     | Previously published in ~2gpU
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-22T01:54:25.00Z | 0.1     | 041.742750 |       | -01.020667 |        | Gaia3  | 22.1  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2017-12-26T02:13:36.02Z | 0.1     | 041.676542 |       | -01.021028 |        | Gaia3  | 22.8  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-04T02:50:47.04Z | 0.1     | 041.557208 |       | -01.006583 |        | Gaia3  | 22.2  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-04T02:54:37.04Z | 0.1     | 041.557167 |       | -01.006583 |        | Gaia3  | 21.9  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-04T02:58:24.96Z | 0.1     | 041.557125 |       | -01.006611 |        | Gaia3  | 21.9  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-11T02:30:37.01Z | 0.1     | 041.494792 |       | -00.981361 |        | Gaia3  | 22.3  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-16T02:08:02.00Z | 0.1     | 041.467292 |       | -00.956139 |        | Gaia3  | 24.0  |        | g    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-16T02:11:25.99Z | 0.1     | 041.467292 |       | -00.956139 |        | Gaia3  | 23.0  |        | r    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-16T02:14:23.02Z | 0.1     | 041.467292 |       | -00.956167 |        | Gaia3  | 22.6  |        | i    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-16T02:18:11.03Z | 0.1     | 041.467250 |       | -00.956111 |        | Gaia3  | 22.4  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | W84  | 2018-01-16T02:22:01.03Z | 0.1     | 041.467250 |       | -00.956111 |        | Gaia3  | 22.3  |        | z    | PS1_DR1  |      | 7     | Previously published in ~39oe
-        | 2013 VX30  | K13V30X | CCD  | 304  | 2021-12-01T05:10:45.98Z | 0.1     | 052.729825 |       | -02.734839 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 304  | 2021-12-01T05:12:57.31Z | 0.1     | 052.729762 |       | -02.734856 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 304  | 2021-12-01T05:15:57.89Z | 0.1     | 052.729687 |       | -02.734872 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 304  | 2021-12-01T05:18:43.78Z | 0.1     | 052.729625 |       | -02.734886 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 304  | 2021-12-01T05:21:30.53Z | 0.1     | 052.729579 |       | -02.734872 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-04T03:35:29.76Z | 0.1     | 051.944842 |       | -02.772408 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-04T04:51:00.58Z | 0.1     | 051.943917 |       | -02.772178 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-04T05:28:27.84Z | 0.1     | 051.943512 |       | -02.772064 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-04T06:04:54.62Z | 0.1     | 051.943079 |       | -02.772003 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-04T07:10:54.34Z | 0.1     | 051.942300 |       | -02.771781 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-06T02:37:42.53Z | 0.1     | 051.913633 |       | -02.764839 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-06T03:51:38.30Z | 0.1     | 051.912850 |       | -02.764622 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-06T04:30:02.59Z | 0.1     | 051.912367 |       | -02.764456 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-06T05:09:38.59Z | 0.1     | 051.911996 |       | -02.764322 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-06T06:54:42.34Z | 0.1     | 051.910829 |       | -02.764006 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-08T05:05:53.95Z | 0.1     | 051.882312 |       | -02.755575 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
-        | 2013 VX30  | K13V30X | CCD  | 697  | 2022-01-08T06:21:33.41Z | 0.1     | 051.881521 |       | -02.755286 |        | Gaia3  |       |        |      | PS1_DR1  |      |       | Previously published in ~5Rzf
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector Megacam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-08-15T14:07:38.24Z | 0.1     | 051.942067 | 0.1   | -00.832575 | 0.1    | Gaia3   | 22.94 | 0.04   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-08-16T13:18:23.53Z | 0.1     | 051.949025 | 0.1   | -00.845192 | 0.1    | Gaia3   | 23.01 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-08-16T14:37:14.10Z | 0.1     | 051.949379 | 0.1   | -00.845914 | 0.1    | Gaia3   | 23.19 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-18T13:09:14.54Z | 0.1     | 051.300654 | 0.1   | -01.819906 | 0.1    | Gaia3   | 22.73 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-18T14:38:25.30Z | 0.1     | 051.299071 | 0.1   | -01.820836 | 0.1    | Gaia3   | 23.07 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-19T10:02:10.92Z | 0.1     | 051.279154 | 0.1   | -01.832786 | 0.1    | Gaia3   | 22.71 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-10-19T11:08:36.30Z | 0.1     | 051.277983 | 0.1   | -01.833461 | 0.1    | Gaia3   | 22.92 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-07T08:35:13.23Z | 0.1     | 050.765888 | 0.1   | -02.084508 | 0.1    | Gaia3   | 22.90 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-07T09:12:00.06Z | 0.1     | 050.765167 | 0.1   | -02.084800 | 0.1    | Gaia3   | 22.77 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-08T08:13:02.41Z | 0.1     | 050.737667 | 0.1   | -02.095828 | 0.1    | Gaia3   | 22.77 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-08T08:50:29.16Z | 0.1     | 050.736900 | 0.1   | -02.096131 | 0.1    | Gaia3   | 22.87 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-08T09:26:41.08Z | 0.1     | 050.736158 | 0.1   | -02.096414 | 0.1    | Gaia3   | 22.97 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-09T08:06:53.65Z | 0.1     | 050.709025 | 0.1   | -02.107083 | 0.1    | Gaia3   | 22.77 | 0.02   | w    | PS_DR2   | +    |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-09T08:43:58.80Z | 0.1     | 050.708267 | 0.1   | -02.107378 | 0.1    | Gaia3   | 22.78 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2020-11-09T09:20:31.37Z | 0.1     | 050.707504 | 0.1   | -02.107656 | 0.1    | Gaia3   | 22.78 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-01-16T05:36:32.98Z | 0.1     | 049.194079 | 0.1   | -02.273956 | 0.1    | Gaia3   | 23.10 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-10-11T12:33:33.55Z | 0.1     | 054.101388 | 0.1   | -02.146769 | 0.1    | Gaia3   | 22.87 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-10-11T13:48:14.17Z | 0.1     | 054.100246 | 0.1   | -02.147583 | 0.1    | Gaia3   | 23.11 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2021-10-13T15:06:24.57Z | 0.1     | 054.055567 | 0.1   | -02.179708 | 0.1    | Gaia3   | 22.78 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-08-22T14:09:26.06Z | 0.1     | 057.108000 | 0.1   | -01.771106 | 0.1    | Gaia3   | 23.16 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-01T13:20:27.69Z | 0.1     | 056.915529 | 0.1   | -02.412417 | 0.1    | Gaia3   | 23.06 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-05T13:52:03.22Z | 0.1     | 056.848363 | 0.1   | -02.478594 | 0.1    | Gaia3   | 22.97 | 0.02   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-30T09:56:07.18Z | 0.1     | 056.287217 | 0.1   | -02.854008 | 0.1    | Gaia3   | 22.93 | 0.03   | w    | PS_DR2   |      |       | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2022-10-31T10:09:10.57Z | 0.1     | 056.260213 | 0.1   | -02.867414 | 0.1    | Gaia3   | 22.78 | 0.02   | w    | PS_DR2   |      |       | 
+# version=2017
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics | Harvard & Smithsonian
+# measurers
+! name M. Alexandersen, M. Comte, C. Semenchuck, J. J. Kavelaars, L. Peltier, S. Gwyn
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter r
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry Custom software by JJ. Kavelaars
+! photometry daophot within custom wrapper by JJ. Kavelaars
+# comment
+! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2006-10-11T09:05:35.40Z | 0.1     | 014.686875 | 0.1   | +04.380844 | 0.1    | Gaia3   |       |        |      |          |      | H     | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2006-10-11T09:36:15.98Z | 0.1     | 014.686333 | 0.1   | +04.380528 | 0.1    | Gaia3   |       |        |      |          |      | H     | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2006-10-11T10:01:33.60Z | 0.1     | 014.685837 | 0.1   | +04.380261 | 0.1    | Gaia3   |       |        |      |          |      | H     | 
+        | 2013 VX30  | K13V30X | CCD  | T14  | 2008-01-06T05:19:13.32Z | 0.1     | 015.980742 | 0.1   | +03.223522 | 0.1    | Gaia3   |       |        |      |          |      | H     | 
