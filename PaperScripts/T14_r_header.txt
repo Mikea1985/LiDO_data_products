@@ -1,10 +1,9 @@
-# version=2017
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea
 # submitter
 ! name M. Alexandersen
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # measurers
 ! name M. Alexandersen, M. Comte, C. Semenchuck, J. J. Kavelaars, L. Peltier, S. Gwyn
 # telescope
@@ -17,8 +16,8 @@
 ! arraySize 2048x4612 pixels x 40ccd
 ! pixelScale 0.187
 # software
-! astrometry Custom software by JJ. Kavelaars
-! photometry daophot within custom wrapper by JJ. Kavelaars
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
 # comment
-! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks

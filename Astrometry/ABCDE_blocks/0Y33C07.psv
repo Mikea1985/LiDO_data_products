@@ -1,14 +1,24 @@
-# version=2017
+# version=2022
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea
 # submitter
 ! name M. Alexandersen
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # observers
 ! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
 # measurers
-! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name JJ. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
 # telescope
 ! name Canada-France-Hawaii Telescope
 ! design reflector
@@ -19,52 +29,51 @@
 ! arraySize 2048x4612 pixels x 40ccd
 ! pixelScale 0.187
 # software
-! astrometry Custom software by JJ. Kavelaars
-! photometry daophot within custom wrapper by JJ. Kavelaars
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
 # comment
-! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-08-15T13:43:22.66Z | 0.1     | 052.134163 | 0.1   | +00.312800 | 0.1    | Gaia3   | 23.58 | 0.06   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-08-16T13:06:20.19Z | 0.1     | 052.138971 | 0.1   | +00.306186 | 0.1    | Gaia3   | 23.48 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-18T13:50:56.69Z | 0.1     | 051.595300 | 0.1   | -00.237050 | 0.1    | Gaia3   | 23.44 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-19T10:14:25.84Z | 0.1     | 051.578508 | 0.1   | -00.244047 | 0.1    | Gaia3   | 23.33 | 0.05   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-19T10:32:16.43Z | 0.1     | 051.578271 | 0.1   | -00.244144 | 0.1    | Gaia3   | 23.36 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-19T11:26:47.36Z | 0.1     | 051.577512 | 0.1   | -00.244439 | 0.1    | Gaia3   | 23.32 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-08T07:11:34.86Z | 0.1     | 051.148400 | 0.1   | -00.385836 | 0.1    | Gaia3   | 23.46 | 0.05   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-09T09:53:16.63Z | 0.1     | 051.122871 | 0.1   | -00.392286 | 0.1    | Gaia3   | 23.39 | 0.03   | w    | PS_DR2   | +    |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-09T10:29:40.91Z | 0.1     | 051.122279 | 0.1   | -00.392450 | 0.1    | Gaia3   | 23.41 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-09T11:06:28.94Z | 0.1     | 051.121700 | 0.1   | -00.392578 | 0.1    | Gaia3   | 23.45 | 0.05   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-10T07:48:02.94Z | 0.1     | 051.101937 | 0.1   | -00.397458 | 0.1    | Gaia3   | 23.33 | 0.03   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-10T08:25:02.47Z | 0.1     | 051.101358 | 0.1   | -00.397586 | 0.1    | Gaia3   | 23.33 | 0.03   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-12-23T07:52:06.76Z | 0.1     | 050.190817 | 0.1   | -00.472294 | 0.1    | Gaia3   | 23.43 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-12-23T08:28:34.75Z | 0.1     | 050.190383 | 0.1   | -00.472250 | 0.1    | Gaia3   | 23.53 | 0.05   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-12-23T09:05:16.05Z | 0.1     | 050.189933 | 0.1   | -00.472175 | 0.1    | Gaia3   | 23.43 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-01-17T07:10:42.50Z | 0.1     | 049.886254 | 0.1   | -00.350361 | 0.1    | Gaia3   | 23.34 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-01-17T08:25:26.57Z | 0.1     | 049.885908 | 0.1   | -00.350008 | 0.1    | Gaia3   | 23.38 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-05T11:35:17.81Z | 0.1     | 053.867842 | 0.1   | +00.853203 | 0.1    | Gaia3   | 23.52 | 0.06   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-07T14:00:50.00Z | 0.1     | 053.859675 | 0.1   | +00.835617 | 0.1    | Gaia3   | 23.56 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-10T11:58:31.18Z | 0.1     | 053.845204 | 0.1   | +00.810719 | 0.1    | Gaia3   | 23.49 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-11T11:47:22.27Z | 0.1     | 053.839442 | 0.1   | +00.802117 | 0.1    | Gaia3   | 23.60 | 0.05   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-11T12:18:57.20Z | 0.1     | 053.839292 | 0.1   | +00.801917 | 0.1    | Gaia3   | 23.62 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-12T11:21:32.60Z | 0.1     | 053.833292 | 0.1   | +00.793583 | 0.1    | Gaia3   | 23.51 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-10-11T13:29:28.46Z | 0.1     | 053.477313 | 0.1   | +00.534800 | 0.1    | Gaia3   | 23.43 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-10-11T14:19:39.68Z | 0.1     | 053.476688 | 0.1   | +00.534469 | 0.1    | Gaia3   | 23.45 | 0.04   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-08-05T14:05:09.02Z | 0.1     | 055.460979 | 0.1   | +01.759581 | 0.1    | Gaia3   | 23.47 | 0.05   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-08-22T14:26:54.87Z | 0.1     | 055.589683 | 0.1   | +01.660333 | 0.1    | Gaia3   | 23.36 | 0.06   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-08-22T14:32:00.21Z | 0.1     | 055.589696 | 0.1   | +01.660294 | 0.1    | Gaia3   | 23.48 | 0.03   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-10-29T15:05:16.14Z | 0.1     | 054.884954 | 0.1   | +01.106253 | 0.1    | Gaia3   | 23.39 | 0.11   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-10-31T10:37:49.15Z | 0.1     | 054.845950 | 0.1   | +01.093614 | 0.1    | Gaia3   | 23.32 | 0.03   | w    | PS_DR2   |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-11-01T12:13:38.99Z | 0.1     | 054.822704 | 0.1   | +01.086375 | 0.1    | Gaia3   | 23.41 | 0.05   | w    | PS_DR2   |      |       | 
-# version=2017
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-08-15T13:43:22.66Z | 0.1     |  52.134163 | 0.1   |  +0.312800 | 0.1    | Gaia3   | 23.58 | 0.06   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-08-16T13:06:20.19Z | 0.1     |  52.138971 | 0.1   |  +0.306186 | 0.1    | Gaia3   | 23.48 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-18T13:50:56.69Z | 0.1     |  51.595300 | 0.1   |  -0.237050 | 0.1    | Gaia3   | 23.44 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-19T10:14:25.84Z | 0.1     |  51.578508 | 0.1   |  -0.244047 | 0.1    | Gaia3   | 23.33 | 0.05   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-19T10:32:16.43Z | 0.1     |  51.578271 | 0.1   |  -0.244144 | 0.1    | Gaia3   | 23.36 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-10-19T11:26:47.36Z | 0.1     |  51.577512 | 0.1   |  -0.244439 | 0.1    | Gaia3   | 23.32 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-08T07:11:34.86Z | 0.1     |  51.148400 | 0.1   |  -0.385836 | 0.1    | Gaia3   | 23.46 | 0.05   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-09T09:53:16.63Z | 0.1     |  51.122871 | 0.1   |  -0.392286 | 0.1    | Gaia3   | 23.39 | 0.03   | w    | PS1_DR2  | +    |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-09T10:29:40.91Z | 0.1     |  51.122279 | 0.1   |  -0.392450 | 0.1    | Gaia3   | 23.41 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-09T11:06:28.94Z | 0.1     |  51.121700 | 0.1   |  -0.392578 | 0.1    | Gaia3   | 23.45 | 0.05   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-10T07:48:02.94Z | 0.1     |  51.101937 | 0.1   |  -0.397458 | 0.1    | Gaia3   | 23.33 | 0.03   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-11-10T08:25:02.47Z | 0.1     |  51.101358 | 0.1   |  -0.397586 | 0.1    | Gaia3   | 23.33 | 0.03   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-12-23T07:52:06.76Z | 0.1     |  50.190817 | 0.1   |  -0.472294 | 0.1    | Gaia3   | 23.43 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-12-23T08:28:34.75Z | 0.1     |  50.190383 | 0.1   |  -0.472250 | 0.1    | Gaia3   | 23.53 | 0.05   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2020-12-23T09:05:16.05Z | 0.1     |  50.189933 | 0.1   |  -0.472175 | 0.1    | Gaia3   | 23.43 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-01-17T07:10:42.50Z | 0.1     |  49.886254 | 0.1   |  -0.350361 | 0.1    | Gaia3   | 23.34 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-01-17T08:25:26.57Z | 0.1     |  49.885908 | 0.1   |  -0.350008 | 0.1    | Gaia3   | 23.38 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-05T11:35:17.81Z | 0.1     |  53.867842 | 0.1   |  +0.853203 | 0.1    | Gaia3   | 23.52 | 0.06   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-07T14:00:50.00Z | 0.1     |  53.859675 | 0.1   |  +0.835617 | 0.1    | Gaia3   | 23.56 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-10T11:58:31.18Z | 0.1     |  53.845204 | 0.1   |  +0.810719 | 0.1    | Gaia3   | 23.49 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-11T11:47:22.27Z | 0.1     |  53.839442 | 0.1   |  +0.802117 | 0.1    | Gaia3   | 23.60 | 0.05   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-11T12:18:57.20Z | 0.1     |  53.839292 | 0.1   |  +0.801917 | 0.1    | Gaia3   | 23.62 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-09-12T11:21:32.60Z | 0.1     |  53.833292 | 0.1   |  +0.793583 | 0.1    | Gaia3   | 23.51 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-10-11T13:29:28.46Z | 0.1     |  53.477313 | 0.1   |  +0.534800 | 0.1    | Gaia3   | 23.43 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2021-10-11T14:19:39.68Z | 0.1     |  53.476688 | 0.1   |  +0.534469 | 0.1    | Gaia3   | 23.45 | 0.04   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-08-05T14:05:09.02Z | 0.1     |  55.460979 | 0.1   |  +1.759581 | 0.1    | Gaia3   | 23.47 | 0.05   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-08-22T14:26:54.87Z | 0.1     |  55.589683 | 0.1   |  +1.660333 | 0.1    | Gaia3   | 23.36 | 0.06   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-08-22T14:32:00.21Z | 0.1     |  55.589696 | 0.1   |  +1.660294 | 0.1    | Gaia3   | 23.48 | 0.03   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-10-29T15:05:16.14Z | 0.1     |  54.884954 | 0.1   |  +1.106253 | 0.1    | Gaia3   | 23.39 | 0.11   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-10-31T10:37:49.15Z | 0.1     |  54.845950 | 0.1   |  +1.093614 | 0.1    | Gaia3   | 23.32 | 0.03   | w    | PS1_DR2  |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2022-11-01T12:13:38.99Z | 0.1     |  54.822704 | 0.1   |  +1.086375 | 0.1    | Gaia3   | 23.41 | 0.05   | w    | PS1_DR2  |      |       | 
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea
 # submitter
 ! name M. Alexandersen
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # measurers
-! name M. Alexandersen, M. Comte, C. Semenchuck, J. J. Kavelaars, L. Peltier, S. Gwyn
+! name M. Alexandersen, M. Comte, C. Semenchuck, JJ. Kavelaars, L. Peltier, S. Gwyn
 # telescope
 ! name Canada-France-Hawaii Telescope
 ! design reflector
@@ -75,17 +84,17 @@ permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime
 ! arraySize 2048x4612 pixels x 40ccd
 ! pixelScale 0.187
 # software
-! astrometry Custom software by JJ. Kavelaars
-! photometry daophot within custom wrapper by JJ. Kavelaars
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
 # comment
-! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-08-06T14:05:21.55Z | 0.1     | 031.948583 | 0.1   | -07.624111 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-08-06T14:14:29.50Z | 0.1     | 031.948621 | 0.1   | -07.624214 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T09:05:19.68Z | 0.1     | 030.864321 | 0.1   | -08.425931 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T09:44:09.54Z | 0.1     | 030.863696 | 0.1   | -08.426183 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T09:55:04.71Z | 0.1     | 030.863588 | 0.1   | -08.426278 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T10:32:56.86Z | 0.1     | 030.862933 | 0.1   | -08.426472 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T10:43:51.95Z | 0.1     | 030.862833 | 0.1   | -08.426478 | 0.1    | Gaia3   |       |        |      |          |      |       | 
-        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-26T07:55:25.22Z | 0.1     | 030.821763 | 0.1   | -08.440039 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-08-06T14:05:21.55Z | 0.1     |  31.948583 | 0.1   |  -7.624111 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-08-06T14:14:29.50Z | 0.1     |  31.948621 | 0.1   |  -7.624214 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T09:05:19.68Z | 0.1     |  30.864321 | 0.1   |  -8.425931 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T09:44:09.54Z | 0.1     |  30.863696 | 0.1   |  -8.426183 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T09:55:04.71Z | 0.1     |  30.863588 | 0.1   |  -8.426278 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T10:32:56.86Z | 0.1     |  30.862933 | 0.1   |  -8.426472 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-24T10:43:51.95Z | 0.1     |  30.862833 | 0.1   |  -8.426478 | 0.1    | Gaia3   |       |        |      |          |      |       | 
+        | 2014 RM86  | K14R86M | CCD  | T14  | 2008-10-26T07:55:25.22Z | 0.1     |  30.821763 | 0.1   |  -8.440039 | 0.1    | Gaia3   |       |        |      |          |      |       | 

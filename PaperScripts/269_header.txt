@@ -1,10 +1,9 @@
-# version=2017
 # observatory
 ! mpcCode 269
 ! name Magellan-Baade Telescope
 # submitter
 ! name R. E. Pike
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # observers
 ! name R. E. Pike
 # measurers
@@ -21,4 +20,5 @@
 ! astrometry SourceExtractor
 ! photometry TRIPPy
 # comment
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks

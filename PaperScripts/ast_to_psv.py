@@ -70,6 +70,7 @@ def get_ast_info(ast_location):
             else:
                 raise ValueError(f"Don't recognize {stn} at {ymd}")
         with open(filename.replace('.ast', '.psv'), 'w') as pfile:
+            print("# version=2022", file=pfile)
             for h in ['T14_w_header.txt', 'T14_r_header.txt', 'T15_header.txt',
                       'T09_header.txt', '269_header.txt']:
                 if psv_lines[h]:
@@ -141,7 +142,7 @@ def line_to_psv(line):
         disc = ''
     rmstime = '0.1'
     astcat = 'Gaia3' if stn in ['T14'] else 'PS1_DR2'
-    photcat = '' if not mag.strip() else 'PS_DR2'
+    photcat = '' if not mag.strip() else 'PS1_DR2'
     notes = note1
     remarks = f"Previously published in {ref}" if ref.strip() else ""
     return make_psv(permid, provid, trksub, mode, stn, obstime, rmstime,
@@ -151,7 +152,7 @@ def line_to_psv(line):
 def make_psv(permid, provid, trksub, mode, stn, obstime, rmstime,
              ra, rmsra, dec, rmsdec, astCat, mag, rmsmag, band, photcat,
              disc, notes, remarks):
-    psv = f"{permid:>7} | {provid:<10} | {trksub:<7} | {mode:<3}  | {stn:<4} | {obstime:<23} | {rmstime:<7} | {ra:010.6f} | {rmsra:<5} | {dec:+010.6f} | {rmsdec:<6} | {astCat:<7} | {mag:<5} | {rmsmag:<6} | {band:<4} | {photcat:<8} | {disc:<4} | {notes:<5} | {remarks}"
+    psv = f"{permid:>7} | {provid:<10} | {trksub:<7} | {mode:<3}  | {stn:<4} | {obstime:<23} | {rmstime:<7} | {ra:>10.6f} | {rmsra:<5} | {dec:>+10.6f} | {rmsdec:<6} | {astCat:<7} | {mag:<5} | {rmsmag:<6} | {band:<4} | {photcat:<8} | {disc:<4} | {notes:<5} | {remarks}"
     return psv
 
 

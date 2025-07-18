@@ -1,10 +1,9 @@
-# version=2017
 # observatory
 ! mpcCode T15
 ! name Gemini North Observatory, Maunakea
 # submitter
 ! name R. E. Pike
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # observers
 ! name R. E. Pike, M. Alexandersen
 # measurers
@@ -20,5 +19,5 @@
 # software
 ! astrometry Source Extractor
 # comment
-! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
