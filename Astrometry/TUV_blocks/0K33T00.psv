@@ -1,14 +1,24 @@
-# version=2017
+# version=2022
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea
 # submitter
 ! name M. Alexandersen
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # observers
 ! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
 # measurers
-! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
 # telescope
 ! name Canada-France-Hawaii Telescope
 ! design reflector
@@ -19,48 +29,47 @@
 ! arraySize 2048x4612 pixels x 40ccd
 ! pixelScale 0.187
 # software
-! astrometry Custom software by JJ. Kavelaars
-! photometry daophot within custom wrapper by JJ. Kavelaars
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
 # comment
-! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-04T11:46:38.29Z | 0.1     | 239.887479 | 0.1   | -05.603033 | 0.1    | Gaia3   | 24.71 | 0.12   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-05T07:35:41.63Z | 0.1     | 239.870287 | 0.1   | -05.599164 | 0.1    | Gaia3   | 24.52 | 0.09   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-06T08:23:45.48Z | 0.1     | 239.848783 | 0.1   | -05.594469 | 0.1    | Gaia3   | 24.17 | 0.06   | w    | PS_DR2   |      | I     | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-07T08:35:01.82Z | 0.1     | 239.827937 | 0.1   | -05.590069 | 0.1    | Gaia3   | 24.24 | 0.06   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-08T08:05:22.68Z | 0.1     | 239.807821 | 0.1   | -05.585883 | 0.1    | Gaia3   | 24.56 | 0.07   | w    | PS_DR2   | *    |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-08T08:41:49.29Z | 0.1     | 239.807229 | 0.1   | -05.585764 | 0.1    | Gaia3   | 24.46 | 0.08   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-08T09:18:16.93Z | 0.1     | 239.806733 | 0.1   | -05.585672 | 0.1    | Gaia3   | 24.65 | 0.12   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-14T08:12:27.24Z | 0.1     | 239.687042 | 0.1   | -05.563158 | 0.1    | Gaia3   | 24.28 | 0.08   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-06-14T08:49:15.63Z | 0.1     | 239.686500 | 0.1   | -05.563078 | 0.1    | Gaia3   | 24.45 | 0.09   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-07-08T06:31:04.86Z | 0.1     | 239.279717 | 0.1   | -05.522833 | 0.1    | Gaia3   | 24.85 | 0.10   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-07-09T06:58:49.96Z | 0.1     | 239.265742 | 0.1   | -05.522928 | 0.1    | Gaia3   | 24.67 | 0.12   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-07-10T06:29:52.71Z | 0.1     | 239.252692 | 0.1   | -05.523119 | 0.1    | Gaia3   | 24.85 | 0.11   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-07-10T07:08:07.50Z | 0.1     | 239.252342 | 0.1   | -05.523167 | 0.1    | Gaia3   | 24.77 | 0.16   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2021-07-11T06:30:27.96Z | 0.1     | 239.239663 | 0.1   | -05.523508 | 0.1    | Gaia3   | 24.58 | 0.06   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-02-04T14:17:25.76Z | 0.1     | 242.636275 | 0.1   | -06.167731 | 0.1    | Gaia3   | 24.62 | 0.18   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-02-06T14:51:24.71Z | 0.1     | 242.661658 | 0.1   | -06.155733 | 0.1    | Gaia3   | 24.72 | 0.16   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-02-08T14:05:24.66Z | 0.1     | 242.684637 | 0.1   | -06.143469 | 0.1    | Gaia3   | 24.63 | 0.16   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-02-28T13:07:07.28Z | 0.1     | 242.822863 | 0.1   | -05.997111 | 0.1    | Gaia3   | 24.57 | 0.17   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-03-02T12:08:23.63Z | 0.1     | 242.826833 | 0.1   | -05.980875 | 0.1    | Gaia3   | 24.88 | 0.20   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-03-02T13:18:16.44Z | 0.1     | 242.826913 | 0.1   | -05.980475 | 0.1    | Gaia3   | 24.62 | 0.09   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-03-02T13:54:43.49Z | 0.1     | 242.826942 | 0.1   | -05.980242 | 0.1    | Gaia3   | 24.68 | 0.07   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-03-02T14:44:42.95Z | 0.1     | 242.826975 | 0.1   | -05.979978 | 0.1    | Gaia3   | 24.67 | 0.07   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-03-02T15:21:29.43Z | 0.1     | 242.827008 | 0.1   | -05.979744 | 0.1    | Gaia3   | 24.94 | 0.08   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-05-31T09:13:42.79Z | 0.1     | 241.584092 | 0.1   | -05.228781 | 0.1    | Gaia3   | 24.12 | 0.07   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-06-24T10:11:31.66Z | 0.1     | 241.100438 | 0.1   | -05.143225 | 0.1    | Gaia3   | 24.80 | 0.12   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-06-28T08:31:10.62Z | 0.1     | 241.031075 | 0.1   | -05.137028 | 0.1    | Gaia3   | 24.63 | 0.08   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2022-07-22T08:09:25.37Z | 0.1     | 240.703221 | 0.1   | -05.147044 | 0.1    | Gaia3   | 24.69 | 0.07   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2023-04-25T14:27:04.29Z | 0.1     | 243.932388 | 0.1   | -05.084361 | 0.1    | Gaia3   | 24.61 | 0.11   | w    | PS_DR2   |      |       | 
-        |            | 0K33T00 | CCD  | T14  | 2023-05-23T10:34:59.72Z | 0.1     | 243.369538 | 0.1   | -04.872547 | 0.1    | Gaia3   | 24.31 | 0.08   | w    | PS_DR2   |      |       | 
-# version=2017
+        |            | 0K33T00 | CCD  | T14  | 2021-06-04T11:46:38.29Z | 0.1     | 239.887479 | 0.1   |  -5.603033 | 0.1    | Gaia3   | 24.71 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-05T07:35:41.63Z | 0.1     | 239.870287 | 0.1   |  -5.599164 | 0.1    | Gaia3   | 24.52 | 0.09   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-06T08:23:45.48Z | 0.1     | 239.848783 | 0.1   |  -5.594469 | 0.1    | Gaia3   | 24.17 | 0.06   | w    | PS1_DR2  |      | I     | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-07T08:35:01.82Z | 0.1     | 239.827937 | 0.1   |  -5.590069 | 0.1    | Gaia3   | 24.24 | 0.06   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-08T08:05:22.68Z | 0.1     | 239.807821 | 0.1   |  -5.585883 | 0.1    | Gaia3   | 24.56 | 0.07   | w    | PS1_DR2  | *    |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-08T08:41:49.29Z | 0.1     | 239.807229 | 0.1   |  -5.585764 | 0.1    | Gaia3   | 24.46 | 0.08   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-08T09:18:16.93Z | 0.1     | 239.806733 | 0.1   |  -5.585672 | 0.1    | Gaia3   | 24.65 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-14T08:12:27.24Z | 0.1     | 239.687042 | 0.1   |  -5.563158 | 0.1    | Gaia3   | 24.28 | 0.08   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-06-14T08:49:15.63Z | 0.1     | 239.686500 | 0.1   |  -5.563078 | 0.1    | Gaia3   | 24.45 | 0.09   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-07-08T06:31:04.86Z | 0.1     | 239.279717 | 0.1   |  -5.522833 | 0.1    | Gaia3   | 24.85 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-07-09T06:58:49.96Z | 0.1     | 239.265742 | 0.1   |  -5.522928 | 0.1    | Gaia3   | 24.67 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-07-10T06:29:52.71Z | 0.1     | 239.252692 | 0.1   |  -5.523119 | 0.1    | Gaia3   | 24.85 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-07-10T07:08:07.50Z | 0.1     | 239.252342 | 0.1   |  -5.523167 | 0.1    | Gaia3   | 24.77 | 0.16   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2021-07-11T06:30:27.96Z | 0.1     | 239.239663 | 0.1   |  -5.523508 | 0.1    | Gaia3   | 24.58 | 0.06   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-02-04T14:17:25.76Z | 0.1     | 242.636275 | 0.1   |  -6.167731 | 0.1    | Gaia3   | 24.62 | 0.18   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-02-06T14:51:24.71Z | 0.1     | 242.661658 | 0.1   |  -6.155733 | 0.1    | Gaia3   | 24.72 | 0.16   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-02-08T14:05:24.66Z | 0.1     | 242.684637 | 0.1   |  -6.143469 | 0.1    | Gaia3   | 24.63 | 0.16   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-02-28T13:07:07.28Z | 0.1     | 242.822863 | 0.1   |  -5.997111 | 0.1    | Gaia3   | 24.57 | 0.17   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-03-02T12:08:23.63Z | 0.1     | 242.826833 | 0.1   |  -5.980875 | 0.1    | Gaia3   | 24.88 | 0.20   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-03-02T13:18:16.44Z | 0.1     | 242.826913 | 0.1   |  -5.980475 | 0.1    | Gaia3   | 24.62 | 0.09   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-03-02T13:54:43.49Z | 0.1     | 242.826942 | 0.1   |  -5.980242 | 0.1    | Gaia3   | 24.68 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-03-02T14:44:42.95Z | 0.1     | 242.826975 | 0.1   |  -5.979978 | 0.1    | Gaia3   | 24.67 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-03-02T15:21:29.43Z | 0.1     | 242.827008 | 0.1   |  -5.979744 | 0.1    | Gaia3   | 24.94 | 0.08   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-05-31T09:13:42.79Z | 0.1     | 241.584092 | 0.1   |  -5.228781 | 0.1    | Gaia3   | 24.12 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-06-24T10:11:31.66Z | 0.1     | 241.100438 | 0.1   |  -5.143225 | 0.1    | Gaia3   | 24.80 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-06-28T08:31:10.62Z | 0.1     | 241.031075 | 0.1   |  -5.137028 | 0.1    | Gaia3   | 24.63 | 0.08   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2022-07-22T08:09:25.37Z | 0.1     | 240.703221 | 0.1   |  -5.147044 | 0.1    | Gaia3   | 24.69 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2023-04-25T14:27:04.29Z | 0.1     | 243.932388 | 0.1   |  -5.084361 | 0.1    | Gaia3   | 24.61 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 0K33T00 | CCD  | T14  | 2023-05-23T10:34:59.72Z | 0.1     | 243.369538 | 0.1   |  -4.872547 | 0.1    | Gaia3   | 24.31 | 0.08   | w    | PS1_DR2  |      |       | 
 # observatory
 ! mpcCode 269
 ! name Magellan-Baade Telescope
 # submitter
 ! name R. E. Pike
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # observers
 ! name R. E. Pike
 # measurers
@@ -77,6 +86,7 @@ permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime
 ! astrometry SourceExtractor
 ! photometry TRIPPy
 # comment
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 0K33T00 | CCD  | 269  | 2022-06-06T03:27:48.47Z | 0.1     | 241.461621 | 0.2   | -05.201006 | 0.2    | PS1_DR2 |       |        |      |          |      |       | 
+        |            | 0K33T00 | CCD  | 269  | 2022-06-06T03:27:48.47Z | 0.1     | 241.461621 | 0.2   |  -5.201006 | 0.2    | PS1_DR2 |       |        |      |          |      |       | 

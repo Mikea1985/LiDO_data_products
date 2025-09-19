@@ -22,7 +22,7 @@
 ! name Canada-France-Hawaii Telescope
 ! design reflector
 ! aperture 3.58
-! detector Megacam
+! detector MegaCam
 ! fRatio 4.1
 ! filter gri
 ! arraySize 2048x4612 pixels x 40ccd

@@ -1,14 +1,24 @@
-# version=2017
+# version=2022
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea
 # submitter
 ! name M. Alexandersen
-! institution Center for Astrophysics | Harvard & Smithsonian
+! institution Center for Astrophysics - Harvard & Smithsonian
 # observers
 ! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
 # measurers
-! name M. Alexandersen, M. Comte, L. Peltier, R. E. Pike, S. Lawler, Y.-T. Chen, JJ. Kavelaars, S. Gwyn, C. Semenchuck, E. Reitger, C. Morgan
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
 # telescope
 ! name Canada-France-Hawaii Telescope
 ! design reflector
@@ -19,12 +29,12 @@
 ! arraySize 2048x4612 pixels x 40ccd
 ! pixelScale 0.187
 # software
-! astrometry Custom software by JJ. Kavelaars
-! photometry daophot within custom wrapper by JJ. Kavelaars
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
 # comment
-! New TNOs from the Large Inclination Distant Objects (LiDO) survey.
-permID  | provID     | trksub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 0L22U06 | CCD  | T14  | 2021-06-03T07:42:42.13Z | 0.1     | 240.134492 | 0.1   | -03.314858 | 0.1    | Gaia3   | 25.15 | 0.12   | w    | PS_DR2   | *    |       | 
-        |            | 0L22U06 | CCD  | T14  | 2021-06-03T08:19:09.61Z | 0.1     | 240.133425 | 0.1   | -03.314503 | 0.1    | Gaia3   | 25.71 | 0.27   | w    | PS_DR2   |      |       | 
-        |            | 0L22U06 | CCD  | T14  | 2021-06-03T08:55:38.90Z | 0.1     | 240.132450 | 0.1   | -03.314206 | 0.1    | Gaia3   | 25.58 | 0.22   | w    | PS_DR2   |      |       | 
+        |            | 0L22U06 | CCD  | T14  | 2021-06-03T07:42:42.13Z | 0.1     | 240.134492 | 0.1   |  -3.314858 | 0.1    | Gaia3   | 25.15 | 0.12   | w    | PS1_DR2  | *    |       | 
+        |            | 0L22U06 | CCD  | T14  | 2021-06-03T08:19:09.61Z | 0.1     | 240.133425 | 0.1   |  -3.314503 | 0.1    | Gaia3   | 25.71 | 0.27   | w    | PS1_DR2  |      |       | 
+        |            | 0L22U06 | CCD  | T14  | 2021-06-03T08:55:38.90Z | 0.1     | 240.132450 | 0.1   |  -3.314206 | 0.1    | Gaia3   | 25.58 | 0.22   | w    | PS1_DR2  |      |       | 

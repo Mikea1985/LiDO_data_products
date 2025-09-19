@@ -14,7 +14,7 @@
 ! name R. E. Pike
 ! name S. Lawler
 ! name Y.-T. Chen
-! name JJ. Kavelaars
+! name J. J. Kavelaars
 ! name S. Gwyn
 ! name C. Semenchuck
 ! name E. Reitger
@@ -68,7 +68,7 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
 ! name M. Alexandersen
 ! institution Center for Astrophysics - Harvard & Smithsonian
 # measurers
-! name M. Alexandersen, M. Comte, C. Semenchuck, JJ. Kavelaars, L. Peltier, S. Gwyn
+! name M. Alexandersen, M. Comte, C. Semenchuck, J. J. Kavelaars, L. Peltier, S. Gwyn
 # telescope
 ! name Canada-France-Hawaii Telescope
 ! design reflector
