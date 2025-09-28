@@ -62,7 +62,7 @@ def run_fo(obj, ast_location):
             if line[12]=='*':
                 epoch = line[15:32]
                 break
-    result = sp.run(f'fo {ast_location}/{obj}.obs_dmag -tE "{epoch}" -h-1 -e /tmp/ephem.txt "EPHEM_START={epoch}" EPHEM_STEPS=1 EPHEM_STEP_SIZE=1s EPHEM_OPTIONS=10,16-17,39 "CONSOLE_OPTS=Sun 0 3 1" -e {obj}.eph',
+    result = sp.run(f'fo {ast_location}/{obj}.obs_dmag -tE "{epoch}" -h-1 -e /tmp/ephem.txt "EPHEM_START={epoch}" EPHEM_STEPS=1 EPHEM_STEP_SIZE=1s EPHEM_OPTIONS=10,16-17,39 "CONSOLE_OPTS=Bar 0 3 1" -e {obj}.eph',
                     shell=True, check=True, stdout=sp.PIPE)
     elements_json = json.load(open('/home/mikea/.find_orb/elements.json', 'r', encoding='utf-8'))
     ephem_json = json.load(open('/home/mikea/.find_orb/ephemeri.json', 'r', encoding='utf-8'))
