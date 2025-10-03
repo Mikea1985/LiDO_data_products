@@ -64,7 +64,7 @@ def clean_ast_list_and_get_times_and_expnos(ast_dir: str,
                     if line[0] != '!':
                         clean_ast = f'     {obj:7}' + line[12:]
                         ast_all.write(clean_ast)
-                        if line[13] in ["*", "&"]:
+                        if line[12] in ["*", "&"]:
                             ast_det.write(clean_ast)
                         clean_line = f'     {obj:7}' + line[12:77].replace('&', ' ') + '568\n'
                         if ("0109A01" in clean_line and "C2014" in clean_line):
@@ -183,10 +183,7 @@ def main(ast_dir: str, object_list: List[str],
          # Old shoddy argument handling in a single string; can't be bothered to improve.
          what: str = 'skyfownoshowsavedatecold',
          plot_astrometry: bool = False,
-         # For some reason my computer crashes if I try running all 2000 days at once.
-         #date_start_and_range: list = ("2020-01-01", 670),
-         #date_start_and_range: list = ("2021-10-30", 670),
-         date_start_and_range: Tuple[str, int] = ("2023-08-30", 670),
+         date_start_and_range: Optional[Tuple[str, int]] = None,  # ("2020-01-01", 2000),
          make_PH2_and_o568_files: bool = False,
          convert_ast2abgaeipred: bool = False
          ) -> None:
@@ -836,6 +833,10 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--limits', default=None, nargs=4, type=float)
     parser.add_argument('-pa', '--plot_astrometry', action='store_true')
     parser.add_argument('-d', '--disc', action='store_true')
+    parser.add_argument('-sd', '--start_date', default=None, type=str)
+    parser.add_argument('-dr', '--date_range', default=None, type=int)
+    parser.add_argument('-a', '--abgaeipred', action='store_true')
+
     args = parser.parse_args()
     with open(args.all_list, 'r', encoding='ascii') as al:
         object_list = [line.strip() for line in al.readlines()]
@@ -848,4 +849,7 @@ if __name__ == '__main__':
                  )
     else:
         main(args.ast_dir, object_list, what=args.what, limits=args.limits,
-             plot_astrometry=args.plot_astrometry)
+             plot_astrometry=args.plot_astrometry,
+             date_start_and_range=(args.start_date, args.date_range),
+             convert_ast2abgaeipred=args.abgaeipred
+             )

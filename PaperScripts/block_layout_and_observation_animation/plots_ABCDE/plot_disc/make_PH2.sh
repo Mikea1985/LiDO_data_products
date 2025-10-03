@@ -29,16 +29,17 @@ echo '
 NAME                |RA         |DEC        |EPOCH |POINT|
                     |hh:mm:ss.ss|+dd:mm:ss.s|      |     |
 12345678901234567890|12345678901|12345678901|123456|12345|
---------------------|-----------|-----------|------|-----|'
+--------------------|-----------|-----------|------|-----|' > PH2_disc.xml
 
+ln -s ../ast.all .
 cat ast.all | grep "*.C" | grep -v published | while IFS= read line
 do
     exp=`echo "$line" | colrm 1 85 | colrm 8`
     field=`echo "$line" | colrm 13 | colrm 1 9`
     cat ../PH2_20*xml | grep "$exp" | sed "s/$exp    /${exp}_$field/"
-done | sort | uniq
+done | sort | uniq >> PH2_disc.xml
 
-echo "]]></CSV></DATA>"
-echo "  </TABLE>"
-echo "</ASTRO>"
+echo "]]></CSV></DATA>" >> PH2_disc.xml
+echo "  </TABLE>" >> PH2_disc.xml
+echo "</ASTRO>" >> PH2_disc.xml
 
