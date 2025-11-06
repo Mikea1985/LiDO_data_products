@@ -10,10 +10,12 @@ restable = open('../PaperProducts/resTable2.txt','w')
 objtable = open('../PaperProducts/objsTable1.txt','w')
 
 
-#restable.write("\\begin{table}[h!]\n\setlength{\\tabcolsep}{2.5pt}\n\caption{Resonant \lido Survey Objects}\n\label{tab:resobjects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c c c c c | c c} \nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
-restable.write("\\begin{longtable}{ll|cccccccccccccc | cc}\n\caption{Resonant \lido Survey Objects} \label{tab:resobjects}\\\\\n\\hline\\hline\\\\\nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n \endhead")
+#restable.write("\\begin{table}[h!]\\n\setlength{\\tabcolsep}{2.5pt}\n\caption{Resonant \lido Survey Objects}\n\label{tab:resobjects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c c c c c | c c} \nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
 #objtable.write("\\begin{table}[h!]\n\setlength{\\tabcolsep}{2.5pt}\n\caption{\lido Survey Objects}\n\label{tab:objects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c | c c} \nSurvey Name & MPC Name & Classification &S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
-objtable.write("\\begin{longtable}{ll|cccccccccc | cc}\n\caption{Non-Resonant \lido Survey Objects} \label{tab:objects}\\\\\n\\hline\\hline\\\\\nSurvey Name & MPC Name & Classification & S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n \endhead")
+
+
+restable.write("\\begin{longrotatetable}\\n\\begin{longtable}{ll|cccccccccccccc | cc}\n\\caption{Resonant \\lido Survey Objects} \\label{tab:resobjects}\\\\\n\\hline\\hline\\\\\nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n \\endhead\n")
+objtable.write("\\begin{longrotatetable}\n\\begin{longtable}{ll|cccccccccc | cc}\n\\caption{Non-Resonant \\lido Survey Objects} \\label{tab:objects}\\\\\n\\hline\\hline\\\\\nSurvey Name & MPC Name & Classification & S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n \\endhead\n")
 
 
 objs = objABCDE + objTUV
@@ -31,16 +33,33 @@ def getmpcname(sname):
     return(mpc)
     
 def getnote(sname):
+    notelist = open('../Orbits/notes.txt','r').readlines()
     note=''
-    for n in notes:
-        if n.split()[0]==sname:
-            note = n[len(n.split()[0])+1:]
-    return(note)
+    for n in notelist:
+        if len(n)>1:
+            if n.split()[0]==sname:
+                note = n[len(n.split()[0])+1:]
+    return(note.strip())
 
 def getsigs(v,dv):
     sg = dv.count('0')
     vr = str(round(float(v), sg))
     return(vr)
+
+def get_res_stats(tprop):
+    rst = open('res_stats_updated.txt','r').readlines()
+    rc, rcu, ra, rau, kc, kcr, kar = "","","","","","",""
+    for tno in rst:
+        if tno.split()[0]==tprop:
+            name, rc, rcu, ra, rau, kc, kcu, ka, kau = tno.split()
+            #print(name, rc, rcu, ra, rau, kc, kcu, ka, kau)
+            if float(kc)<0:
+                kcr='--'
+                kar = '--'
+            else:
+                kcr = f"{kc}$\\pm${kcu}"
+                kar = f"{ka}$\\pm${kau}"
+    return(f"{rc}$\\pm${rcu}",f"{ra}$\\pm${rau}",kcr,kar)
 
 def mktable_res(tno,rest):
     tprop = tno.split()
@@ -52,11 +71,12 @@ def mktable_res(tno,rest):
     mpcname=getmpcname(tprop[5])
     if tprop[0]=='rmm':
         mm=':m:n'
-    rescenter=''
-    resamp=''
-    kcen=''
-    kamp=''
-    note=getnote(tprop[5])
+    rc,ra,kc,ka = get_res_stats(tprop[5])
+    rescenter=rc
+    resamp=ra
+    kcen=kc
+    kamp=ka
+    note=getnote(tprop[5]) # rosemary commenting out 11/5/2025
     tpos=tprop[18]+'          '
     if float(tprop[18])>100:
         tpos='z'+tpos
@@ -77,7 +97,7 @@ def mktable1(tno,objt):
     iv=getsigs(tprop[22],tprop[23])
     dv=getsigs(tprop[10],tprop[11])
     mpcname=getmpcname(tprop[5])
-    note=getnote(tprop[5])
+    note=getnote(tprop[5]) # rosemary commenting out 11/5/2025
     tpos=tprop[18]+'          '
     if float(tprop[18])>100:
         tpos='z'+tpos
@@ -147,10 +167,10 @@ for b in objt:
 #    objtable.write(b[12:])
 
     
-#restable.write("\end{tabular}\n\end{center}\n\\footnotesize{Orbits are barycentric. The uncertainty is on the final digit reported. XXX.}\n\\bigskip\n\\bigskip\n\end{table}")
+#restable.write("\end{tabular}\n\end{center}\n\\footnotesize{Orbits are barycentric. The uncertainty is on the final digit reported. XXX.}\n\\bigskip\n\\bigskip\n\end{table}\\n"\\nend{longrotatetable}")
 
-restable.write("\hline\hline\n\end{longtable}\n\\footnotesize{Orbits are barycentric. The uncertainty is on the final digit reported. XXX.}")
-objtable.write("\hline\hline\n\end{longtable}\n\\footnotesize{Orbits are barycentric. The uncertainty is on the final digit reported. XXX.}")
+restable.write("\\hline\\hline\n\\end{longtable}\n\\footnotesize{Orbits are barycentric. The uncertainty for orbital elements is on the final digit reported. XXX.}\n\\end{longrotatetable}")
+objtable.write("\\hline\\hline\n\\end{longtable}\n\\footnotesize{Orbits are barycentric. The uncertainty for orbital elements is on the final digit reported. XXX.}\n\\end{longrotatetable}")
 
 
 
