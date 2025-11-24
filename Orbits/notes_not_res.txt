@@ -1,16 +1,16 @@
 # notes for table in paper
 0113U07 MPC
 0A07U07 Magellan, MPC
-0109A01 SSOIS CFHT
-0832B05 CFHT 2010
-0932B05 CFHT 2012, 2013
-0A24A01 CFHT 2005
+0109A01 CFHT (Archival)
+0832B05 CFHT (Archival)
+0932B05 CFHT (Archival)
+0A24A01 CFHT (Archival)
 0G01C11 Magellan
-0W14B00 Subaru Archival, Gemini\footnote{GN-2023B-DD-110-4-001}
-0Y33C07 MPC, Archival T14
+0W14B00 Subaru (Archival), Gemini\footnote{GN-2023B-DD-110-4-001}
+0Y33C07 MPC, CFHT (Archival)
 1A18D10 Magellan
 1E26A04 Magellan
-1R03A05 Archival T14
+1R03A05 CFHT (Archival)
 1W10B04 Magellan
 2420C10 Magellan
 2O12C08 Magellan
@@ -19,30 +19,30 @@
 4J29E13 Magellan
 4V07E14 Magellan
 4Y00E14 Magellan
-5M00B02 Archival T14, MPC
-t806E15 Archival T14, Magellan
-z136E15 Archival T14, Magellan
+5M00B02 CFHT (Archival), MPC
+t806E15 Magellan, CFHT (Archival)
+z136E15 Magellan, CFHT (Archival)
 0237V12 Magellan
 0421V17 Magellan
-0538U07 Archival T14
-0737U09 Archival T14, MPC
-0821V12 Archival T14, MPC
-0A10T05 Archival T14, Magellan
-0F17U06 Archival T14
+0538U07 CFHT (Archival)
+0737U09 CFHT (Archival), MPC
+0821V12 CFHT (Archival), MPC
+0A10T05 Magellan, CFHT (Archival)
+0F17U06 CFHT (Archival)
 0F29T05 Magellan
 0H08T00 Magellan
-0I21U06 Archival T14
+0I21U06 CFHT (Archival)
 0K33T00 Magellan
-1438U11 Archival T14, Magellan
-1B33U11 Archival T14
+1438U11 Magellan, CFHT (Archival)
+1B33U11 CFHT (Archival)
 1F32V14 Magellan
-1H17U11 Archival T14
+1H17U11 CFHT (Archival)
 1K03U11 Magellan
 1Q02U11 Magellan
-2A14V15 Archival T14
-2G39V13 Archival T14
-2L32V15 Archival T14, Magellan
-3B23V16 Archival T14
+2A14V15 CFHT (Archival)
+2G39V13 CFHT (Archival)
+2L32V15 Magellan, CFHT (Archival)
+3B23V16 CFHT (Archival)
 0332U07 Some clones show transient 17:11:4:2 resonance
 0402T05 Short-term sticking in 20:7
 0421V17 Some short-term sticking 23:11, \\  &  & & &  & & &  & &  &  &  &   possible mixed mode
@@ -53,6 +53,6 @@ z136E15 Archival T14, Magellan
 1706V12 Some sticking in 22:9
 1E29U11 Some sticking in 7:3
 2812D10 Choppy, Intermittent resonant behavior
-2U01V15 33:10:21:2 and 43:13 and Detached
+2U01V15 Some sticking in 33:10:21:2 and 43:13
 4P22E14 Occasional sticking in 16:9:5:2
  

@@ -11,12 +11,12 @@ restable = open('../PaperProducts/resTable_short.txt','w')
 objtable = open('../PaperProducts/objsTable_all.txt','w')
 
 
-#restable.write("\\begin{table}[h!]\\n\setlength{\\tabcolsep}{2.5pt}\n\caption{Resonant \lido Survey Objects}\n\label{tab:resobjects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c c c c c | c c} \nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
+#restable.write("\\begin{table}[h!]\\n\setlength{\\tabcolsep}{2.5pt}\n\caption{Resonant \lido Survey Objects}\n\label{tab:resobjects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c c c c c | c c} \nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_w$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
 #objtable.write("\\begin{table}[h!]\n\setlength{\\tabcolsep}{2.5pt}\n\caption{\lido Survey Objects}\n\label{tab:objects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c | c c} \nSurvey Name & MPC Name & Classification &S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
 
 
 restable.write("\\begin{longrotatetable}\n\\setlength{\\tabcolsep}{2pt}\n\\tablewidth{10in}\n\\tabletypesize{\\footnotesize}\n\\begin{longtable}{ll|ccccccccc | l}\n\\caption{Resonant \\lido Survey Objects} \\label{tab:resobjects}\\\\\n\\hline\\hline\\\\\nSurvey & MPC & Resonance & S/I & Res Frac& RC & RA &Island Frac& KC & KA & KFrac  &Notes \\\\ \nName & Name &  &  & \\% & $\\degr$ & $\\degr$ &\\%& $\\degr$ & $\\degr$ & \\% &  \\\\\\hline \\hline\n \\endhead\n")
-objtable.write("\\begin{longrotatetable}\n\\setlength{\\tabcolsep}{2pt}\n\\tablewidth{10in}\n\\tabletypesize{\\footnotesize}\n\\begin{longtable}{ll|cccccccccc | l}\n\\caption{Non-Resonant \\lido Survey Objects} \\label{tab:objects}\\\\\n\\hline\\hline\\\\\nSurvey & MPC & Classification & S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\\nName & Name &  &  & mag & mag & au &  & $\\degr$ & au & years &  & \\\\\\hline\\hline\n \\endhead\n")
+objtable.write("\\begin{longrotatetable}\n\\setlength{\\tabcolsep}{2pt}\n\\tablewidth{10in}\n\\tabletypesize{\\footnotesize}\n\\begin{longtable}{ll|cccccccccc | l}\n\\caption{Non-Resonant \\lido Survey Objects} \\label{tab:objects}\\\\\n\\hline\\hline\\\\\nSurvey & MPC & Classification & S/I & $m_w$ & $H_w$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\\nName & Name &  &  & mag & mag & au &  & $\\degr$ & au & years &  & \\\\\\hline\\hline\n \\endhead\n")
 
 
 objs = objABCDE + objTUV
