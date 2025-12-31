@@ -1,0 +1,27 @@
+# version=2022
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name M. Alexandersen
+! name Y.-T. Chen
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry SourceExtractor w zero points from the Magellan user manual
+# comment
+! line Plutino astrometry
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | fltr | photCat  | logSNR | seeing | exp  | disc | notes | remarks 
+        |            | 3C05C09 | CCD  | 269  | 2021-11-27T02:53:12.50Z | 0.5     |  54.809847 | 0.076 |  +1.751829 | 0.076  | PS1_DR2 |       |        |      |      |          |  0.81  |        |  200 |      |       | x_pixel= 555.04, y_pixel=1034.17, exposure_number=iff0168c8

@@ -1,0 +1,31 @@
+# version=2022
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name M. Alexandersen
+! name Y.-T. Chen
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry SourceExtractor w zero points from the Magellan user manual
+# comment
+! line Plutino astrometry
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | fltr | photCat  | logSNR | seeing | exp  | disc | notes | remarks 
+        |            | 1K03U11 | CCD  | 269  | 2025-04-02T06:57:47.50Z | 0.5     | 249.729616 | 0.022 |  -3.604453 | 0.022  | PS1_DR2 |       |        |      | Sr   |          |  1.21  |        |  200 |      |       | x_pixel= 906.63, y_pixel=2006.81, exposure_number=iff0133c8
+        |            | 1K03U11 | CCD  | 269  | 2025-04-02T07:14:03.50Z | 0.5     | 249.729508 | 0.026 |  -3.604354 | 0.026  | PS1_DR2 |       |        |      | Sg   |          |  1.19  |        |  300 |      |       | x_pixel= 902.82, y_pixel=2004.58, exposure_number=iff0136c8
+        |            | 1K03U11 | CCD  | 269  | 2025-04-02T07:20:28.50Z | 0.5     | 249.729463 | 0.032 |  -3.604318 | 0.032  | PS1_DR2 |       |        |      | Sg   |          |  1.17  |        |  300 |      |       | x_pixel= 901.47, y_pixel=2004.08, exposure_number=iff0137c8
+        |            | 1K03U11 | CCD  | 269  | 2025-04-02T07:26:31.00Z | 0.5     | 249.729439 | 0.03  |  -3.604295 | 0.03   | PS1_DR2 |       |        |      | Sr   |          |  1.16  |        |  200 |      |       | x_pixel= 900.82, y_pixel=2002.56, exposure_number=iff0138c8
+        |            | 1K03U11 | CCD  | 269  | 2025-04-02T07:47:52.00Z | 0.5     | 249.729300 | 0.025 |  -3.604163 | 0.025  | PS1_DR2 |       |        |      | Sr   |          |  1.21  |        |  200 |      |       | x_pixel= 896.28, y_pixel=1996.41, exposure_number=iff0142c8

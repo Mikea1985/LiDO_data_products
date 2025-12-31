@@ -1,0 +1,36 @@
+# version=2022
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name M. Alexandersen
+! name Y.-T. Chen
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry SourceExtractor w zero points from the Magellan user manual
+# comment
+! line Plutino astrometry
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | fltr | photCat  | logSNR | seeing | exp  | disc | notes | remarks 
+        |            | 3I37C09 | CCD  | 269  | 2021-11-27T02:06:26.50Z | 0.5     |  53.771122 | 0.039 |  +0.824810 | 0.039  | PS1_DR2 |       |        |      |      |          |  1.12  |        |  200 |      |       | x_pixel= 567.67, y_pixel=1038.44, exposure_number=iff0158c8
+        |            | 3I37C09 | CCD  | 269  | 2021-11-27T02:20:18.00Z | 0.5     |  53.770865 | 0.046 |  +0.824708 | 0.046  | PS1_DR2 |       |        |      |      |          |  1.04  |        |  300 |      |       | x_pixel= 561.36, y_pixel=1040.66, exposure_number=iff0161c8
+        |            | 3I37C09 | CCD  | 269  | 2021-11-27T02:25:49.50Z | 0.5     |  53.770733 | 0.05  |  +0.824704 | 0.05   | PS1_DR2 |       |        |      |      |          |  1.02  |        |  300 |      |       | x_pixel= 559.23, y_pixel=1040.82, exposure_number=iff0162c8
+        |            | 3I37C09 | CCD  | 269  | 2021-11-27T02:30:42.50Z | 0.5     |  53.770686 | 0.049 |  +0.824681 | 0.049  | PS1_DR2 |       |        |      |      |          |  1.08  |        |  200 |      |       | x_pixel= 560.82, y_pixel=1040.49, exposure_number=iff0163c8
+        |            | 3I37C09 | CCD  | 269  | 2021-11-27T02:47:55.50Z | 0.5     |  53.770354 | 0.05  |  +0.824598 | 0.05   | PS1_DR2 |       |        |      |      |          |  1.05  |        |  200 |      |       | x_pixel= 555.39, y_pixel=1041.59, exposure_number=iff0167c8
+        |            | 3I37C09 | CCD  | 269  | 2024-09-07T07:05:46.00Z | 0.5     |  62.331337 | 0.034 |  +0.477484 | 0.034  | PS1_DR2 |       |        |      |      |          |  1.05  |        |  200 |      |       | x_pixel= 961.64, y_pixel=2099.57, exposure_number=iff0175c8
+        |            | 3I37C09 | CCD  | 269  | 2024-09-07T07:21:58.00Z | 0.5     |  62.331311 | 0.032 |  +0.477338 | 0.032  | PS1_DR2 |       |        |      |      |          |  1.13  |        |  300 |      |       | x_pixel= 960.22, y_pixel=2217.46, exposure_number=iff0178c8
+        |            | 3I37C09 | CCD  | 269  | 2024-09-07T07:28:24.00Z | 0.5     |  62.331326 | 0.029 |  +0.477288 | 0.028  | PS1_DR2 |       |        |      |      |          |  1.17  |        |  300 |      |       | x_pixel= 961.20, y_pixel=2218.79, exposure_number=iff0179c8
+        |            | 3I37C09 | CCD  | 269  | 2024-09-07T07:34:24.00Z | 0.5     |  62.331319 | 0.03  |  +0.477207 | 0.03   | PS1_DR2 |       |        |      |      |          |  1.16  |        |  200 |      |       | x_pixel= 961.73, y_pixel=2221.18, exposure_number=iff0180c8
+        |            | 3I37C09 | CCD  | 269  | 2024-09-07T07:55:18.00Z | 0.5     |  62.331301 | 0.032 |  +0.477019 | 0.032  | PS1_DR2 |       |        |      |      |          |  1.12  |        |  200 |      |       | x_pixel= 961.66, y_pixel=2004.18, exposure_number=iff0184c8

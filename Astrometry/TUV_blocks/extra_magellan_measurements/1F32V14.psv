@@ -1,0 +1,32 @@
+# version=2022
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name M. Alexandersen
+! name Y.-T. Chen
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry SourceExtractor w zero points from the Magellan user manual
+# comment
+! line Plutino astrometry
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | fltr | photCat  | logSNR | seeing | exp  | disc | notes | remarks 
+        |            | 1F32V14 | CCD  | 269  | 2025-04-02T08:34:58.00Z | 0.5     | 251.411283 | 0.017 |  -1.471877 | 0.017  | PS1_DR2 |       |        |      | Sr   |          |  1.27  |        |  200 |      |       | x_pixel= 900.45, y_pixel=1955.86, exposure_number=iff0150c8
+        |            | 1F32V14 | CCD  | 269  | 2025-04-02T08:51:21.50Z | 0.5     | 251.411167 | 0.028 |  -1.471767 | 0.028  | PS1_DR2 |       |        |      | Sg   |          |  1.17  |        |  300 |      |       | x_pixel= 896.21, y_pixel=1952.19, exposure_number=iff0153c8
+        |            | 1F32V14 | CCD  | 269  | 2025-04-02T08:57:46.50Z | 0.5     | 251.411153 | 0.023 |  -1.471717 | 0.023  | PS1_DR2 |       |        |      | Sg   |          |  1.20  |        |  300 |      |       | x_pixel= 895.48, y_pixel=1951.00, exposure_number=iff0154c8
+        |            | 1F32V14 | CCD  | 269  | 2025-04-02T09:03:45.50Z | 0.5     | 251.411125 | 0.018 |  -1.471668 | 0.018  | PS1_DR2 |       |        |      | Sr   |          |  1.26  |        |  200 |      |       | x_pixel= 895.02, y_pixel=1948.19, exposure_number=iff0155c8
+        |            | 1F32V14 | CCD  | 269  | 2025-04-02T09:25:07.50Z | 0.5     | 251.410984 | 0.018 |  -1.471491 | 0.018  | PS1_DR2 |       |        |      | Sr   |          |  1.26  |        |  200 |      |       | x_pixel= 889.68, y_pixel=1939.95, exposure_number=iff0159c8
+        |            | 1F32V14 | CCD  | 269  | 2025-04-02T09:30:57.50Z | 0.5     | 251.410971 | 0.017 |  -1.471449 | 0.017  | PS1_DR2 |       |        |      | Sr   |          |  1.27  |        |  200 |      |       | x_pixel= 889.03, y_pixel=1938.05, exposure_number=iff0160c8

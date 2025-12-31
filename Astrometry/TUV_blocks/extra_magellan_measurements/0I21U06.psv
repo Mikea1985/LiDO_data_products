@@ -1,0 +1,32 @@
+# version=2022
+# observatory
+! mpcCode 269
+! name Magellan-Baade Telescope
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name R. E. Pike
+# measurers
+! name M. Alexandersen
+! name Y.-T. Chen
+# telescope
+! name Magellan-Baade Telescope
+! design reflector
+! aperture 6.5
+! detector CCD
+! fRatio 4.3
+! arraySize 2048pix x 4096pix x 8ccd
+! pixelScale 0.111
+# software
+! astrometry SourceExtractor
+! photometry SourceExtractor w zero points from the Magellan user manual
+# comment
+! line Plutino astrometry
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | fltr | photCat  | logSNR | seeing | exp  | disc | notes | remarks 
+        |            | 0I21U06 | CCD  | 269  | 2025-04-01T09:24:38.50Z | 0.5     | 245.982181 | 0.017 |  -3.288524 | 0.017  | PS1_DR2 |       |        |      |      |          |  1.43  |        |  200 |      |       | x_pixel= 969.91, y_pixel=2082.43, exposure_number=iff0150c8
+        |            | 0I21U06 | CCD  | 269  | 2025-04-01T09:30:37.50Z | 0.5     | 245.982145 | 0.015 |  -3.288502 | 0.015  | PS1_DR2 |       |        |      |      |          |  1.45  |        |  300 |      |       | x_pixel= 967.94, y_pixel=2082.69, exposure_number=iff0151c8
+        |            | 0I21U06 | CCD  | 269  | 2025-04-02T07:54:51.50Z | 0.5     | 245.973816 | 0.009 |  -3.281036 | 0.009  | PS1_DR2 | 23.0  | 0.2    | Sr   | Sr   | UNK      |  1.60  |        |  200 |      |       | x_pixel= 895.30, y_pixel=2000.68, exposure_number=iff0143c8
+        |            | 0I21U06 | CCD  | 269  | 2025-04-02T08:00:49.50Z | 0.5     | 245.973771 | 0.011 |  -3.281012 | 0.011  | PS1_DR2 | 23.6  | 0.2    | Sg   | Sg   | UNK      |  1.57  |        |  300 |      |       | x_pixel= 893.20, y_pixel=2000.86, exposure_number=iff0144c8
+        |            | 0I21U06 | CCD  | 269  | 2025-04-02T08:23:02.00Z | 0.5     | 245.973631 | 0.0091 |  -3.280878 | 0.009  | PS1_DR2 | 23.6  | 0.2    | Sg   | Sg   | UNK      |  1.61  |        |  300 |      |       | x_pixel= 777.41, y_pixel=2106.68, exposure_number=iff0148c8
+        |            | 0I21U06 | CCD  | 269  | 2025-04-02T08:29:03.00Z | 0.5     | 245.973587 | 0.0083 |  -3.280854 | 0.0082 | PS1_DR2 | 23.2  | 0.2    | Sr   | Sr   | UNK      |  1.60  |        |  200 |      |       | x_pixel= 776.24, y_pixel=2104.33, exposure_number=iff0149c8
