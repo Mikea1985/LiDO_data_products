@@ -207,11 +207,35 @@ for b in objt:
 #for b in objt:
 #    objtable.write(b[12:])
 
-    
-#restable.write("\end{tabular}\n\end{center}\n\\footnotesize{Orbits are barycentric. The uncertainty is on the final digit reported. XXX.}\n\\bigskip\n\\bigskip\n\end{table}\\n"\\nend{longrotatetable}")
-
-restable.write("\\hline\\hline\n\\end{longtable}\n\\footnotesize{Orbits are barycentric. The uncertainty for orbital elements is on the final digit reported. XXX.}\n\\end{longrotatetable}")
-objtable.write("\\hline\\hline\n\\end{longtable}\n\\footnotesize{Orbits are barycentric. The uncertainty for orbital elements is on the final digit reported. XXX.}\n\\end{longrotatetable}")
+obj_caption = """\footnotesize{
+Orbital parameters and other information about every object detected in \lido.
+The uncertainty for orbital elements is on the final digit reported.
+`Survey Name' is the internal designation that the \lido team gave the object.
+`MPC Name' is the provisional designation assigned by the Minor Planet Center\footnote{This column will be filled in upon acceptance for publication.}.
+`Classification` is the objects class, as determined in \autoref{sec:classify}.
+`S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator, while an X indicates a lost object that could not be classified.
+`$m_w$ mag' is the average of the three apparent magnitude measurements from the discovery triplets.
+`$H_w$ mag' is the absolute magnitude of the object on the discovery night.
+`$a$', `$e$', `$i$' and `dist' are the barycentric semi-major axis, eccentricity, inclination and distance at discovery. 
+`arc lenth' is the observed arc length and `nobs' is the number of measurements.
+`Notes' contain any additional notes, such as when objects were observed with telescopes other than CFHT.
+}"""
+res_caption = """\footnotesize{
+Additional information to the information presented in \autoref{tab:objects} for the resonant object. 
+`Survey Name' is the internal designation that the \lido team gave the object.
+`MPC Name' is the provisional designation assigned by the Minor Planet Center\footnote{This column will be filled in upon acceptance for publication.}.
+`Resonance` is the objects class, as determined in \autoref{sec:classify}.
+`S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator.
+`Res Frac' is the percentage of the 201 clones that showed resonant behavious.
+`RC' is the resonant center (the angle around which the resonant angle librates).
+`RA' is the amplitude (peak to valley) of the resonant angle libration.
+`Island Frac' is the percentage of the resonant clones that resonate within the same resonance island.
+`KC' is the center value of $\omega$ for objects that feature Kozai resonance.
+`KA' is the amplitude of Kozai resonance.
+`KFrac' is the fraction of resonance clones that show Kozai resonant behavior. 
+}"""
+restable.write("\\hline\\hline\n\\end{longtable}\n"+res_caption+"\n\\end{longrotatetable}")
+objtable.write("\\hline\\hline\n\\end{longtable}\n"+obj_caption+"\n\\end{longrotatetable}")
 
 
 
