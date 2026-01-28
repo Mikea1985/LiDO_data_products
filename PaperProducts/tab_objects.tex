@@ -3,7 +3,7 @@
 \tablewidth{10in}
 \tabletypesize{\footnotesize}
 \begin{longtable}{ll|cccccccccc | l}
-\caption{Non-Resonant \lido Survey Objects} \label{tab:objects}\\
+\caption{All \lido Survey Objects} \label{tab:objects}\\
 \hline\hline\\
 Survey & MPC & Classification & S/I & $m_w$ & $H_w$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\
 Name & Name &  &  & mag & mag & au &  & $\degr$ & au & years &  & \\\hline\hline
@@ -160,5 +160,17 @@ u0L22U06 &  & Untracked & x & 25.39 & 12.50 & 66.0 & 0.82771 & 43.272 & 20.0 & 0
 u1N35U11 &  & Untracked & x & 25.48 & 9.28 & 85.1 & 0.8868 & 18.995 & 41.0 & 0.0001 & 3 & \\ 
 \hline\hline
 \end{longtable}
-\footnotesize{Orbits are barycentric. The uncertainty for orbital elements is on the final digit reported. XXX.}
+ootnotesize{
+Orbital parameters and other information about every object detected in \lido.
+The uncertainty for orbital elements is on the final digit reported.
+`Survey Name' is the internal designation that the \lido team gave the object.
+`MPC Name' is the provisional designation assigned by the Minor Planet Centerootnote{This column will be filled in upon acceptance for publication.}.
+`Classification` is the objects class, as determined in utoref{sec:classify}.
+`S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator, while an X indicates a lost object that could not be classified.
+`$m_w$ mag' is the average of the three apparent magnitude measurements from the discovery triplets.
+`$H_w$ mag' is the absolute magnitude of the object on the discovery night.
+`$a$', `$e$', `$i$' and `dist' are the barycentric semi-major axis, eccentricity, inclination and distance at discovery. 
+`arc lenth' is the observed arc length and `nobs' is the number of measurements.
+`Notes' contain any additional notes, such as when objects were observed with telescopes other than CFHT.
+}
 \end{longrotatetable}
