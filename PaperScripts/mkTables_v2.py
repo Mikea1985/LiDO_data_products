@@ -153,6 +153,8 @@ def mktable1(tno,objt):
         classif='Scattering'
     if tprop[0]=='det':
         classif='Detached'
+    if tprop[0]=='cen':
+        classif='Centaur'
     if tprop[0]=='res':
         classif=f'{tprop[2]}:{tprop[3]}'
     if tprop[0]=='rmm':
