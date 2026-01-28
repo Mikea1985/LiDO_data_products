@@ -9,7 +9,7 @@
 0932B05 CFHT 2012, 2013
 0A24A01 CFHT 2005
 0G01C11 Magellan
-0W14B00 Subaru Archival, Gemini\\footnote{GN-2023B-DD-110-4-001}
+0W14B00 Subaru Archival, Gemini\footnote{GN-2023B-DD-110-4-001}
 0Y33C07 MPC, Archival T14
 1A18D10 Magellan
 1E26A04 Magellan
