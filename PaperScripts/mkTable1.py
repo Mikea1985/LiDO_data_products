@@ -207,12 +207,12 @@ for b in objt:
 #for b in objt:
 #    objtable.write(b[12:])
 
-obj_caption = """\footnotesize{
+obj_caption = """\\footnotesize{
 Orbital parameters and other information about every object detected in \lido.
 The uncertainty for orbital elements is on the final digit reported.
 `Survey Name' is the internal designation that the \lido team gave the object.
 `MPC Name' is the provisional designation assigned by the Minor Planet Center\footnote{This column will be filled in upon acceptance for publication.}.
-`Classification` is the objects class, as determined in \autoref{sec:classify}.
+`Classification` is the objects class, as determined in \\autoref{sec:classify}.
 `S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator, while an X indicates a lost object that could not be classified.
 `$m_w$ mag' is the average of the three apparent magnitude measurements from the discovery triplets.
 `$H_w$ mag' is the absolute magnitude of the object on the discovery night.
@@ -220,11 +220,11 @@ The uncertainty for orbital elements is on the final digit reported.
 `arc lenth' is the observed arc length and `nobs' is the number of measurements.
 `Notes' contain any additional notes, such as when objects were observed with telescopes other than CFHT.
 }"""
-res_caption = """\footnotesize{
-Additional information to the information presented in \autoref{tab:objects} for the resonant object. 
+res_caption = """\\footnotesize{
+Additional information to the information presented in \\autoref{tab:objects} for the resonant object. 
 `Survey Name' is the internal designation that the \lido team gave the object.
 `MPC Name' is the provisional designation assigned by the Minor Planet Center\footnote{This column will be filled in upon acceptance for publication.}.
-`Resonance` is the objects class, as determined in \autoref{sec:classify}.
+`Resonance` is the objects class, as determined in \\autoref{sec:classify}.
 `S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator.
 `Res Frac' is the percentage of the 201 clones that showed resonant behavious.
 `RC' is the resonant center (the angle around which the resonant angle librates).
