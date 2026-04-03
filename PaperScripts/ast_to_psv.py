@@ -141,7 +141,7 @@ def line_to_psv(line):
     else:
         disc = ''
     rmstime = '0.1'
-    astcat = 'Gaia3' if stn in ['T14'] else 'PS1_DR2'
+    astcat = 'Gaia2' if stn in ['T14'] else 'PS1_DR2'
     photcat = '' if not mag.strip() else 'PS1_DR2'
     notes = note1
     remarks = f"Previously published in {ref}" if ref.strip() else ""

@@ -35,6 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:07:00.65Z | 0.1     | 241.706279 | 0.1   |  -2.763939 | 0.1    | Gaia3   | 24.87 | 0.12   | w    | PS1_DR2  | *    |       | 
-        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:43:30.12Z | 0.1     | 241.704238 | 0.1   |  -2.763869 | 0.1    | Gaia3   | 24.86 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 0W18U10 | CCD  | T14  | 2021-06-03T09:20:06.06Z | 0.1     | 241.702213 | 0.1   |  -2.763736 | 0.1    | Gaia3   | 24.76 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:07:00.65Z | 0.1     | 241.706279 | 0.1   |  -2.763939 | 0.1    | Gaia2   | 24.87 | 0.12   | w    | PS1_DR2  | *    |       | 
+        |            | 0W18U10 | CCD  | T14  | 2021-06-03T08:43:30.12Z | 0.1     | 241.704238 | 0.1   |  -2.763869 | 0.1    | Gaia2   | 24.86 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 0W18U10 | CCD  | T14  | 2021-06-03T09:20:06.06Z | 0.1     | 241.702213 | 0.1   |  -2.763736 | 0.1    | Gaia2   | 24.76 | 0.10   | w    | PS1_DR2  |      |       | 

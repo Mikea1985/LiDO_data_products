@@ -35,6 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:19:15.23Z | 0.1     |  52.468554 | 0.1   |  -1.126167 | 0.1    | Gaia3   | 25.85 | 0.34   | w    | PS1_DR2  | *    |       | 
-        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:56:30.83Z | 0.1     |  52.466367 | 0.1   |  -1.126314 | 0.1    | Gaia3   | 25.35 | 0.20   | w    | PS1_DR2  |      |       | 
-        |            | 1H04A00 | CCD  | T14  | 2020-11-08T09:32:55.19Z | 0.1     |  52.464308 | 0.1   |  -1.126608 | 0.1    | Gaia3   | 25.52 | 0.22   | w    | PS1_DR2  |      |       | 
+        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:19:15.23Z | 0.1     |  52.468554 | 0.1   |  -1.126167 | 0.1    | Gaia2   | 25.85 | 0.34   | w    | PS1_DR2  | *    |       | 
+        |            | 1H04A00 | CCD  | T14  | 2020-11-08T08:56:30.83Z | 0.1     |  52.466367 | 0.1   |  -1.126314 | 0.1    | Gaia2   | 25.35 | 0.20   | w    | PS1_DR2  |      |       | 
+        |            | 1H04A00 | CCD  | T14  | 2020-11-08T09:32:55.19Z | 0.1     |  52.464308 | 0.1   |  -1.126608 | 0.1    | Gaia2   | 25.52 | 0.22   | w    | PS1_DR2  |      |       | 
