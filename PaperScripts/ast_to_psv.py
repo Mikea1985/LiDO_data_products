@@ -47,9 +47,10 @@ def get_ast_info(ast_location):
     for filename in glob.glob(ast_location + '/*.ast'):
         print(filename)
         psv_lines = {'269_header.txt': [], 'T09_header.txt': [], 'T15_header.txt': [],
-                     'T14_r_header.txt': [], 'T14_w_header.txt': [], 'Other': []}
+                     'T14_r_header.txt': [], "T14_w_header_discovery.txt": [], "T14_w_header_precovery.txt": [], 'Other': []}
         with open(filename, 'r', encoding='ascii') as ofile:
             olines = ofile.readlines()
+        discovery_line_found=False
         for line in olines:
             #print(line)
             if line[0] == '!':
@@ -64,15 +65,23 @@ def get_ast_info(ast_location):
             elif (stn=='T14') & (ymd<'2020'):
                 psv_lines['T14_r_header.txt'].append(psv)
             elif (stn=='T14') & (ymd>='2020'):
-                psv_lines['T14_w_header.txt'].append(psv)
+                if "*" in line:
+                    discovery_line_found = True
+                if discovery_line_found:
+                    # This is to make sure that the discovery obs is the first line of the first block
+                    # to make sure the MPC does not duck up the discovery credit assignment.
+                    psv_lines['T14_w_header_discovery.txt'].append(psv)
+                else:
+                    psv_lines['T14_w_header_precovery.txt'].append(psv)
             elif ref:
                 psv_lines['Other'].append(psv)
             else:
                 raise ValueError(f"Don't recognize {stn} at {ymd}")
         with open(filename.replace('.ast', '.psv'), 'w') as pfile:
             print("# version=2022", file=pfile)
-            for h in ['T14_w_header.txt', 'T14_r_header.txt', 'T15_header.txt',
-                      'T09_header.txt', '269_header.txt']:
+            # Always do in this order to make sure the discovery obs are in block 01.
+            for h in ["T14_w_header_discovery.txt", "T14_w_header_precovery.txt",
+                      'T14_r_header.txt', 'T15_header.txt', 'T09_header.txt', '269_header.txt']:
                 if psv_lines[h]:
                     with open(h, 'r') as hfile:
                         header = hfile.read()

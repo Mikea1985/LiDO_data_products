@@ -35,13 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 1R03A05 | CCD  | T14  | 2020-08-15T13:49:25.80Z | 0.1     |  51.284508 | 0.1   |  -0.252803 | 0.1    | Gaia2   | 24.38 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 1R03A05 | CCD  | T14  | 2020-08-16T14:06:45.62Z | 0.1     |  51.288937 | 0.1   |  -0.261792 | 0.1    | Gaia2   | 24.08 | 0.06   | w    | PS1_DR2  |      |       | 
-        |            | 1R03A05 | CCD  | T14  | 2020-10-18T14:38:25.30Z | 0.1     |  50.770642 | 0.1   |  -0.927989 | 0.1    | Gaia2   | 23.98 | 0.07   | w    | PS1_DR2  |      |       | 
-        |            | 1R03A05 | CCD  | T14  | 2020-10-19T10:02:10.92Z | 0.1     |  50.755725 | 0.1   |  -0.936178 | 0.1    | Gaia2   | 23.97 | 0.07   | w    | PS1_DR2  |      |       | 
-        |            | 1R03A05 | CCD  | T14  | 2020-10-19T11:08:36.30Z | 0.1     |  50.754854 | 0.1   |  -0.936633 | 0.1    | Gaia2   | 23.91 | 0.05   | w    | PS1_DR2  |      |       | 
-        |            | 1R03A05 | CCD  | T14  | 2020-11-07T08:35:13.23Z | 0.1     |  50.374317 | 0.1   |  -1.108586 | 0.1    | Gaia2   | 24.19 | 0.09   | w    | PS1_DR2  |      |       | 
-        |            | 1R03A05 | CCD  | T14  | 2020-11-07T09:12:00.06Z | 0.1     |  50.373775 | 0.1   |  -1.108797 | 0.1    | Gaia2   | 23.97 | 0.08   | w    | PS1_DR2  |      |       | 
         |            | 1R03A05 | CCD  | T14  | 2020-11-08T08:13:02.41Z | 0.1     |  50.353363 | 0.1   |  -1.116342 | 0.1    | Gaia2   | 23.73 | 0.05   | w    | PS1_DR2  | *    |       | 
         |            | 1R03A05 | CCD  | T14  | 2020-11-08T08:50:29.16Z | 0.1     |  50.352825 | 0.1   |  -1.116544 | 0.1    | Gaia2   | 24.01 | 0.06   | w    | PS1_DR2  |      |       | 
         |            | 1R03A05 | CCD  | T14  | 2020-11-08T09:26:41.08Z | 0.1     |  50.352292 | 0.1   |  -1.116739 | 0.1    | Gaia2   | 24.15 | 0.06   | w    | PS1_DR2  |      |       | 
@@ -59,6 +52,49 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 1R03A05 | CCD  | T14  | 2022-10-05T13:44:58.82Z | 0.1     |  54.378296 | 0.1   |  -1.130144 | 0.1    | Gaia2   | 24.01 | 0.04   | w    | PS1_DR2  |      |       | 
         |            | 1R03A05 | CCD  | T14  | 2022-10-29T14:32:00.82Z | 0.1     |  53.963050 | 0.1   |  -1.376992 | 0.1    | Gaia2   | 24.00 | 0.06   | w    | PS1_DR2  |      |       | 
         |            | 1R03A05 | CCD  | T14  | 2022-11-01T11:58:09.32Z | 0.1     |  53.904808 | 0.1   |  -1.403033 | 0.1    | Gaia2   | 23.55 | 0.04   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 1R03A05 | CCD  | T14  | 2020-08-15T13:49:25.80Z | 0.1     |  51.284508 | 0.1   |  -0.252803 | 0.1    | Gaia2   | 24.38 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 1R03A05 | CCD  | T14  | 2020-08-16T14:06:45.62Z | 0.1     |  51.288937 | 0.1   |  -0.261792 | 0.1    | Gaia2   | 24.08 | 0.06   | w    | PS1_DR2  |      |       | 
+        |            | 1R03A05 | CCD  | T14  | 2020-10-18T14:38:25.30Z | 0.1     |  50.770642 | 0.1   |  -0.927989 | 0.1    | Gaia2   | 23.98 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 1R03A05 | CCD  | T14  | 2020-10-19T10:02:10.92Z | 0.1     |  50.755725 | 0.1   |  -0.936178 | 0.1    | Gaia2   | 23.97 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 1R03A05 | CCD  | T14  | 2020-10-19T11:08:36.30Z | 0.1     |  50.754854 | 0.1   |  -0.936633 | 0.1    | Gaia2   | 23.91 | 0.05   | w    | PS1_DR2  |      |       | 
+        |            | 1R03A05 | CCD  | T14  | 2020-11-07T08:35:13.23Z | 0.1     |  50.374317 | 0.1   |  -1.108586 | 0.1    | Gaia2   | 24.19 | 0.09   | w    | PS1_DR2  |      |       | 
+        |            | 1R03A05 | CCD  | T14  | 2020-11-07T09:12:00.06Z | 0.1     |  50.373775 | 0.1   |  -1.108797 | 0.1    | Gaia2   | 23.97 | 0.08   | w    | PS1_DR2  |      |       | 
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea

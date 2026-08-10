@@ -35,6 +35,51 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
+        |            | 2022V14 | CCD  | T14  | 2021-06-11T08:18:23.73Z | 0.1     | 242.180988 | 0.1   |  -2.188019 | 0.1    | Gaia2   | 25.39 | 0.15   | w    | PS1_DR2  | *    |       | 
+        |            | 2022V14 | CCD  | T14  | 2021-06-11T08:55:27.84Z | 0.1     | 242.180404 | 0.1   |  -2.187983 | 0.1    | Gaia2   | 25.51 | 0.15   | w    | PS1_DR2  |      |       | 
+        |            | 2022V14 | CCD  | T14  | 2021-06-11T09:33:42.97Z | 0.1     | 242.179833 | 0.1   |  -2.187950 | 0.1    | Gaia2   | 25.18 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 2022V14 | CCD  | T14  | 2021-06-12T08:29:18.90Z | 0.1     | 242.159708 | 0.1   |  -2.187300 | 0.1    | Gaia2   | 25.02 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 2022V14 | CCD  | T14  | 2021-07-11T08:02:49.14Z | 0.1     | 241.638179 | 0.1   |  -2.237944 | 0.1    | Gaia2   | 25.45 | 0.19   | w    | PS1_DR2  |      |       | 
+        |            | 2022V14 | CCD  | T14  | 2022-06-28T08:18:54.06Z | 0.1     | 243.473862 | 0.1   |  -2.699150 | 0.1    | Gaia2   | 25.65 | 0.16   | w    | PS1_DR2  |      |       | 
+        |            | 2022V14 | CCD  | T14  | 2022-07-22T07:01:26.43Z | 0.1     | 243.117808 | 0.1   |  -2.788539 | 0.1    | Gaia2   |       |        |      |          |      | S     | 
+        |            | 2022V14 | CCD  | T14  | 2023-04-20T14:50:25.18Z | 0.1     | 246.511346 | 0.1   |  -3.420892 | 0.1    | Gaia2   | 25.48 | 0.18   | w    | PS1_DR2  |      |       | 
+        |            | 2022V14 | CCD  | T14  | 2023-05-23T10:28:55.37Z | 0.1     | 245.856792 | 0.1   |  -3.234736 | 0.1    | Gaia2   | 25.23 | 0.16   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
         |            | 2022V14 | CCD  | T14  | 2020-03-21T13:23:50.47Z | 0.1     | 242.024288 | 0.1   |  -2.167381 | 0.1    | Gaia2   | 25.58 | 0.20   | w    | PS1_DR2  |      |       | 
         |            | 2022V14 | CCD  | T14  | 2020-05-19T08:27:53.02Z | 0.1     | 241.041513 | 0.1   |  -1.738958 | 0.1    | Gaia2   | 25.14 | 0.12   | w    | PS1_DR2  |      |       | 
         |            | 2022V14 | CCD  | T14  | 2020-05-21T08:37:50.74Z | 0.1     | 240.996900 | 0.1   |  -1.730500 | 0.1    | Gaia2   | 25.77 | 0.25   | w    | PS1_DR2  |      |       | 
@@ -53,12 +98,3 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 2022V14 | CCD  | T14  | 2021-06-09T08:43:07.22Z | 0.1     | 242.223154 | 0.1   |  -2.189942 | 0.1    | Gaia2   | 25.13 | 0.10   | w    | PS1_DR2  |      |       | 
         |            | 2022V14 | CCD  | T14  | 2021-06-09T09:19:33.40Z | 0.1     | 242.222554 | 0.1   |  -2.189917 | 0.1    | Gaia2   | 25.39 | 0.15   | w    | PS1_DR2  |      |       | 
         |            | 2022V14 | CCD  | T14  | 2021-06-09T09:55:59.75Z | 0.1     | 242.222021 | 0.1   |  -2.189889 | 0.1    | Gaia2   | 25.69 | 0.25   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2021-06-11T08:18:23.73Z | 0.1     | 242.180988 | 0.1   |  -2.188019 | 0.1    | Gaia2   | 25.39 | 0.15   | w    | PS1_DR2  | *    |       | 
-        |            | 2022V14 | CCD  | T14  | 2021-06-11T08:55:27.84Z | 0.1     | 242.180404 | 0.1   |  -2.187983 | 0.1    | Gaia2   | 25.51 | 0.15   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2021-06-11T09:33:42.97Z | 0.1     | 242.179833 | 0.1   |  -2.187950 | 0.1    | Gaia2   | 25.18 | 0.12   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2021-06-12T08:29:18.90Z | 0.1     | 242.159708 | 0.1   |  -2.187300 | 0.1    | Gaia2   | 25.02 | 0.12   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2021-07-11T08:02:49.14Z | 0.1     | 241.638179 | 0.1   |  -2.237944 | 0.1    | Gaia2   | 25.45 | 0.19   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2022-06-28T08:18:54.06Z | 0.1     | 243.473862 | 0.1   |  -2.699150 | 0.1    | Gaia2   | 25.65 | 0.16   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2022-07-22T07:01:26.43Z | 0.1     | 243.117808 | 0.1   |  -2.788539 | 0.1    | Gaia2   |       |        |      |          |      | S     | 
-        |            | 2022V14 | CCD  | T14  | 2023-04-20T14:50:25.18Z | 0.1     | 246.511346 | 0.1   |  -3.420892 | 0.1    | Gaia2   | 25.48 | 0.18   | w    | PS1_DR2  |      |       | 
-        |            | 2022V14 | CCD  | T14  | 2023-05-23T10:28:55.37Z | 0.1     | 245.856792 | 0.1   |  -3.234736 | 0.1    | Gaia2   | 25.23 | 0.16   | w    | PS1_DR2  |      |       | 

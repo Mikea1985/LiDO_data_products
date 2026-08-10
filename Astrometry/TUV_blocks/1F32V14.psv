@@ -35,6 +35,55 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
+        |            | 1F32V14 | CCD  | T14  | 2021-06-11T08:18:23.73Z | 0.1     | 242.017575 | 0.1   |  -2.495053 | 0.1    | Gaia2   | 23.84 | 0.04   | w    | PS1_DR2  | *    |       | 
+        |            | 1F32V14 | CCD  | T14  | 2021-06-11T08:55:27.84Z | 0.1     | 242.017037 | 0.1   |  -2.494958 | 0.1    | Gaia2   | 23.77 | 0.03   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2021-06-11T09:33:42.97Z | 0.1     | 242.016487 | 0.1   |  -2.494869 | 0.1    | Gaia2   | 23.79 | 0.04   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2021-06-12T08:29:18.90Z | 0.1     | 241.997042 | 0.1   |  -2.491725 | 0.1    | Gaia2   | 23.75 | 0.04   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2021-07-08T07:56:14.90Z | 0.1     | 241.539254 | 0.1   |  -2.465186 | 0.1    | Gaia2   | 23.94 | 0.05   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2021-07-11T08:02:49.14Z | 0.1     | 241.498058 | 0.1   |  -2.469392 | 0.1    | Gaia2   | 23.97 | 0.05   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2022-05-31T08:59:12.05Z | 0.1     | 244.328738 | 0.1   |  -2.146211 | 0.1    | Gaia2   | 22.91 | 0.03   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2022-06-28T08:18:54.06Z | 0.1     | 243.766575 | 0.1   |  -2.067847 | 0.1    | Gaia2   | 23.79 | 0.04   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2023-06-12T11:19:09.35Z | 0.1     | 246.132796 | 0.1   |  -1.700139 | 0.1    | Gaia2   | 23.72 | 0.05   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2023-06-13T11:31:58.31Z | 0.1     | 246.111788 | 0.1   |  -1.697100 | 0.1    | Gaia2   | 23.98 | 0.08   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2023-06-14T12:03:01.18Z | 0.1     | 246.090658 | 0.1   |  -1.694219 | 0.1    | Gaia2   | 23.86 | 0.06   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2023-06-18T09:56:30.16Z | 0.1     | 246.011025 | 0.1   |  -1.684864 | 0.1    | Gaia2   | 24.08 | 0.21   | w    | PS1_DR2  |      |       | 
+        |            | 1F32V14 | CCD  | T14  | 2023-06-19T08:55:17.82Z | 0.1     | 245.991871 | 0.1   |  -1.682906 | 0.1    | Gaia2   | 23.83 | 0.05   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
         |            | 1F32V14 | CCD  | T14  | 2020-03-21T13:05:41.74Z | 0.1     | 241.357029 | 0.1   |  -3.576717 | 0.1    | Gaia2   | 24.02 | 0.05   | w    | PS1_DR2  |      |       | 
         |            | 1F32V14 | CCD  | T14  | 2020-05-19T11:48:50.75Z | 0.1     | 240.406929 | 0.1   |  -3.008144 | 0.1    | Gaia2   | 23.75 | 0.04   | w    | PS1_DR2  |      |       | 
         |            | 1F32V14 | CCD  | T14  | 2020-05-19T12:25:13.81Z | 0.1     | 240.406342 | 0.1   |  -3.007972 | 0.1    | Gaia2   | 23.76 | 0.05   | w    | PS1_DR2  |      |       | 
@@ -54,19 +103,6 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 1F32V14 | CCD  | T14  | 2021-06-09T08:43:07.22Z | 0.1     | 242.058392 | 0.1   |  -2.502100 | 0.1    | Gaia2   | 23.81 | 0.04   | w    | PS1_DR2  |      |       | 
         |            | 1F32V14 | CCD  | T14  | 2021-06-09T09:19:33.40Z | 0.1     | 242.057879 | 0.1   |  -2.502008 | 0.1    | Gaia2   | 23.83 | 0.04   | w    | PS1_DR2  |      |       | 
         |            | 1F32V14 | CCD  | T14  | 2021-06-09T09:55:59.75Z | 0.1     | 242.057321 | 0.1   |  -2.501908 | 0.1    | Gaia2   | 23.83 | 0.05   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2021-06-11T08:18:23.73Z | 0.1     | 242.017575 | 0.1   |  -2.495053 | 0.1    | Gaia2   | 23.84 | 0.04   | w    | PS1_DR2  | *    |       | 
-        |            | 1F32V14 | CCD  | T14  | 2021-06-11T08:55:27.84Z | 0.1     | 242.017037 | 0.1   |  -2.494958 | 0.1    | Gaia2   | 23.77 | 0.03   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2021-06-11T09:33:42.97Z | 0.1     | 242.016487 | 0.1   |  -2.494869 | 0.1    | Gaia2   | 23.79 | 0.04   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2021-06-12T08:29:18.90Z | 0.1     | 241.997042 | 0.1   |  -2.491725 | 0.1    | Gaia2   | 23.75 | 0.04   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2021-07-08T07:56:14.90Z | 0.1     | 241.539254 | 0.1   |  -2.465186 | 0.1    | Gaia2   | 23.94 | 0.05   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2021-07-11T08:02:49.14Z | 0.1     | 241.498058 | 0.1   |  -2.469392 | 0.1    | Gaia2   | 23.97 | 0.05   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2022-05-31T08:59:12.05Z | 0.1     | 244.328738 | 0.1   |  -2.146211 | 0.1    | Gaia2   | 22.91 | 0.03   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2022-06-28T08:18:54.06Z | 0.1     | 243.766575 | 0.1   |  -2.067847 | 0.1    | Gaia2   | 23.79 | 0.04   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2023-06-12T11:19:09.35Z | 0.1     | 246.132796 | 0.1   |  -1.700139 | 0.1    | Gaia2   | 23.72 | 0.05   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2023-06-13T11:31:58.31Z | 0.1     | 246.111788 | 0.1   |  -1.697100 | 0.1    | Gaia2   | 23.98 | 0.08   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2023-06-14T12:03:01.18Z | 0.1     | 246.090658 | 0.1   |  -1.694219 | 0.1    | Gaia2   | 23.86 | 0.06   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2023-06-18T09:56:30.16Z | 0.1     | 246.011025 | 0.1   |  -1.684864 | 0.1    | Gaia2   | 24.08 | 0.21   | w    | PS1_DR2  |      |       | 
-        |            | 1F32V14 | CCD  | T14  | 2023-06-19T08:55:17.82Z | 0.1     | 245.991871 | 0.1   |  -1.682906 | 0.1    | Gaia2   | 23.83 | 0.05   | w    | PS1_DR2  |      |       | 
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea

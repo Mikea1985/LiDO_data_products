@@ -35,21 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 1A18D10 | CCD  | T14  | 2020-08-15T13:23:50.29Z | 0.1     |  52.745508 | 0.1   |  +1.320250 | 0.1    | Gaia2   | 24.93 | 0.16   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-08-16T13:48:32.23Z | 0.1     |  52.749579 | 0.1   |  +1.314303 | 0.1    | Gaia2   | 25.74 | 0.30   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-08-16T14:31:11.74Z | 0.1     |  52.749742 | 0.1   |  +1.314092 | 0.1    | Gaia2   | 26.17 | 0.46   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-16T13:16:09.96Z | 0.1     |  52.314558 | 0.1   |  +0.857231 | 0.1    | Gaia2   | 24.71 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-17T08:45:53.45Z | 0.1     |  52.301067 | 0.1   |  +0.851219 | 0.1    | Gaia2   | 24.68 | 0.17   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-18T10:13:00.13Z | 0.1     |  52.283346 | 0.1   |  +0.843333 | 0.1    | Gaia2   | 25.30 | 0.18   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-18T11:07:45.41Z | 0.1     |  52.282679 | 0.1   |  +0.843042 | 0.1    | Gaia2   | 24.99 | 0.16   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-18T11:44:32.15Z | 0.1     |  52.282229 | 0.1   |  +0.842869 | 0.1    | Gaia2   | 25.89 | 0.33   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-19T11:49:50.71Z | 0.1     |  52.265150 | 0.1   |  +0.835564 | 0.1    | Gaia2   | 25.03 | 0.18   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-19T12:38:02.60Z | 0.1     |  52.264583 | 0.1   |  +0.835289 | 0.1    | Gaia2   | 25.14 | 0.15   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-10-19T12:56:37.94Z | 0.1     |  52.264371 | 0.1   |  +0.835181 | 0.1    | Gaia2   | 24.60 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-11-08T07:30:12.18Z | 0.1     |  51.896542 | 0.1   |  +0.707500 | 0.1    | Gaia2   | 24.45 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-11-09T10:11:31.06Z | 0.1     |  51.874596 | 0.1   |  +0.701536 | 0.1    | Gaia2   | 24.74 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-11-09T10:48:23.67Z | 0.1     |  51.874067 | 0.1   |  +0.701392 | 0.1    | Gaia2   | 24.75 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 1A18D10 | CCD  | T14  | 2020-11-09T11:25:13.44Z | 0.1     |  51.873554 | 0.1   |  +0.701228 | 0.1    | Gaia2   | 24.85 | 0.18   | w    | PS1_DR2  |      |       | 
         |            | 1A18D10 | CCD  | T14  | 2020-11-10T07:29:57.49Z | 0.1     |  51.857079 | 0.1   |  +0.696861 | 0.1    | Gaia2   | 24.85 | 0.12   | w    | PS1_DR2  | *    |       | 
         |            | 1A18D10 | CCD  | T14  | 2020-11-10T08:06:12.36Z | 0.1     |  51.856608 | 0.1   |  +0.696739 | 0.1    | Gaia2   | 24.84 | 0.12   | w    | PS1_DR2  |      |       | 
         |            | 1A18D10 | CCD  | T14  | 2020-11-10T08:44:35.52Z | 0.1     |  51.856079 | 0.1   |  +0.696578 | 0.1    | Gaia2   | 24.97 | 0.10   | w    | PS1_DR2  |      |       | 
@@ -72,6 +57,57 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 1A18D10 | CCD  | T14  | 2022-10-30T09:49:43.48Z | 0.1     |  54.824388 | 0.1   |  +1.598428 | 0.1    | Gaia2   | 24.77 | 0.12   | w    | PS1_DR2  |      |       | 
         |            | 1A18D10 | CCD  | T14  | 2022-10-31T10:03:04.23Z | 0.1     |  54.805492 | 0.1   |  +1.591967 | 0.1    | Gaia2   | 25.05 | 0.16   | w    | PS1_DR2  |      |       | 
         |            | 1A18D10 | CCD  | T14  | 2022-10-31T11:20:42.23Z | 0.1     |  54.804408 | 0.1   |  +1.591672 | 0.1    | Gaia2   | 24.97 | 0.11   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 1A18D10 | CCD  | T14  | 2020-08-15T13:23:50.29Z | 0.1     |  52.745508 | 0.1   |  +1.320250 | 0.1    | Gaia2   | 24.93 | 0.16   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-08-16T13:48:32.23Z | 0.1     |  52.749579 | 0.1   |  +1.314303 | 0.1    | Gaia2   | 25.74 | 0.30   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-08-16T14:31:11.74Z | 0.1     |  52.749742 | 0.1   |  +1.314092 | 0.1    | Gaia2   | 26.17 | 0.46   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-16T13:16:09.96Z | 0.1     |  52.314558 | 0.1   |  +0.857231 | 0.1    | Gaia2   | 24.71 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-17T08:45:53.45Z | 0.1     |  52.301067 | 0.1   |  +0.851219 | 0.1    | Gaia2   | 24.68 | 0.17   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-18T10:13:00.13Z | 0.1     |  52.283346 | 0.1   |  +0.843333 | 0.1    | Gaia2   | 25.30 | 0.18   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-18T11:07:45.41Z | 0.1     |  52.282679 | 0.1   |  +0.843042 | 0.1    | Gaia2   | 24.99 | 0.16   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-18T11:44:32.15Z | 0.1     |  52.282229 | 0.1   |  +0.842869 | 0.1    | Gaia2   | 25.89 | 0.33   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-19T11:49:50.71Z | 0.1     |  52.265150 | 0.1   |  +0.835564 | 0.1    | Gaia2   | 25.03 | 0.18   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-19T12:38:02.60Z | 0.1     |  52.264583 | 0.1   |  +0.835289 | 0.1    | Gaia2   | 25.14 | 0.15   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-10-19T12:56:37.94Z | 0.1     |  52.264371 | 0.1   |  +0.835181 | 0.1    | Gaia2   | 24.60 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-11-08T07:30:12.18Z | 0.1     |  51.896542 | 0.1   |  +0.707500 | 0.1    | Gaia2   | 24.45 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-11-09T10:11:31.06Z | 0.1     |  51.874596 | 0.1   |  +0.701536 | 0.1    | Gaia2   | 24.74 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-11-09T10:48:23.67Z | 0.1     |  51.874067 | 0.1   |  +0.701392 | 0.1    | Gaia2   | 24.75 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 1A18D10 | CCD  | T14  | 2020-11-09T11:25:13.44Z | 0.1     |  51.873554 | 0.1   |  +0.701228 | 0.1    | Gaia2   | 24.85 | 0.18   | w    | PS1_DR2  |      |       | 
 # observatory
 ! mpcCode 269
 ! name Magellan-Baade Telescope

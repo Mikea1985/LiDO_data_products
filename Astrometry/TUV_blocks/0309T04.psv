@@ -35,15 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 0309T04 | CCD  | T14  | 2020-03-21T13:05:41.74Z | 0.1     | 241.753463 | 0.1   |  -3.743183 | 0.1    | Gaia2   | 24.69 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2020-05-19T11:30:32.95Z | 0.1     | 240.717421 | 0.1   |  -3.426525 | 0.1    | Gaia2   | 25.01 | 0.15   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2020-05-19T12:06:57.66Z | 0.1     | 240.716838 | 0.1   |  -3.426453 | 0.1    | Gaia2   | 25.13 | 0.17   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2020-05-19T12:43:31.44Z | 0.1     | 240.716254 | 0.1   |  -3.426403 | 0.1    | Gaia2   | 24.64 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2020-05-19T13:20:15.68Z | 0.1     | 240.715613 | 0.1   |  -3.426308 | 0.1    | Gaia2   | 24.78 | 0.13   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2020-05-21T11:09:04.55Z | 0.1     | 240.671833 | 0.1   |  -3.421250 | 0.1    | Gaia2   | 24.90 | 0.13   | w    | PS1_DR2  |      | I     | 
-        |            | 0309T04 | CCD  | T14  | 2021-04-09T12:47:07.70Z | 0.1     | 242.834917 | 0.1   |  -4.672839 | 0.1    | Gaia2   | 24.76 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2021-04-09T13:41:58.59Z | 0.1     | 242.834321 | 0.1   |  -4.672636 | 0.1    | Gaia2   | 25.88 | 0.24   | w    | PS1_DR2  |      |       | 
-        |            | 0309T04 | CCD  | T14  | 2021-06-07T08:59:19.39Z | 0.1     | 241.605004 | 0.1   |  -4.457631 | 0.1    | Gaia2   | 24.75 | 0.12   | w    | PS1_DR2  |      |       | 
         |            | 0309T04 | CCD  | T14  | 2021-06-08T08:29:39.72Z | 0.1     | 241.583154 | 0.1   |  -4.457453 | 0.1    | Gaia2   | 24.72 | 0.09   | w    | PS1_DR2  | *    |       | 
         |            | 0309T04 | CCD  | T14  | 2021-06-08T09:06:08.15Z | 0.1     | 241.582579 | 0.1   |  -4.457456 | 0.1    | Gaia2   | 24.73 | 0.10   | w    | PS1_DR2  |      |       | 
         |            | 0309T04 | CCD  | T14  | 2021-06-08T09:48:54.75Z | 0.1     | 241.581879 | 0.1   |  -4.457500 | 0.1    | Gaia2   | 25.14 | 0.15   | w    | PS1_DR2  |      |       | 
@@ -55,3 +46,48 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 0309T04 | CCD  | T14  | 2022-06-28T08:24:58.41Z | 0.1     | 242.481963 | 0.1   |  -5.535772 | 0.1    | Gaia2   | 24.79 | 0.08   | w    | PS1_DR2  |      |       | 
         |            | 0309T04 | CCD  | T14  | 2022-06-28T09:08:18.53Z | 0.1     | 242.481354 | 0.1   |  -5.535736 | 0.1    | Gaia2   | 21.67 | 0.01   | w    | PS1_DR2  |      | H     | 
         |            | 0309T04 | CCD  | T14  | 2023-04-25T14:43:44.89Z | 0.1     | 245.186800 | 0.1   |  -6.681250 | 0.1    | Gaia2   | 24.85 | 0.15   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 0309T04 | CCD  | T14  | 2020-03-21T13:05:41.74Z | 0.1     | 241.753463 | 0.1   |  -3.743183 | 0.1    | Gaia2   | 24.69 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2020-05-19T11:30:32.95Z | 0.1     | 240.717421 | 0.1   |  -3.426525 | 0.1    | Gaia2   | 25.01 | 0.15   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2020-05-19T12:06:57.66Z | 0.1     | 240.716838 | 0.1   |  -3.426453 | 0.1    | Gaia2   | 25.13 | 0.17   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2020-05-19T12:43:31.44Z | 0.1     | 240.716254 | 0.1   |  -3.426403 | 0.1    | Gaia2   | 24.64 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2020-05-19T13:20:15.68Z | 0.1     | 240.715613 | 0.1   |  -3.426308 | 0.1    | Gaia2   | 24.78 | 0.13   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2020-05-21T11:09:04.55Z | 0.1     | 240.671833 | 0.1   |  -3.421250 | 0.1    | Gaia2   | 24.90 | 0.13   | w    | PS1_DR2  |      | I     | 
+        |            | 0309T04 | CCD  | T14  | 2021-04-09T12:47:07.70Z | 0.1     | 242.834917 | 0.1   |  -4.672839 | 0.1    | Gaia2   | 24.76 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2021-04-09T13:41:58.59Z | 0.1     | 242.834321 | 0.1   |  -4.672636 | 0.1    | Gaia2   | 25.88 | 0.24   | w    | PS1_DR2  |      |       | 
+        |            | 0309T04 | CCD  | T14  | 2021-06-07T08:59:19.39Z | 0.1     | 241.605004 | 0.1   |  -4.457631 | 0.1    | Gaia2   | 24.75 | 0.12   | w    | PS1_DR2  |      |       | 

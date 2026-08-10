@@ -35,10 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 2A04A02 | CCD  | T14  | 2020-10-18T14:20:11.82Z | 0.1     |  50.663733 | 0.1   |  -2.183508 | 0.1    | Gaia2   | 25.32 | 0.22   | w    | PS1_DR2  |      |       | 
-        |            | 2A04A02 | CCD  | T14  | 2020-11-07T08:16:30.72Z | 0.1     |  50.282421 | 0.1   |  -2.298481 | 0.1    | Gaia2   | 24.94 | 0.15   | w    | PS1_DR2  |      |       | 
-        |            | 2A04A02 | CCD  | T14  | 2020-11-07T08:53:50.04Z | 0.1     |  50.281987 | 0.1   |  -2.298603 | 0.1    | Gaia2   | 25.05 | 0.20   | w    | PS1_DR2  |      |       | 
-        |            | 2A04A02 | CCD  | T14  | 2020-11-08T07:54:44.61Z | 0.1     |  50.262471 | 0.1   |  -2.303139 | 0.1    | Gaia2   | 24.77 | 0.15   | w    | PS1_DR2  |      |       | 
         |            | 2A04A02 | CCD  | T14  | 2020-11-08T08:32:13.08Z | 0.1     |  50.261913 | 0.1   |  -2.303122 | 0.1    | Gaia2   | 25.45 | 0.23   | w    | PS1_DR2  | *    |       | 
         |            | 2A04A02 | CCD  | T14  | 2020-11-08T09:08:35.81Z | 0.1     |  50.261375 | 0.1   |  -2.303206 | 0.1    | Gaia2   | 25.44 | 0.21   | w    | PS1_DR2  |      |       | 
         |            | 2A04A02 | CCD  | T14  | 2020-11-08T09:45:03.28Z | 0.1     |  50.260808 | 0.1   |  -2.303333 | 0.1    | Gaia2   | 25.18 | 0.18   | w    | PS1_DR2  |      |       | 
@@ -53,3 +49,43 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 2A04A02 | CCD  | T14  | 2022-10-01T13:06:17.77Z | 0.1     |  53.192754 | 0.1   |  -0.501250 | 0.1    | Gaia2   | 25.00 | 0.26   | w    | PS1_DR2  |      |       | 
         |            | 2A04A02 | CCD  | T14  | 2022-10-05T13:37:54.51Z | 0.1     |  53.137958 | 0.1   |  -0.531153 | 0.1    | Gaia2   | 26.60 | 0.49   | w    | PS1_DR2  |      |       | 
         |            | 2A04A02 | CCD  | T14  | 2022-10-30T10:01:16.15Z | 0.1     |  52.711617 | 0.1   |  -0.695992 | 0.1    | Gaia2   | 25.68 | 0.30   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 2A04A02 | CCD  | T14  | 2020-10-18T14:20:11.82Z | 0.1     |  50.663733 | 0.1   |  -2.183508 | 0.1    | Gaia2   | 25.32 | 0.22   | w    | PS1_DR2  |      |       | 
+        |            | 2A04A02 | CCD  | T14  | 2020-11-07T08:16:30.72Z | 0.1     |  50.282421 | 0.1   |  -2.298481 | 0.1    | Gaia2   | 24.94 | 0.15   | w    | PS1_DR2  |      |       | 
+        |            | 2A04A02 | CCD  | T14  | 2020-11-07T08:53:50.04Z | 0.1     |  50.281987 | 0.1   |  -2.298603 | 0.1    | Gaia2   | 25.05 | 0.20   | w    | PS1_DR2  |      |       | 
+        |            | 2A04A02 | CCD  | T14  | 2020-11-08T07:54:44.61Z | 0.1     |  50.262471 | 0.1   |  -2.303139 | 0.1    | Gaia2   | 24.77 | 0.15   | w    | PS1_DR2  |      |       | 

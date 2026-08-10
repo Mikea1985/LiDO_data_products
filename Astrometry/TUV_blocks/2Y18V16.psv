@@ -35,21 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 2Y18V16 | CCD  | T14  | 2020-03-21T13:42:02.22Z | 0.1     | 241.298071 | 0.1   |  -1.131767 | 0.1    | Gaia2   | 25.01 | 0.12   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2020-05-19T08:45:59.33Z | 0.1     | 240.391325 | 0.1   |  -0.668128 | 0.1    | Gaia2   | 24.46 | 0.07   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2020-05-21T08:55:56.18Z | 0.1     | 240.350533 | 0.1   |  -0.658428 | 0.1    | Gaia2   | 24.98 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2020-05-21T09:32:21.67Z | 0.1     | 240.350021 | 0.1   |  -0.658275 | 0.1    | Gaia2   | 24.71 | 0.07   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2020-05-21T10:08:31.86Z | 0.1     | 240.349496 | 0.1   |  -0.658164 | 0.1    | Gaia2   | 24.78 | 0.08   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-04-14T12:13:55.57Z | 0.1     | 242.542354 | 0.1   |  -1.018247 | 0.1    | Gaia2   | 24.82 | 0.17   | w    | PS1_DR2  |      | H     | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-04-14T13:22:32.36Z | 0.1     | 242.541637 | 0.1   |  -1.017847 | 0.1    | Gaia2   | 25.02 | 0.17   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-05-14T09:29:00.01Z | 0.1     | 242.012025 | 0.1   |  -0.798994 | 0.1    | Gaia2   | 25.19 | 0.21   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-05-15T09:39:37.64Z | 0.1     | 241.991746 | 0.1   |  -0.793328 | 0.1    | Gaia2   | 24.68 | 0.13   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-05-15T10:23:27.40Z | 0.1     | 241.991229 | 0.1   |  -0.793144 | 0.1    | Gaia2   | 24.73 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-05-15T11:00:04.46Z | 0.1     | 241.990771 | 0.1   |  -0.793011 | 0.1    | Gaia2   | 24.67 | 0.16   | w    | PS1_DR2  |      | S     | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-05-16T09:06:05.13Z | 0.1     | 241.972196 | 0.1   |  -0.787942 | 0.1    | Gaia2   | 24.82 | 0.13   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-06-09T08:55:15.66Z | 0.1     | 241.488387 | 0.1   |  -0.699094 | 0.1    | Gaia2   | 24.64 | 0.07   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-06-09T09:31:42.18Z | 0.1     | 241.487875 | 0.1   |  -0.699050 | 0.1    | Gaia2   | 24.82 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 2Y18V16 | CCD  | T14  | 2021-06-09T10:08:09.74Z | 0.1     | 241.487346 | 0.1   |  -0.698997 | 0.1    | Gaia2   | 24.88 | 0.12   | w    | PS1_DR2  |      |       | 
         |            | 2Y18V16 | CCD  | T14  | 2021-06-11T08:31:05.78Z | 0.1     | 241.449913 | 0.1   |  -0.695717 | 0.1    | Gaia2   | 25.03 | 0.12   | w    | PS1_DR2  | *    |       | 
         |            | 2Y18V16 | CCD  | T14  | 2021-06-11T09:08:45.31Z | 0.1     | 241.449350 | 0.1   |  -0.695686 | 0.1    | Gaia2   | 24.63 | 0.08   | w    | PS1_DR2  |      |       | 
         |            | 2Y18V16 | CCD  | T14  | 2021-06-11T09:51:30.96Z | 0.1     | 241.448808 | 0.1   |  -0.695650 | 0.1    | Gaia2   | 24.77 | 0.10   | w    | PS1_DR2  |      |       | 
@@ -72,3 +57,54 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 2Y18V16 | CCD  | T14  | 2023-05-22T11:10:31.90Z | 0.1     | 244.887004 | 0.1   |  -0.961644 | 0.1    | Gaia2   | 24.65 | 0.09   | w    | PS1_DR2  |      |       | 
         |            | 2Y18V16 | CCD  | T14  | 2023-06-14T12:26:54.90Z | 0.1     | 244.421179 | 0.1   |  -0.894017 | 0.1    | Gaia2   | 25.33 | 0.22   | w    | PS1_DR2  |      |       | 
         |            | 2Y18V16 | CCD  | T14  | 2023-06-19T09:12:30.73Z | 0.1     | 244.328417 | 0.1   |  -0.890433 | 0.1    | Gaia2   | 25.05 | 0.11   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 2Y18V16 | CCD  | T14  | 2020-03-21T13:42:02.22Z | 0.1     | 241.298071 | 0.1   |  -1.131767 | 0.1    | Gaia2   | 25.01 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2020-05-19T08:45:59.33Z | 0.1     | 240.391325 | 0.1   |  -0.668128 | 0.1    | Gaia2   | 24.46 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2020-05-21T08:55:56.18Z | 0.1     | 240.350533 | 0.1   |  -0.658428 | 0.1    | Gaia2   | 24.98 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2020-05-21T09:32:21.67Z | 0.1     | 240.350021 | 0.1   |  -0.658275 | 0.1    | Gaia2   | 24.71 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2020-05-21T10:08:31.86Z | 0.1     | 240.349496 | 0.1   |  -0.658164 | 0.1    | Gaia2   | 24.78 | 0.08   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-04-14T12:13:55.57Z | 0.1     | 242.542354 | 0.1   |  -1.018247 | 0.1    | Gaia2   | 24.82 | 0.17   | w    | PS1_DR2  |      | H     | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-04-14T13:22:32.36Z | 0.1     | 242.541637 | 0.1   |  -1.017847 | 0.1    | Gaia2   | 25.02 | 0.17   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-05-14T09:29:00.01Z | 0.1     | 242.012025 | 0.1   |  -0.798994 | 0.1    | Gaia2   | 25.19 | 0.21   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-05-15T09:39:37.64Z | 0.1     | 241.991746 | 0.1   |  -0.793328 | 0.1    | Gaia2   | 24.68 | 0.13   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-05-15T10:23:27.40Z | 0.1     | 241.991229 | 0.1   |  -0.793144 | 0.1    | Gaia2   | 24.73 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-05-15T11:00:04.46Z | 0.1     | 241.990771 | 0.1   |  -0.793011 | 0.1    | Gaia2   | 24.67 | 0.16   | w    | PS1_DR2  |      | S     | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-05-16T09:06:05.13Z | 0.1     | 241.972196 | 0.1   |  -0.787942 | 0.1    | Gaia2   | 24.82 | 0.13   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-06-09T08:55:15.66Z | 0.1     | 241.488387 | 0.1   |  -0.699094 | 0.1    | Gaia2   | 24.64 | 0.07   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-06-09T09:31:42.18Z | 0.1     | 241.487875 | 0.1   |  -0.699050 | 0.1    | Gaia2   | 24.82 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 2Y18V16 | CCD  | T14  | 2021-06-09T10:08:09.74Z | 0.1     | 241.487346 | 0.1   |  -0.698997 | 0.1    | Gaia2   | 24.88 | 0.12   | w    | PS1_DR2  |      |       | 

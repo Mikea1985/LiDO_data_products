@@ -35,19 +35,6 @@
 ! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
 permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
 
-        |            | 1H17U11 | CCD  | T14  | 2020-03-21T12:59:40.07Z | 0.1     | 241.128200 | 0.1   |  -2.851717 | 0.1    | Gaia2   | 24.95 | 0.12   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2020-05-19T11:42:49.08Z | 0.1     | 239.994629 | 0.1   |  -2.350631 | 0.1    | Gaia2   | 24.63 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2020-05-19T12:19:11.97Z | 0.1     | 239.993967 | 0.1   |  -2.350536 | 0.1    | Gaia2   | 24.85 | 0.12   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2020-05-19T12:55:45.93Z | 0.1     | 239.993279 | 0.1   |  -2.350356 | 0.1    | Gaia2   | 24.60 | 0.10   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2020-05-21T11:21:35.37Z | 0.1     | 239.943912 | 0.1   |  -2.340683 | 0.1    | Gaia2   | 24.87 | 0.17   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2020-05-21T13:19:38.35Z | 0.1     | 239.941833 | 0.1   |  -2.340256 | 0.1    | Gaia2   | 24.91 | 0.15   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2020-05-22T07:49:18.88Z | 0.1     | 239.922137 | 0.1   |  -2.336600 | 0.1    | Gaia2   | 24.71 | 0.18   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2021-04-14T11:43:33.48Z | 0.1     | 243.096529 | 0.1   |  -3.225356 | 0.1    | Gaia2   | 25.58 | 0.24   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2021-04-14T12:52:04.40Z | 0.1     | 243.095708 | 0.1   |  -3.224939 | 0.1    | Gaia2   | 25.00 | 0.14   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2021-04-14T13:41:14.61Z | 0.1     | 243.095129 | 0.1   |  -3.224464 | 0.1    | Gaia2   | 25.25 | 0.23   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2021-04-20T13:43:44.43Z | 0.1     | 242.981867 | 0.1   |  -3.170842 | 0.1    | Gaia2   | 24.80 | 0.11   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2021-05-14T11:13:17.53Z | 0.1     | 242.434729 | 0.1   |  -2.992544 | 0.1    | Gaia2   | 24.86 | 0.14   | w    | PS1_DR2  |      |       | 
-        |            | 1H17U11 | CCD  | T14  | 2021-05-14T11:51:36.89Z | 0.1     | 242.434092 | 0.1   |  -2.992306 | 0.1    | Gaia2   | 25.03 | 0.19   | w    | PS1_DR2  |      |       | 
         |            | 1H17U11 | CCD  | T14  | 2021-06-03T08:13:05.09Z | 0.1     | 241.928775 | 0.1   |  -2.906769 | 0.1    | Gaia2   | 25.09 | 0.14   | w    | PS1_DR2  | *    |       | 
         |            | 1H17U11 | CCD  | T14  | 2021-06-03T08:49:34.46Z | 0.1     | 241.928121 | 0.1   |  -2.906686 | 0.1    | Gaia2   | 24.97 | 0.12   | w    | PS1_DR2  |      |       | 
         |            | 1H17U11 | CCD  | T14  | 2021-06-03T09:26:10.49Z | 0.1     | 241.927429 | 0.1   |  -2.906628 | 0.1    | Gaia2   | 25.25 | 0.17   | w    | PS1_DR2  |      |       | 
@@ -71,6 +58,55 @@ permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime
         |            | 1H17U11 | CCD  | T14  | 2023-05-14T13:15:03.08Z | 0.1     | 247.036258 | 0.1   |  -4.194514 | 0.1    | Gaia2   | 24.59 | 0.11   | w    | PS1_DR2  |      |       | 
         |            | 1H17U11 | CCD  | T14  | 2023-06-19T09:57:43.43Z | 0.1     | 246.132587 | 0.1   |  -4.090028 | 0.1    | Gaia2   | 24.88 | 0.08   | w    | PS1_DR2  |      |       | 
         |            | 1H17U11 | CCD  | T14  | 2023-06-19T10:03:59.01Z | 0.1     | 246.132446 | 0.1   |  -4.090008 | 0.1    | Gaia2   | 25.13 | 0.14   | w    | PS1_DR2  |      |       | 
+# observatory
+! mpcCode T14
+! name Canada-France-Hawaii Telescope, Maunakea
+# submitter
+! name M. Alexandersen
+! institution Center for Astrophysics - Harvard & Smithsonian
+# observers
+! name M. Alexandesen, R. E. Pike, S. Lawler, Y.-T. Chen
+# measurers
+! name M. Alexandersen
+! name M. Comte
+! name L. Peltier
+! name R. E. Pike
+! name S. Lawler
+! name Y.-T. Chen
+! name J. J. Kavelaars
+! name S. Gwyn
+! name C. Semenchuck
+! name E. Reitger
+! name C. Morgan
+# telescope
+! name Canada-France-Hawaii Telescope
+! design reflector
+! aperture 3.58
+! detector MegaCam
+! fRatio 4.1
+! filter gri
+! arraySize 2048x4612 pixels x 40ccd
+! pixelScale 0.187
+# software
+! astrometry MegaPipe + SourceExtractor within custom wrapper by JJ. Kavelaars
+! photometry DAOPHOT within custom wrapper by JJ. Kavelaars
+# comment
+! line New TNOs from the Large Inclination Distant Objects (LiDO) survey.
+permID  | provID     | trkSub  | mode | stn  | obsTime                 | rmsTime | ra         | rmsRA | dec        | rmsDec | astCat  | mag   | rmsMag | band | photCat  | disc | notes | remarks
+
+        |            | 1H17U11 | CCD  | T14  | 2020-03-21T12:59:40.07Z | 0.1     | 241.128200 | 0.1   |  -2.851717 | 0.1    | Gaia2   | 24.95 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2020-05-19T11:42:49.08Z | 0.1     | 239.994629 | 0.1   |  -2.350631 | 0.1    | Gaia2   | 24.63 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2020-05-19T12:19:11.97Z | 0.1     | 239.993967 | 0.1   |  -2.350536 | 0.1    | Gaia2   | 24.85 | 0.12   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2020-05-19T12:55:45.93Z | 0.1     | 239.993279 | 0.1   |  -2.350356 | 0.1    | Gaia2   | 24.60 | 0.10   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2020-05-21T11:21:35.37Z | 0.1     | 239.943912 | 0.1   |  -2.340683 | 0.1    | Gaia2   | 24.87 | 0.17   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2020-05-21T13:19:38.35Z | 0.1     | 239.941833 | 0.1   |  -2.340256 | 0.1    | Gaia2   | 24.91 | 0.15   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2020-05-22T07:49:18.88Z | 0.1     | 239.922137 | 0.1   |  -2.336600 | 0.1    | Gaia2   | 24.71 | 0.18   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2021-04-14T11:43:33.48Z | 0.1     | 243.096529 | 0.1   |  -3.225356 | 0.1    | Gaia2   | 25.58 | 0.24   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2021-04-14T12:52:04.40Z | 0.1     | 243.095708 | 0.1   |  -3.224939 | 0.1    | Gaia2   | 25.00 | 0.14   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2021-04-14T13:41:14.61Z | 0.1     | 243.095129 | 0.1   |  -3.224464 | 0.1    | Gaia2   | 25.25 | 0.23   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2021-04-20T13:43:44.43Z | 0.1     | 242.981867 | 0.1   |  -3.170842 | 0.1    | Gaia2   | 24.80 | 0.11   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2021-05-14T11:13:17.53Z | 0.1     | 242.434729 | 0.1   |  -2.992544 | 0.1    | Gaia2   | 24.86 | 0.14   | w    | PS1_DR2  |      |       | 
+        |            | 1H17U11 | CCD  | T14  | 2021-05-14T11:51:36.89Z | 0.1     | 242.434092 | 0.1   |  -2.992306 | 0.1    | Gaia2   | 25.03 | 0.19   | w    | PS1_DR2  |      |       | 
 # observatory
 ! mpcCode T14
 ! name Canada-France-Hawaii Telescope, Maunakea
