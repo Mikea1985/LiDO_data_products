@@ -45,7 +45,7 @@ z136E15 Magellan, CFHT (Archival)
 3B23V16 CFHT (Archival)
 0332U07 Some clones show transient 17:11:4:2 resonance
 0402T05 Short-term sticking in 20:7
-0421V17 Some short-term sticking 23:11, \\  &  & & &  & & &  & &  &  &  &   possible mixed mode
+0421V17 Some short-term sticking 23:11, \\  &  & & &  & & &  & & & &  &  &   possible mixed mode
 0522V12 Some sticking in 14:5
 0H15V12 Some sticking in 18:11:5:2
 0I19T02 Many clones temporarily sticking in 25:11:12:2
@@ -54,5 +54,4 @@ z136E15 Magellan, CFHT (Archival)
 1E29U11 Some sticking in 7:3
 2812D10 Choppy, Intermittent resonant behavior
 2U01V15 Some sticking in 33:10:21:2 and 43:13
-4P22E14 Occasional sticking in 16:9:5:2
- 
+4P22E14 Occasional sticking in 16:9:5:2 
