@@ -11,17 +11,37 @@ restable = open('../PaperProducts/tab_resobjects.tex','w')
 objtable = open('../PaperProducts/tab_objects.tex','w')
 
 
-#restable.write("\\begin{table}[h!]\\n\setlength{\\tabcolsep}{2.5pt}\n\caption{Resonant \lido Survey Objects}\n\label{tab:resobjects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c c c c c | c c} \nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_w$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
-#objtable.write("\\begin{table}[h!]\n\setlength{\\tabcolsep}{2.5pt}\n\caption{\lido Survey Objects}\n\label{tab:objects}\n\\begin{center}\n\\begin{tabular}{ c  c  c | c  c  c  c c c c c c | c c} \nSurvey Name & MPC Name & Classification &S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\ \\hline\n")
+#restable.write(r"\begin{table}[h!]\n\setlength{\tabcolsep}{2.5pt}\n\caption{Resonant \lido Survey Objects}\n\label{tab:resobjects}\n\begin{center}\n\begin{tabular}{ c  c  c | c  c  c  c c c c c c c c c c | c c} \nSurvey Name & MPC Name & Resonance & S/I & RC & RA & KC & KA & $m_r$ & $H_w$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\ \hline\n")
+#objtable.write(r"\begin{table}[h!]\n\setlength{\tabcolsep}{2.5pt}\n\caption{\lido Survey Objects}\n\label{tab:objects}\n\begin{center}\n\begin{tabular}{ c  c  c | c  c  c  c c c c c c | c c} \nSurvey Name & MPC Name & Classification &S/I & $m_r$ & $H_r$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\ \hline\n")
 
 
-restable.write("\\begin{longrotatetable}\n\\setlength{\\tabcolsep}{2pt}\n\\tablewidth{10in}\n\\tabletypesize{\\footnotesize}\n\\begin{longtable}{ll|ccccccccc | l}\n\\caption{Resonant \\lido Survey Objects} \\label{tab:resobjects}\\\\\n\\hline\\hline\\\\\nSurvey & MPC & Resonance & S/I & Res Frac& RC & RA &Island Frac& KC & KA & KFrac  &Notes \\\\ \nName & Name &  &  & \\% & $\\degr$ & $\\degr$ &\\%& $\\degr$ & $\\degr$ & \\% &  \\\\\\hline \\hline\n \\endhead\n")
-objtable.write("\\begin{longrotatetable}\n\\setlength{\\tabcolsep}{2pt}\n\\tablewidth{10in}\n\\tabletypesize{\\footnotesize}\n\\begin{longtable}{ll|cccccccccc | l}\n\\caption{All \\lido Survey Objects} \\label{tab:objects}\\\\\n\\hline\\hline\\\\\nSurvey & MPC & Classification & S/I & $m_w$ & $H_w$ & $a$ & $e$ & $i$ & dist & arc length & nobs &Notes \\\\\nName & Name &  &  & mag & mag & au &  & $\\degr$ & au & years &  & \\\\\\hline\\hline\n \\endhead\n")
+restable.write(r"""\begin{longrotatetable}
+\setlength{\tabcolsep}{2pt}
+\tablewidth{10in}
+\tabletypesize{\footnotesize}
+\begin{longtable}{ll|ccccccccc | l}
+\caption{Resonant \lido Survey Objects} \label{tab:resobjects}\\
+\hline\hline\\
+Survey & MPC & Resonance & S/I & Res Frac& RC & RA &Island Frac& KC & KA & KFrac  &Notes \\
+Name & Name &  &  & \% & $\degr$ & $\degr$ &\%& $\degr$ & $\degr$ & \% &  \\\hline \hline
+\endhead
+""")
+objtable.write(r"""\begin{longrotatetable}
+\setlength{\tabcolsep}{2pt}
+\tablewidth{10in}
+\tabletypesize{\footnotesize}
+\begin{longtable}{ll|ccccccccccc | l}
+\caption{All \lido Survey Objects} \label{tab:objects}\\
+\hline\hline\\
+Survey & MPC & Classification & S/I & $m_w$ & $H_w$ & $a$ & $e$ & $i$ & $q$ & dist & arc length & nobs &Notes\\
+Name & Name &  &  & mag & mag & au &  & $\degr$ & au & au & years &  & \\\hline\hline
+\endhead
+""")
 
 
 objs = objABCDE + objTUV
 ap = ' & '
-pm = '$'+'\\'+'pm$'
+pm = r'$\pm$'
 
 def getmpcname(sname):
     mpc = ''
@@ -43,10 +63,27 @@ def getnote(sname,notelist):
                 #print(note)
     return(note)
 
-def getsigs(v,dv):
+def round_to_uncertainty(value: float, uncertainty: float) -> tuple[float, float]:
+    """Round value and uncertainty to the most significant digit of the uncertainty."""
+    decimal_places = -math.floor(math.log10(uncertainty))
+    return round(value, decimal_places), round(uncertainty, decimal_places)
+
+def getsigs_old(v,dv):
     sg = dv.count('0')
     vr = str(round(float(v), sg))
     return(vr)
+
+def getsigs(v,dv):
+    if float(dv)==0:
+        return getsigs_old(v, dv)
+    sg = -math.floor(math.log10(float(dv)))
+    if sg < 0:
+        # round to tens/hundreds etc — format as int
+        factor = 10 ** (-sg)
+        vr = str(round(float(v) / factor) * factor)
+    else:
+        vr = f"{float(v):.{sg}f}"
+    return vr
 
 def report_value(v, unc):
     value=float(v)
@@ -71,6 +108,19 @@ def report_value(v, unc):
 
 def report_vu(val, low, up):
     value=float(val)
+    munc = value - float(low)
+    punc = float(up)-value
+    if punc <= 0:
+        punc += 360
+    uncertainty = np.min([munc, punc])
+    rounded_value = getsigs(val, uncertainty)
+    rounded_low = getsigs(value-float(low), uncertainty)
+    rounded_high = getsigs(float(up)-value, uncertainty)
+    return f"{rounded_value}$_{{-{rounded_low}}}^{{+{rounded_high}}}$"
+    
+
+def report_vu_old(val, low, up):
+    value=float(val)
     uncertainty = np.min([value - float(low), float(up)-value])
     order = math.floor(math.log10(abs(uncertainty)))
     first_digit = round(uncertainty, -order)
@@ -78,7 +128,7 @@ def report_vu(val, low, up):
     rounded_value = round(value, decimals)
     rounded_low = round(value-float(low), decimals)
     rounded_high = round(float(up)-value, decimals)
-    return(f"{rounded_value}$_{{-{rounded_low}}}^{{+{rounded_high}}}$")
+    return f"{rounded_value}$_{{-{rounded_low}}}^{{+{rounded_high}}}$"
 
 def get_res_stats(tprop):
     rst = open('res_stats.txt','r').readlines()
@@ -97,8 +147,8 @@ def get_res_stats(tprop):
                 kcr='--'
                 kar = '--'
             else:
-                #kcr = f"{kc}$\\pm${kcu}"
-                #kar = f"{ka}$\\pm${kau}"
+                #kcr = f"{kc}$\pm${kcu}"
+                #kar = f"{ka}$\pm${kau}"
                 kcr = report_vu(kc,kcL,kcH)
                 kar = report_vu(ka,kaL,kcH)
     return(rcr,rar,kcr,kar,fracRes,fracKoz,rtotfrac)
@@ -126,8 +176,8 @@ def mktable_res(tno,rest):
         tpos='z'+tpos
     if tprop[5][0]=='u':
         tpos='zz'+tpos
-    #tnoline =tpos[:12]+tprop[5]+ap+mpcname+ap+tprop[2]+':'+tprop[3]+mm+ap+tprop[4]+ap+rescenter+ap+resamp+ap+kcen+ap+kamp+ap+tprop[6]+ap+tprop[9]+ap+tprop[18]+pm+tprop[19]+ap+tprop[20]+pm+tprop[21]+ap+tprop[22]+pm+tprop[23]+ap+tprop[10]+pm+tprop[11]+ap+tprop[13]+ap+tprop[12]+ap+note+'\\\\ \n'
-    tnoline =tpos[:12]+tprop[5]+ap+mpcname+ap+tprop[2]+':'+tprop[3]+mm+ap+tprop[4]+ap+rtotfrac+ap+rescenter+ap+resamp+ap+rfrac+ap+kcen+ap+kamp+ap+kfrac+ap+note+'\\\\ \n'
+    #tnoline =tpos[:12]+tprop[5]+ap+mpcname+ap+tprop[2]+':'+tprop[3]+mm+ap+tprop[4]+ap+rescenter+ap+resamp+ap+kcen+ap+kamp+ap+tprop[6]+ap+tprop[9]+ap+tprop[18]+pm+tprop[19]+ap+tprop[20]+pm+tprop[21]+ap+tprop[22]+pm+tprop[23]+ap+tprop[10]+pm+tprop[11]+ap+tprop[13]+ap+tprop[12]+ap+note+'\\ \n'
+    tnoline = tpos[:12]+tprop[5]+ap+mpcname+ap+tprop[2]+':'+tprop[3]+mm+ap+tprop[4]+ap+rtotfrac+ap+rescenter+ap+resamp+ap+rfrac+ap+kcen+ap+kamp+ap+kfrac+ap+note+r'\\'+' \n'
 
     
     #restable.write('test\n')
@@ -136,10 +186,17 @@ def mktable_res(tno,rest):
 
 def mktable1(tno,objt):
     tprop = tno.split()
+    sma = float(tprop[18])
+    usma = float(tprop[19])
+    ecc = float(tprop[20])
+    uecc = float(tprop[21])
+    qperi = sma * (1 - ecc)
+    uqperi = (((1 - ecc) * usma) ** 2 + (-sma * uecc) ** 2) ** 0.5
     av=getsigs(tprop[18],tprop[19])
     ev=getsigs(tprop[20],tprop[21])
     iv=getsigs(tprop[22],tprop[23])
     dv=getsigs(tprop[10],tprop[11])
+    qv=getsigs(qperi,uqperi)
     mpcname=getmpcname(tprop[5])
     note=getnote(tprop[5],notes_all) 
     tpos=tprop[18]+'          '
@@ -168,7 +225,7 @@ def mktable1(tno,objt):
             classif='Main Hot Classical'
         else:
             classif='Extended Hot Classical'
-    tnoline =tpos[:12]+tprop[5]+ap+mpcname+ap+classif+ap+tprop[4]+ap+tprop[6]+ap+tprop[9]+ap+av+ap+ev+ap+iv+ap+dv+ap+tprop[13]+ap+tprop[12]+ap+note+'\\\\ \n'
+    tnoline =tpos[:12]+tprop[5]+ap+mpcname+ap+classif+ap+tprop[4]+ap+tprop[6]+ap+tprop[9]+ap+av+ap+ev+ap+iv+ap+qv+ap+dv+ap+tprop[13]+ap+tprop[12]+ap+note+r'\\'+' \n'
     
     #restable.write('test\n')
     objt.append(tnoline)
@@ -192,7 +249,7 @@ for r in rest:
         if r[12]!='u':
             restable.write(r[12:])
         else:
-            restable.write("\\hline\n")
+            restable.write(r"\hline"+"\n")
             restable.write(r[12:])
             uch=True
     else:
@@ -204,12 +261,12 @@ xxx=False
 for b in objt:
     if uch==False:
         if b[12]=='u':
-            objtable.write("\\hline\n")
+            objtable.write(r"\hline"+"\n")
             uch=True
         #objtable.write(b[12:])
     if xxx==False:
         if b[26]=='U':
-            objtable.write("\\hline\n")
+            objtable.write(r"\hline"+"\n")
             xxx=True
     objtable.write(b[12:])
                    
@@ -218,24 +275,24 @@ for b in objt:
 #    objtable.write(b[12:])
 
     
-obj_caption = """\\footnotesize{
+obj_caption = r"""\footnotesize{
 Orbital parameters and other information about every object detected in \lido.
 The uncertainty for orbital elements is on the final digit reported.
 `Survey Name' is the internal designation that the \lido team gave the object.
 `MPC Name' is the provisional designation assigned by the Minor Planet Center\footnote{This column will be filled in upon acceptance for publication.}.
-`Classification` is the objects class, as determined in \\autoref{sec:classify}.
+`Classification` is the objects class, as determined in \autoref{sec:classify}.
 `S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator, while an X indicates a lost object that could not be classified.
 `$m_w$ mag' is the average of the three apparent magnitude measurements from the discovery triplets.
 `$H_w$ mag' is the absolute magnitude of the object on the discovery night.
-`$a$', `$e$', `$i$' and `dist' are the barycentric semi-major axis, eccentricity, inclination and distance at discovery. 
+`$a$', `$e$', `$i$', `$q$', `dist' are the barycentric semi-major axis, eccentricity, inclination, perihelion distance and distance at discovery. 
 `arc lenth' is the observed arc length and `nobs' is the number of measurements.
 `Notes' contain any additional notes, such as when objects were observed with telescopes other than CFHT.
 }"""
-res_caption = """\\footnotesize{
-Additional information to the information presented in \\autoref{tab:objects} for the resonant object. 
+res_caption = r"""\footnotesize{
+Additional information to the information presented in \autoref{tab:objects} for the resonant object. 
 `Survey Name' is the internal designation that the \lido team gave the object.
 `MPC Name' is the provisional designation assigned by the Minor Planet Center\footnote{This column will be filled in upon acceptance for publication.}.
-`Resonance` is the objects class, as determined in \\autoref{sec:classify}.
+`Resonance` is the objects class, as determined in \autoref{sec:classify}.
 `S/I' indicates whether an object is Securely or Insecurely classified; the first (capital) letter refers to the primary classification, and the second (lower case) letter refers to the classification of whether an object is also a Kozai resonator.
 `Res Frac' is the percentage of the 201 clones that showed resonant behavious.
 `RC' is the resonant center (the angle around which the resonant angle librates).
@@ -245,8 +302,8 @@ Additional information to the information presented in \\autoref{tab:objects} fo
 `KA' is the amplitude of Kozai resonance.
 `KFrac' is the fraction of resonant clones that show Kozai resonant behavior for the entire 30~Myr integration. 
 }"""
-restable.write("\\hline\\hline\n\\end{longtable}\n"+res_caption+"\n\\end{longrotatetable}")
-objtable.write("\\hline\\hline\n\\end{longtable}\n"+obj_caption+"\n\\end{longrotatetable}")
+restable.write(r"\hline\hline"+"\n"+r"\end{longtable}"+"\n"+res_caption+"\n"+r"\end{longrotatetable}")
+objtable.write(r"\hline\hline"+"\n"+r"\end{longtable}"+"\n"+obj_caption+"\n"+r"\end{longrotatetable}")
 
 
 
