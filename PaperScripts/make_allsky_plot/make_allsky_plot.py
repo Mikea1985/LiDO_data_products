@@ -366,8 +366,8 @@ plt.legend(
 
 # Adjust the spacing for the plot to prevent title/labels clash
 plt.subplots_adjust(top=0.85)
-plt.savefig("all_sky_kozai_plutino_density_hammer.png", dpi=300, bbox_inches="tight")
-plt.savefig("all_sky_kozai_plutino_density_hammer.pdf", dpi=600, bbox_inches="tight")
+plt.savefig("../../PaperProducts/all_sky_kozai_plutino_density_hammer.png", dpi=300, bbox_inches="tight")
+plt.savefig("../../PaperProducts/all_sky_kozai_plutino_density_hammer.pdf", dpi=600, bbox_inches="tight")
 plt.show()
 
 # End
