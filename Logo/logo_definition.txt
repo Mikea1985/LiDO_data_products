@@ -1,3 +1,13 @@
+# The LiDO logo has the following features:
+# - The word LiDO,
+# - The i in LiDO is in italics
+# - The dot on the i is a star, marking the Sun's location,
+# - There is a diamond inside the O, marking Neptune's location,
+# - One full libration period of the Plutinos (objects in 3:2 mean motion resonance with Neptune) from the LiDO survey are plotted,
+# - Orbits of objects from the autumn block are the same colour as the L, D and O, while orbits of objects from the spring block is the same colour as the i as well as the Sun and Neptune markers,
+# - The background is a third colour
+# - The three colours defined below are used, in any order
+
 # colours:
 #ffe9ca - light tan
 #55b2db - light blue
