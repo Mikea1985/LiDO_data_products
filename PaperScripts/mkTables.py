@@ -187,7 +187,7 @@ def get_res_stats(tprop):
                 # kcr = f"{kc}$\pm${kcu}"
                 # kar = f"{ka}$\pm${kau}"
                 kcr = report_vu(kc, kcL, kcH)
-                kar = report_vu(ka, kaL, kcH)
+                kar = report_vu(ka, kaL, kaH)
     return (rcr, rar, kcr, kar, fracRes, fracKoz, rtotfrac)
 
 
