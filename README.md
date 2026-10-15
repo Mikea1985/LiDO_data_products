@@ -5,6 +5,8 @@ please note that the DOI represents a snapshot of
 https://github.com/Mikea1985/LiDO_data_products
 at the time of publication.
 Please visit the github repository for the most up-to-date version.
+One exception is the hot classical model, which is only available in the DOI:
+https://www.canfar.net/storage/vault/list/AstroDataCitationDOI/CISTI.CANFAR/26.0024/data
 
 This repository is intended to be a central place to collect all of the 
 data products from the LiDO survey. 
