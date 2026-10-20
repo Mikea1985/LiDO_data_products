@@ -75,7 +75,7 @@ def get_ast_info(ast_location):
                     discovery_line_found = True
                 if discovery_line_found:
                     # This is to make sure that the discovery obs is the first line of the first block
-                    # to make sure the MPC does not duck up the discovery credit assignment.
+                    # to avoid incorrect discovery credit assignment by the MPC.
                     psv_lines["T14_w_header_discovery.txt"].append(psv)
                 else:
                     psv_lines["T14_w_header_precovery.txt"].append(psv)
