@@ -285,7 +285,7 @@ def plot_all(
         delimiter=[16, 2, 1, 2, 1, 9, 1, 2, 1, 2, 1, 7, 11, 11, 7],
     )
 
-    # Define arrays (this is stupid)
+    # Define arrays (likely suboptimal, but it works)
     ntmp = len(tmp1)
     n = ntmp // 5
     names = list()
@@ -321,7 +321,7 @@ def plot_all(
     colour = np.zeros((n, 4))
 
     # Loop through to assign each sub-array of ast to an independent array.
-    # (More stupid)
+    # (likely suboptimal, but it works)
     for i in np.arange(0, ntmp // 5):
         j = i * 5
         # name of object
@@ -465,7 +465,7 @@ def plot_all(
         smmag[i] = np.std(mags)
 
     # calculate the arcs for each object.
-    # Define arrays (this is stupid)
+    # Define arrays (likely suboptimal, but it works)
     DCd = np.zeros(nast)
     RAd = DCd.copy()
     year = DCd.copy()
@@ -473,7 +473,7 @@ def plot_all(
     day = DCd.copy()
     arc = np.zeros(n)
     # Loop through to assign each sub-array of ast to an independent array.
-    # (More stupid)
+    # (likely suboptimal, but it works)
     for i in range(nast):
         year[i] = ast[i][4]
         month[i] = ast[i][5]
